@@ -1,206 +1,198 @@
-GraphQL ID: 'Sigils'
-
+GraphQL ID: Sigils
 list:
 
-  - section: 'Power Sigils'
-
+  - section: Power Sigils
     items:
 
-      - id: 'force'
-        text: 'Superior Sigil of Force'
+      - id: force
+        text: Superior Sigil of Force
         modifiers:
           damage:
-            Strike Damage: ['5%', 'add']
+            Strike Damage: [5%, add]
         gw2-id: 24615
-        type: 'items'
+        type: items
 
-      - id: 'accuracy'
-        text: 'Superior Sigil of Accuracy'
+      - id: accuracy
+        text: Superior Sigil of Accuracy
         modifiers:
           attributes:
-            Critical Chance: '7%'
+            Critical Chance: 7%
         gw2-id: 24618
-        type: 'items'
+        type: items
 
-      - id: 'impact/night/slaying-both'
-        text: 'Superior Sigil of Impact/Night/Slaying'
-        subText: '(Both 7%/3%)'
+      - id: impact/night/slaying-both
+        text: Superior Sigil of Impact/Night/Slaying
+        subText: (Both 7%/3%)
         modifiers:
           damage:
-            Strike Damage: ['7%', 'mult']
+            Strike Damage: [7%, mult]
         gw2-id: 24868
-        type: 'items'
+        type: items
 
-      - id: 'impact/night/slaying-only-3'
-        text: 'Superior Sigil of Impact/Night/Slaying'
-        subText: '(Only 3%)'
+      - id: impact/night/slaying-only-3
+        text: Superior Sigil of Impact/Night/Slaying
+        subText: (Only 3%)
         modifiers:
           damage:
-            Strike Damage: ['3%', 'add']
+            Strike Damage: [3%, add]
         gw2-id: 24868
-        type: 'items'
+        type: items
 
-  - section: 'Support Sigils'
-
+  - section: Support Sigils
     items:
 
-      - id: 'concentration'
-        text: 'Superior Sigil of Concentration'
+      - id: concentration
+        text: Superior Sigil of Concentration
         modifiers:
           attributes:
-            Boon Duration: '10%'
+            Boon Duration: 10%
         gw2-id: 72339
-        type: 'items'
+        type: items
 
-  - section: 'Heal Sigils'
-
+  - section: Heal Sigils
     items:
 
-      - id: 'transference'
-        text: 'Superior Sigil of Transference'
+      - id: transference
+        text: Superior Sigil of Transference
         modifiers:
           attributes:
-            Outgoing Healing: '10%'
+            Outgoing Healing: 10%
         gw2-id: 74326
-        type: 'items'
+        type: items
 
-  - section: 'Condition Sigils'
-
+  - section: Condition Sigils
     items:
 
-      - id: 'malice'
-        text: 'Superior Sigil of Malice'
+      - id: malice
+        text: Superior Sigil of Malice
         modifiers:
           attributes:
-            Condition Duration: '10%'
+            Condition Duration: 10%
         gw2-id: 44950
-        type: 'items'
+        type: items
 
-      - id: 'bursting'
-        text: 'Superior Sigil of Bursting'
+      - id: bursting
+        text: Superior Sigil of Bursting
         modifiers:
           damage:
-            Condition Damage: ['5%', 'add']
+            Condition Damage: [5%, add]
         gw2-id: 44944
-        type: 'items'
+        type: items
 
-      - id: 'agony'
-        text: 'Superior Sigil of Agony'
+      - id: agony
+        text: Superior Sigil of Agony
         modifiers:
           attributes:
-            Bleeding Duration: '20%'
+            Bleeding Duration: 20%
         gw2-id: 24612
-        type: 'items'
+        type: items
 
-      - id: 'smoldering'
-        text: 'Superior Sigil of Smoldering'
+      - id: smoldering
+        text: Superior Sigil of Smoldering
         modifiers:
           attributes:
-            Burning Duration: '20%'
+            Burning Duration: 20%
         gw2-id: 24624
-        type: 'items'
+        type: items
 
-      - id: 'venom'
-        text: 'Superior Sigil of Venom'
+      - id: venom
+        text: Superior Sigil of Venom
         modifiers:
           attributes:
-            Poison Duration: '20%'
+            Poison Duration: 20%
         gw2-id: 24632
-        type: 'items'
+        type: items
 
-      - id: 'demons'
-        text: 'Superior Sigil of Demons'
+      - id: demons
+        text: Superior Sigil of Demons
         modifiers:
           attributes:
-            Torment Duration: '20%'
+            Torment Duration: 20%
         gw2-id: 24583
-        type: 'items'
+        type: items
 
-  - section: 'Stacking Sigils (25x)'
-
+  - section: Stacking Sigils (25x)
     items:
 
-      - id: 'bloodlust'
-        text: 'Superior Sigil of Bloodlust'
+      - id: bloodlust
+        text: Superior Sigil of Bloodlust
         modifiers:
           attributes:
-            Power: ['+250', 'converted']
+            Power: [250, converted]
         gw2-id: 24575
-        type: 'items'
+        type: items
 
-      - id: 'cruelty'
-        text: 'Superior Sigil of Cruelty'
+      - id: cruelty
+        text: Superior Sigil of Cruelty
         modifiers:
           attributes:
-            Ferocity: ['+250', 'converted']
+            Ferocity: [250, converted]
         gw2-id: 67341
-        type: 'items'
+        type: items
 
-      - id: 'perception'
-        text: 'Superior Sigil of Perception'
+      - id: perception
+        text: Superior Sigil of Perception
         modifiers:
           attributes:
-            Precision: ['+250', 'converted']
+            Precision: [250, converted]
         gw2-id: 24580
-        type: 'items'
+        type: items
 
-      - id: 'corruption'
-        text: 'Superior Sigil of Corruption'
+      - id: corruption
+        text: Superior Sigil of Corruption
         modifiers:
           attributes:
-            Condition Damage: ['+250', 'converted']
+            Condition Damage: [250, converted]
         gw2-id: 24578
-        type: 'items'
+        type: items
 
-      - id: 'life'
-        text: 'Superior Sigil of Life'
+      - id: life
+        text: Superior Sigil of Life
         modifiers:
           attributes:
-            Healing Power: ['+250', 'converted']
+            Healing Power: [250, converted]
         gw2-id: 24582
-        type: 'items'
+        type: items
 
-      - id: 'bounty'
-        text: 'Superior Sigil of Bounty'
+      - id: bounty
+        text: Superior Sigil of Bounty
         modifiers:
           attributes:
-            Concentration: ['+225', 'converted']
+            Concentration: [225, converted]
         gw2-id: 81045
-        type: 'items'
+        type: items
 
-      - id: 'benevolence'
-        text: 'Superior Sigil of Benevolence'
+      - id: benevolence
+        text: Superior Sigil of Benevolence
         modifiers:
           attributes:
-            Outgoing Healing: '12.5%'
+            Outgoing Healing: 12.5%
         gw2-id: 24584
-        type: 'items'
+        type: items
 
-      - id: 'stars'
-        text: 'Superior Sigil of the Stars'
+      - id: stars
+        text: Superior Sigil of the Stars
         modifiers:
           attributes:
-            Power: ['+50', 'converted']
-            Precision: ['+50', 'converted']
-            Toughness: ['+50', 'converted']
-            Vitality: ['+50', 'converted']
-            Concentration: ['+50', 'converted']
-            Condition Damage: ['+50', 'converted']
-            Expertise: ['+50', 'converted']
-            Ferocity: ['+50', 'converted']
-            Healing Power: ['+50', 'converted']
+            Power: [50, converted]
+            Precision: [50, converted]
+            Toughness: [50, converted]
+            Vitality: [50, converted]
+            Concentration: [50, converted]
+            Condition Damage: [50, converted]
+            Expertise: [50, converted]
+            Ferocity: [50, converted]
+            Healing Power: [50, converted]
         gw2-id: 86170
-        type: 'items'
+        type: items
 
-  - section: 'Gemstones'
-
+  - section: Gemstones
     items:
 
-      - id: 'platinum-doubloon'
-        text: 'Platinum Doubloon'
+      - id: platinum-doubloon
+        text: Platinum Doubloon
         modifiers:
           attributes:
-            Concentration: ['+40', 'converted']
+            Concentration: [40, converted]
         gw2-id: 24773
-        type: 'items'
-
+        type: items
