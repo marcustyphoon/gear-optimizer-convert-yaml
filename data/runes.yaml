@@ -55,8 +55,7 @@ list:
         gw2-id: 84749
         type: 'items'
 
-      - &flame-legion
-        id: flame-legion
+      - id: flame-legion
         text: 'Superior Rune of the Flame Legion'
         modifiers: >-
           {
@@ -65,7 +64,7 @@ list:
           }
         gw2-id: 24797
         type: 'items'
-
+        
       - id: strength
         text: 'Superior Rune of Strength'
         modifiers: >-
@@ -188,8 +187,7 @@ list:
         gw2-id: 76100
         type: 'items'
 
-      - &rebirth
-        id: rebirth
+      - id: rebirth
         text: 'Superior Rune of the Rebirth'
         modifiers: >-
           {
@@ -229,7 +227,14 @@ list:
         gw2-id: 38206
         type: 'items'
 
-      - *rebirth
+      - id: rebirth
+        text: 'Superior Rune of the Rebirth'
+        modifiers: >-
+          {
+            "flat": { "Healing Power": 300, "Boon Duration": 15 }
+          }
+        gw2-id: 84171
+        type: 'items'
 
   - section: Condition Runes
     items:
@@ -348,7 +353,16 @@ list:
         gw2-id: 24765
         type: 'items'
 
-      - *flame-legion
+      - id: flame-legion
+        text: 'Superior Rune of the Flame Legion'
+        modifiers: >-
+          {
+            "flat": { "Power": 175, "Burning Duration": 50 },
+            "multiplier": { "Effective Power": 0.07 }
+          }
+        gw2-id: 24797
+        type: 'items'
+
 
       - id: baelfire
         text: 'Superior Rune of the Baelfire'
