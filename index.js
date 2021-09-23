@@ -122,11 +122,18 @@ const convert = async function () {
           }
         }
 
-        const realNewModifiers = {};
+
+        // remove empty keys
+        let realNewModifiers = {};
         for (const [key, value] of Object.entries(newModifiers)) {
           if (Object.keys(value).length) {
             realNewModifiers[key] = value;
           }
+        }
+
+        // remove empty object lol (bountiful oil)
+        if (!Object.keys(realNewModifiers).length) {
+          realNewModifiers = null;
         }
 
         // console.log(JSON.stringify(realNewModifiers, null, 2));
