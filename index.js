@@ -140,7 +140,7 @@ const convert = async function () {
     let resultYaml = yaml.dump(data, {
       // forceQuotes: true,
       lineWidth: -1,
-      flowLevel: 7,
+      flowLevel: 7, // fileName.includes('utility') ? 8 : 7
     });
     // eslint-disable-next-line no-regex-spaces
     // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
