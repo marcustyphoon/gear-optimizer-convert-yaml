@@ -11,7 +11,7 @@ const multiplierConvertDamage = {
   'Effective Condition Damage': ['Condition Damage', 'mult'],
   'add: Effective Condition Damage': ['Condition Damage', 'add'],
   'add: Effective Power': ['Strike Damage', 'add'],
-  'target: Effective Condition Damage': ['', 'target'],
+  'target: Effective Condition Damage': ['Condition Damage', 'target'],
   'target: Effective Power': ['Strike Damage', 'target'],
 };
 const multiplierConvertPercent = {
@@ -40,15 +40,15 @@ const points = [
   'Armor',
 ];
 
-const round = (num) => Number(Math.round(num + 'e1') + 'e-1');
+const round = (num) => Number(Math.round(num + 'e4') + 'e-4');
 
-const addPlus = (value) => (value > 0 ? '+' + value : String(value));
+// const addPlus = (value) => (value > 0 ? '+' + value : String(value));
 
 const convert = async function () {
   const files = await fs.readdir('./data');
 
   // temp
-  let count = 0;
+  // let count = 0;
 
   for (const fileName of files) {
     console.log('\n', fileName);
@@ -58,11 +58,11 @@ const convert = async function () {
     console.timeEnd(fileName);
 
     for (const section of data.list) {
-      if (!section.items) break;
+      if (!section.items) continue;
 
       for (const item of section.items) {
         // temp
-        count++;
+        // count++;
         // if (count > 60) return;
 
         // console.log('\n  ', item.id);
@@ -75,6 +75,7 @@ const convert = async function () {
 
         const parsedModifiersArray = Object.entries(JSON.parse(item.modifiers));
         for (const [type, modifiers] of parsedModifiersArray) {
+          // eslint-disable-next-line prefer-const
           for (let [attribute, value] of Object.entries(modifiers)) {
             // console.log('  ', type, attribute, value);
             switch (type) {
@@ -98,8 +99,8 @@ const convert = async function () {
 
                 if (points.includes(attribute)) {
                   // statpoints
-                  const isConv = type === 'buff' ? 'unconverted' : 'converted';
-                  newModifiers.attributes[newAttr] = [addPlus(value), isConv];
+                  const isConv = type === 'buff' ? 'buff' : 'converted';
+                  newModifiers.attributes[newAttr] = [value, isConv];
                 } else {
                   // percent
                   if (value < 1) value *= 100;
@@ -131,15 +132,21 @@ const convert = async function () {
         // console.log(JSON.stringify(realNewModifiers, null, 2));
 
         item.modifiers = realNewModifiers;
+
+        delete item.extraCSS;
       }
     }
 
     let resultYaml = yaml.dump(data, {
-      forceQuotes: true,
+      // forceQuotes: true,
       lineWidth: -1,
       flowLevel: 7,
     });
-    resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
+    // eslint-disable-next-line no-regex-spaces
+    // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
+    // eslint-disable-next-line no-regex-spaces
+    resultYaml = resultYaml.replace(/\n      - id/g, '\n\n      - id').replace(/\n  - section/g, '\n\n  - section');
+
     console.log(resultYaml /* .slice(0, 300) */, '\n');
 
     fs.writeFile(`./data2/${fileName}`, resultYaml, { encoding: 'utf8', flag: 'w+' });
