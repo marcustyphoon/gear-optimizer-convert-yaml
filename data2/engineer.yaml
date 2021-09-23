@@ -1,0 +1,208 @@
+GraphQL ID: 'Engineer'
+
+list:
+
+  - section: 'Skills'
+
+  - section: 'Explosives'
+
+    id: 6
+
+    items:
+
+      - id: 'glass-cannon'
+        text: 'Glass Cannon'
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.1 }\n}"
+        gw2-id: 1882
+        type: 'traits'
+
+      - id: 'explosive-temper'
+        text: 'Explosive Temper'
+        subText: '10x'
+        modifiers: "{\n  \"buff\": { \"Ferocity\": 200 }\n}"
+        gw2-id: 1892
+        type: 'traits'
+
+      - id: 'blast-shield'
+        text: 'Blast Shield'
+        modifiers: "{\n  \"convert\": { \"Vitality\": { \"Power\": 0.1 } }\n}"
+        gw2-id: 1944
+        type: 'traits'
+
+      - id: 'shaped-charge'
+        text: 'Shaped Charge'
+        minor: true
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.125 }\n}"
+        gw2-id: 429
+        type: 'traits'
+
+      - id: 'big-boomer'
+        text: 'Big Boomer'
+        subText: '100%'
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.1 }\n}"
+        gw2-id: 1947
+        type: 'traits'
+
+  - section: 'Firearms'
+
+    id: 38
+
+    items:
+
+      - id: 'chemical-rounds'
+        text: 'Chemical Rounds'
+        modifiers: "{\n  \"buff\": { \"Condition Damage\": 120 }\n}"
+        gw2-id: 1878
+        type: 'traits'
+
+      - id: 'high-caliber'
+        text: 'High Caliber'
+        modifiers: "{\n  \"flat\": { \"Critical Chance\": 15 }\n}"
+        gw2-id: 1914
+        type: 'traits'
+
+      - id: 'hematic-focus'
+        text: 'Hematic Focus'
+        modifiers: "{\n  \"flat\": { \"Critical Chance\": 10 }\n}"
+        minor: true
+        gw2-id: 536
+        type: 'traits'
+
+      - id: 'thermal-vision'
+        text: 'Thermal Vision'
+        modifiers: "{\n  \"flat\": { \"Expertise\": 150 },\n  \"multiplier\": { \"add: Effective Condition Damage\": 0.05 }\n}"
+        gw2-id: 2006
+        type: 'traits'
+
+      - id: 'no-scope'
+        text: 'No Scope'
+        modifiers: "{\n  \"buff\": { \"Ferocity\": 150 }\n}"
+        gw2-id: 1923
+        type: 'traits'
+
+      - id: 'serrated-steel'
+        text: 'Serrated Steel'
+        modifiers: "{\n  \"flat\": { \"Bleeding Duration\": 33 }\n}"
+        minor: true
+        gw2-id: 516
+        type: 'traits'
+
+      - id: 'modified-ammunition-10'
+        text: 'Modified Ammunition'
+        subText: '10x'
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.2 }\n}"
+        gw2-id: 526
+        type: 'traits'
+
+      - id: 'modified-ammunition-14'
+        text: 'Modified Ammunition'
+        subText: '14x'
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.28 }\n}"
+        gw2-id: 526
+        type: 'traits'
+
+      - id: 'incendiary-powder'
+        text: 'Incendiary Powder'
+        modifiers: "{\n  \"flat\": { \"Burning Duration\": 33 }\n}"
+        gw2-id: 433
+        type: 'traits'
+
+  - section: 'Inventions'
+
+    id: 47
+
+    items:
+
+      - id: 'over-shield'
+        text: 'Over Shield'
+        modifiers: "{\n  \"multiplier\": { \"Effective Health\": 0.066 }\n}"
+        gw2-id: 394
+        type: 'traits'
+
+      - id: 'energy-amplifier'
+        text: 'Energy Amplifier'
+        modifiers: "{\n  \"buff\": { \"Healing Power\": 120 }\n}"
+        minor: true
+        gw2-id: 519
+        type: 'traits'
+
+  - section: 'Alchemy'
+
+    id: 29
+
+    items:
+
+      - id: 'health-insurance'
+        text: 'Health Insurance'
+        subText: 'in med kit'
+        modifiers: "{\n  \"multiplier\": { \"Effective Healing\": 0.2 }\n}"
+        gw2-id: 521
+        type: 'traits'
+
+      - id: 'compounding-chemicals'
+        text: 'Compounding Chemicals'
+        modifiers: "{\n  \"buff\": { \"Concentration\": 240 }\n}"
+        minor: true
+        gw2-id: 413
+        type: 'traits'
+
+  - section: 'Tools'
+
+    id: 21
+
+    items:
+
+      - id: 'excessive-energy'
+        text: 'Excessive Energy'
+        modifiers: "{\n  \"multiplier\": { \"add: Effective Power\": 0.1 }\n}"
+        minor: true
+        gw2-id: 1936
+        type: 'traits'
+
+  - section: 'Scrapper'
+
+    id: 43
+
+    items:
+
+      - id: 'object-in-motion-1'
+        text: 'Object in Motion (One)'
+        subText: 'One'
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.05 }\n}"
+        gw2-id: 1860
+        type: 'traits'
+
+      - id: 'object-in-motion-2'
+        text: 'Object in Motion (Two)'
+        subText: 'Two'
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.1 }\n}"
+        gw2-id: 1860
+        type: 'traits'
+
+      - id: 'object-in-motion-3'
+        text: 'Object in Motion (Three)'
+        subText: 'Three'
+        modifiers: "{\n  \"multiplier\": { \"Effective Power\": 0.15 }\n}"
+        gw2-id: 1860
+        type: 'traits'
+
+      - id: 'impact-savant'
+        text: 'Impact Savant'
+        modifiers: "{\n  \"buff\": { \"Vitality\": -180 }\n}"
+        minor: true
+        gw2-id: 1877
+        type: 'traits'
+
+      - id: 'kinetic-accelerators'
+        text: 'Kinetic Accelerators'
+        modifiers: "{\n  \"convert\": { \"Concentration\": { \"Power\": 0.1 } }\n}"
+        gw2-id: 2052
+        type: 'traits'
+
+      - id: 'applied-force'
+        text: 'Applied Force'
+        subText: '25 might'
+        modifiers: "{\n  \"buff\": { \"Power\": 375, \"Condition Damage\": -375 }\n}"
+        gw2-id: 1849
+        type: 'traits'
+

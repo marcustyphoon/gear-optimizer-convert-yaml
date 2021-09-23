@@ -1,0 +1,233 @@
+GraphQL ID: 'Buffs'
+
+list:
+
+  - section: 'Boons'
+
+    items:
+
+      - id: 'might'
+        text: '<span class="icon icon-might"></span> Might'
+        subText: '(25x)'
+        modifiers:
+          attributes:
+            Power: ['+750', 'unconverted']
+            Condition Damage: ['+750', 'unconverted']
+        default-enabled: true
+        type: 'Boon'
+
+      - id: 'fury'
+        text: '<span class="icon icon-fury"></span> Fury'
+        modifiers:
+          attributes:
+            Critical Chance: '20%'
+        default-enabled: true
+        type: 'Boon'
+
+      - id: 'protection'
+        text: '<span class="icon icon-protection"></span> Protection'
+        modifiers:
+          damage:
+            Damage Reduction: ['33%', 'unknown']
+        type: 'Boon'
+
+      - id: 'vulnerability'
+        text: '<span class="icon icon-vulnerability"></span> Vulnerability'
+        subText: '(25x)'
+        modifiers:
+          damage:
+            Strike Damage: ['25%', 'target']
+            '': ['25%', 'target']
+        default-enabled: true
+        type: 'Condition'
+
+  - section: 'Warrior buffs'
+
+    items:
+
+      - id: 'bannerOfStrength'
+        text: 'Banner of Strength'
+        modifiers:
+          attributes:
+            Power: ['+100', 'unconverted']
+            Condition Damage: ['+100', 'unconverted']
+        gw2-id: 14405
+        type: 'Skill'
+        default-enabled: true
+        extraCSS: 'text-warrior'
+
+      - id: 'bannerOfDiscipline'
+        text: 'Banner of Discipline'
+        modifiers:
+          attributes:
+            Precision: ['+100', 'unconverted']
+            Ferocity: ['+100', 'unconverted']
+        gw2-id: 14407
+        type: 'Skill'
+        default-enabled: true
+        extraCSS: 'text-warrior'
+
+      - id: 'bannerOfTactics'
+        text: 'Banner of Tactics'
+        modifiers:
+          attributes:
+            Healing Power: ['+100', 'unconverted']
+            Boon Duration: '10%'
+        gw2-id: 14408
+        type: 'Skill'
+        extraCSS: 'text-warrior'
+
+      - id: 'bannerOfDefense'
+        text: 'Banner of Defense'
+        modifiers:
+          attributes:
+            Toughness: ['+100', 'unconverted']
+            Vitality: ['+100', 'unconverted']
+        gw2-id: 14528
+        type: 'Skill'
+        extraCSS: 'text-warrior'
+
+      - id: 'empowerAllies'
+        text: 'Empower Allies'
+        modifiers:
+          attributes:
+            Power: ['+100', 'unconverted']
+        gw2-id: 1482
+        type: 'Trait'
+        extraCSS: 'text-warrior'
+
+  - section: 'Other buffs'
+
+    items:
+
+      - id: 'spotter'
+        text: 'Spotter'
+        modifiers:
+          attributes:
+            Precision: ['+100', 'unconverted']
+        gw2-id: 1016
+        type: 'Trait'
+        extraCSS: 'text-ranger'
+
+      - id: 'frostSpirit'
+        text: 'Frost Spirit'
+        modifiers:
+          damage:
+            Strike Damage: ['5%', 'add']
+        gw2-id: 12497
+        type: 'Skill'
+        default-enabled: true
+        extraCSS: 'text-ranger'
+
+      - id: 'pinpointDistribution'
+        text: 'Pinpoint Distribution'
+        modifiers:
+          attributes:
+            Condition Damage: ['+100', 'unconverted']
+        gw2-id: 1984
+        type: 'Trait'
+        extraCSS: 'text-engineer'
+
+      - id: 'strengthInNumbers'
+        text: 'Strength in Numbers'
+        modifiers:
+          attributes:
+            Toughness: ['+100', 'unconverted']
+        gw2-id: 584
+        type: 'Trait'
+        extraCSS: 'text-guardian'
+
+  - section: 'Guardian - Perfect Inscriptions (100% uptime)'
+
+    items:
+
+      - id: 'baneSignet'
+        text: 'Bane Signet'
+        modifiers:
+          attributes:
+            Power: ['+216', 'unconverted']
+        gw2-id: 9093
+        type: 'Skill'
+        default-enabled: true
+        extraCSS: 'text-guardian'
+
+      - id: 'signetOfJudgment'
+        text: 'Signet of Judgement'
+        modifiers:
+          damage:
+            Damage Reduction: ['12%', 'unknown']
+        gw2-id: 9150
+        type: 'Skill'
+        extraCSS: 'text-guardian'
+
+      - id: 'signetOfMercy'
+        text: 'Signet of Mercy'
+        modifiers:
+          attributes:
+            Boon Duration: '10%'
+        gw2-id: 9163
+        type: 'Skill'
+        extraCSS: 'text-guardian'
+
+      - id: 'signetOfWrath'
+        text: 'Signet of Wrath'
+        modifiers:
+          attributes:
+            Condition Damage: ['+216', 'unconverted']
+        gw2-id: 9151
+        type: 'Skill'
+        extraCSS: 'text-guardian'
+
+  - section: 'Revenant buffs'
+
+    items:
+
+      - id: 'assassinsPresence'
+        text: 'Assassin''s Presence'
+        modifiers:
+          attributes:
+            Ferocity: ['+150', 'unconverted']
+        gw2-id: 1786
+        type: 'Trait'
+        default-enabled: true
+        extraCSS: 'text-revenant'
+
+      - id: 'facetOfNature'
+        text: 'Facet of Nature—Dragon'
+        modifiers:
+          attributes:
+            Boon Duration: '20%'
+        gw2-id: 29371
+        type: 'Skill'
+        extraCSS: 'text-revenant'
+
+      - id: 'riteDwarf'
+        text: 'Rite of the Great Dwarf'
+        modifiers:
+          damage:
+            Damage Reduction: ['50%', 'unknown']
+        gw2-id: 27975
+        type: 'Skill'
+        extraCSS: 'text-revenant'
+
+  - section: 'Effects'
+
+    items:
+
+      - id: 'exposed'
+        text: '<span class="icon icon-exposed"></span> Exposed'
+        subText: '(100% uptime)'
+        modifiers:
+          damage:
+            Strike Damage: ['30%', 'target']
+            '': ['100%', 'target']
+        type: 'CommonEffect'
+
+      - id: 'lightArmor'
+        text: 'Low Boss Armor (VG, KC)'
+        subText: '1910 vs 2597'
+        modifiers:
+          damage:
+            Strike Damage: ['36%', 'mult']
+        type: 'Text'
+
