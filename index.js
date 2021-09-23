@@ -68,9 +68,9 @@ const convert = async function () {
         // console.log('\n  ', item.id);
 
         const newModifiers = {
-          damage: {},
-          attributes: {},
-          conversion: {},
+          damage: [],
+          attributes: [],
+          conversion: [],
         };
 
         const parsedModifiersArray = Object.entries(JSON.parse(item.modifiers));
@@ -83,12 +83,14 @@ const convert = async function () {
                 if (Object.keys(multiplierConvertDamage).includes(attribute)) {
                   const newAttrData = multiplierConvertDamage[attribute];
                   // damage
-                  newModifiers.damage[newAttrData[0]] = [round(value * 100) + '%', newAttrData[1]];
+                  newModifiers.damage.push({
+                    [newAttrData[0]]: [round(value * 100) + '%', newAttrData[1]],
+                  });
                 } else {
                   // percent
                   if (value < 1) value *= 100;
                   const newAttr = multiplierConvertPercent[attribute];
-                  newModifiers.attributes[newAttr] = round(value) + '%';
+                  newModifiers.attributes.push({ [newAttr]: round(value) + '%' });
                 }
 
                 break;
@@ -100,21 +102,22 @@ const convert = async function () {
                 if (points.includes(attribute)) {
                   // statpoints
                   const isConv = type === 'buff' ? 'buff' : 'converted';
-                  newModifiers.attributes[newAttr] = [value, isConv];
+                  newModifiers.attributes.push({ [newAttr]: [value, isConv] });
                 } else {
                   // percent
                   if (value < 1) value *= 100;
-                  newModifiers.attributes[newAttr] = round(value) + '%';
+                  newModifiers.attributes.push({ [newAttr]: round(value) + '%' });
                 }
                 break;
               case 'convert':
                 console.log('  ', type, attribute, value);
                 const sources = Object.entries(value);
-                const result = {};
+
                 for (const [source, amount] of sources) {
+                  const result = {};
                   result[source] = round(amount * 100) + '%';
+                  newModifiers.conversion.push({ [attribute]: result });
                 }
-                newModifiers.conversion[attribute] = result;
                 break;
               default:
                 throw type;
@@ -124,7 +127,7 @@ const convert = async function () {
 
         const realNewModifiers = {};
         for (const [key, value] of Object.entries(newModifiers)) {
-          if (Object.keys(value).length) {
+          if (value.length) {
             realNewModifiers[key] = value;
           }
         }
@@ -140,7 +143,7 @@ const convert = async function () {
     let resultYaml = yaml.dump(data, {
       // forceQuotes: true,
       lineWidth: -1,
-      flowLevel: 7, // fileName.includes('utility') ? 8 : 7
+      flowLevel: 8, // fileName.includes('utility') ? 8 : 7
     });
     // eslint-disable-next-line no-regex-spaces
     // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
