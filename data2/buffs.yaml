@@ -5,7 +5,7 @@ list:
     items:
 
       - id: might
-        text: <span class="icon icon-might"></span> Might
+        text: Might
         subText: (25x)
         modifiers:
           attributes:
@@ -15,7 +15,7 @@ list:
         type: Boon
 
       - id: fury
-        text: <span class="icon icon-fury"></span> Fury
+        text: Fury
         modifiers:
           attributes:
             Critical Chance: 20%
@@ -23,14 +23,14 @@ list:
         type: Boon
 
       - id: protection
-        text: <span class="icon icon-protection"></span> Protection
+        text: Protection
         modifiers:
           damage:
             Damage Reduction: [33%, unknown]
         type: Boon
 
       - id: vulnerability
-        text: <span class="icon icon-vulnerability"></span> Vulnerability
+        text: Vulnerability
         subText: (25x)
         modifiers:
           damage:
@@ -192,7 +192,7 @@ list:
     items:
 
       - id: exposed
-        text: <span class="icon icon-exposed"></span> Exposed
+        text: Exposed
         subText: (100% uptime)
         modifiers:
           damage:

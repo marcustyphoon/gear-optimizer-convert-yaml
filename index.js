@@ -140,7 +140,9 @@ const convert = async function () {
 
         item.modifiers = realNewModifiers;
 
+        // clean up leftover crap in yaml
         delete item.extraCSS;
+        if (item.text) item.text = item.text.replace(/<.*>/g, '').trim();
       }
     }
 
