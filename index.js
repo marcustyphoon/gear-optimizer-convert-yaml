@@ -140,8 +140,11 @@ const convert = async function () {
       flowLevel: 7,
     });
     resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
-    console.log(resultYaml/* .slice(0, 300) */, '\n');
-    // fs.writeFileSync(base.src + 'yaml/' + mode + '.yaml', resultYaml, 'utf8');
+    console.log(resultYaml /* .slice(0, 300) */, '\n');
+
+    fs.writeFile(`./data2/${fileName}`, resultYaml, { encoding: 'utf8', flag: 'w+' });
+
+    // const fileData = await fs.readFile(`./data/${fileName}`);
   }
 };
 
