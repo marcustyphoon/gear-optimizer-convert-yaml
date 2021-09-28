@@ -54,10 +54,13 @@ const convert = async function () {
     console.log('\n', fileName);
     const fileData = await fs.readFile(`./data/${fileName}`);
     console.time(fileName);
-    const data = yaml.load(fileData);
+    let data = yaml.load(fileData);
     console.timeEnd(fileName);
 
-    for (const section of data.list) {
+    // flatten list
+    data = data.list;
+
+    for (const section of data) {
       if (!section.items) continue;
 
       for (const item of section.items) {
@@ -108,7 +111,7 @@ const convert = async function () {
                 }
                 break;
               case 'convert':
-                console.log('  ', type, attribute, value);
+                // console.log('  ', type, attribute, value);
                 const sources = Object.entries(value);
                 const result = {};
                 for (const [source, amount] of sources) {
@@ -149,14 +152,14 @@ const convert = async function () {
     let resultYaml = yaml.dump(data, {
       // forceQuotes: true,
       lineWidth: -1,
-      flowLevel: 7, // fileName.includes('utility') ? 8 : 7
+      flowLevel: 6, // fileName.includes('utility') ? 7 : 6
     });
     // eslint-disable-next-line no-regex-spaces
     // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
     // eslint-disable-next-line no-regex-spaces
-    resultYaml = resultYaml.replace(/\n      - id/g, '\n\n      - id').replace(/\n  - section/g, '\n\n  - section');
+    resultYaml = resultYaml.replace(/\n    - id/g, '\n\n    - id').replace(/\n- section/g, '\n\n- section');
 
-    console.log(resultYaml /* .slice(0, 300) */, '\n');
+    // console.log(resultYaml /* .slice(0, 300) */, '\n');
 
     fs.writeFile(`./data2/${fileName}`, resultYaml, { encoding: 'utf8', flag: 'w+' });
 
