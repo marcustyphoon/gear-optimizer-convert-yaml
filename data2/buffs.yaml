@@ -1,7 +1,7 @@
 - section: Boons
   items:
 
-    - id: might
+    might:
       text: Might
       subText: (25x)
       modifiers:
@@ -11,7 +11,7 @@
       default-enabled: true
       type: Boon
 
-    - id: fury
+    fury:
       text: Fury
       modifiers:
         attributes:
@@ -19,14 +19,14 @@
       default-enabled: true
       type: Boon
 
-    - id: protection
+    protection:
       text: Protection
       modifiers:
         damage:
           Damage Reduction: [33%, unknown]
       type: Boon
 
-    - id: vulnerability
+    vulnerability:
       text: Vulnerability
       subText: (25x)
       modifiers:
@@ -39,7 +39,7 @@
 - section: Warrior buffs
   items:
 
-    - id: bannerOfStrength
+    bannerOfStrength:
       text: Banner of Strength
       modifiers:
         attributes:
@@ -49,7 +49,7 @@
       type: Skill
       default-enabled: true
 
-    - id: bannerOfDiscipline
+    bannerOfDiscipline:
       text: Banner of Discipline
       modifiers:
         attributes:
@@ -59,7 +59,7 @@
       type: Skill
       default-enabled: true
 
-    - id: bannerOfTactics
+    bannerOfTactics:
       text: Banner of Tactics
       modifiers:
         attributes:
@@ -68,7 +68,7 @@
       gw2-id: 14408
       type: Skill
 
-    - id: bannerOfDefense
+    bannerOfDefense:
       text: Banner of Defense
       modifiers:
         attributes:
@@ -77,7 +77,7 @@
       gw2-id: 14528
       type: Skill
 
-    - id: empowerAllies
+    empowerAllies:
       text: Empower Allies
       modifiers:
         attributes:
@@ -88,7 +88,7 @@
 - section: Other buffs
   items:
 
-    - id: spotter
+    spotter:
       text: Spotter
       modifiers:
         attributes:
@@ -96,7 +96,7 @@
       gw2-id: 1016
       type: Trait
 
-    - id: frostSpirit
+    frostSpirit:
       text: Frost Spirit
       modifiers:
         damage:
@@ -105,7 +105,7 @@
       type: Skill
       default-enabled: true
 
-    - id: pinpointDistribution
+    pinpointDistribution:
       text: Pinpoint Distribution
       modifiers:
         attributes:
@@ -113,7 +113,7 @@
       gw2-id: 1984
       type: Trait
 
-    - id: strengthInNumbers
+    strengthInNumbers:
       text: Strength in Numbers
       modifiers:
         attributes:
@@ -124,7 +124,7 @@
 - section: Guardian - Perfect Inscriptions (100% uptime)
   items:
 
-    - id: baneSignet
+    baneSignet:
       text: Bane Signet
       modifiers:
         attributes:
@@ -133,7 +133,7 @@
       type: Skill
       default-enabled: true
 
-    - id: signetOfJudgment
+    signetOfJudgment:
       text: Signet of Judgement
       modifiers:
         damage:
@@ -141,7 +141,7 @@
       gw2-id: 9150
       type: Skill
 
-    - id: signetOfMercy
+    signetOfMercy:
       text: Signet of Mercy
       modifiers:
         attributes:
@@ -149,7 +149,7 @@
       gw2-id: 9163
       type: Skill
 
-    - id: signetOfWrath
+    signetOfWrath:
       text: Signet of Wrath
       modifiers:
         attributes:
@@ -160,7 +160,7 @@
 - section: Revenant buffs
   items:
 
-    - id: assassinsPresence
+    assassinsPresence:
       text: Assassin's Presence
       modifiers:
         attributes:
@@ -169,7 +169,7 @@
       type: Trait
       default-enabled: true
 
-    - id: facetOfNature
+    facetOfNature:
       text: Facet of Nature—Dragon
       modifiers:
         attributes:
@@ -177,7 +177,7 @@
       gw2-id: 29371
       type: Skill
 
-    - id: riteDwarf
+    riteDwarf:
       text: Rite of the Great Dwarf
       modifiers:
         damage:
@@ -188,7 +188,7 @@
 - section: Effects
   items:
 
-    - id: exposed
+    exposed:
       text: Exposed
       subText: (100% uptime)
       modifiers:
@@ -197,7 +197,7 @@
           Condition Damage: [100%, target]
       type: CommonEffect
 
-    - id: lightArmor
+    lightArmor:
       text: Low Boss Armor (VG, KC)
       subText: 1910 vs 2597
       modifiers:

@@ -4,7 +4,7 @@
   id: 14
   items:
 
-    - id: acolyte-of-torment
+    acolyte-of-torment:
       text: Acolyte of Torment
       modifiers:
         attributes:
@@ -12,7 +12,7 @@
       gw2-id: 1793
       type: traits
 
-    - id: seething-malice
+    seething-malice:
       text: Seething Malice
       modifiers:
         attributes:
@@ -20,7 +20,7 @@
       gw2-id: 1801
       type: traits
 
-    - id: demonic-resistance
+    demonic-resistance:
       text: Demonic Resistance
       modifiers:
         damage:
@@ -28,7 +28,7 @@
       gw2-id: 1726
       type: traits
 
-    - id: pact-of-pain
+    pact-of-pain:
       text: Pact of Pain
       modifiers:
         attributes:
@@ -36,7 +36,7 @@
       gw2-id: 1714
       type: traits
 
-    - id: yearning-empowerment
+    yearning-empowerment:
       text: Yearning Empowerement
       modifiers:
         attributes:
@@ -48,7 +48,7 @@
   id: 9
   items:
 
-    - id: dwarven-battle-training
+    dwarven-battle-training:
       text: Dwarven Battle Training
       modifiers:
         damage:
@@ -56,7 +56,7 @@
       gw2-id: 1740
       type: traits
 
-    - id: determined-resolution
+    determined-resolution:
       text: Determined Resolution
       minor: true
       modifiers:
@@ -65,7 +65,7 @@
       gw2-id: 1713
       type: traits
 
-    - id: vicious-reprisal
+    vicious-reprisal:
       text: Vicious Reprisal
       subText: 100%
       modifiers:
@@ -75,7 +75,7 @@
       gw2-id: 1779
       type: traits
 
-    - id: versed-in-stone
+    versed-in-stone:
       text: Versed in Stone
       modifiers:
         conversion:
@@ -87,7 +87,7 @@
   id: 3
   items:
 
-    - id: rising-tide
+    rising-tide:
       text: Rising Tide
       modifiers:
         damage:
@@ -95,7 +95,7 @@
       gw2-id: 1761
       type: traits
 
-    - id: ferocious-aggression
+    ferocious-aggression:
       text: Ferocious Aggression
       minor: true
       modifiers:
@@ -105,7 +105,7 @@
       gw2-id: 1758
       type: traits
 
-    - id: roiling-mists
+    roiling-mists:
       text: Roiling Mists
       modifiers:
         attributes:
@@ -117,7 +117,7 @@
   id: 15
   items:
 
-    - id: unsuspecting-strikes
+    unsuspecting-strikes:
       text: Unsuspecting Strikes
       subText: 20% uptime -> +4% Damage
       modifiers:
@@ -126,7 +126,7 @@
       gw2-id: 1767
       type: traits
 
-    - id: destructive-impulses-dual
+    destructive-impulses-dual:
       text: Destructive Impulses
       subText: Dual wielded
       minor: true
@@ -137,7 +137,7 @@
       gw2-id: 1724
       type: traits
 
-    - id: destructive-impulses
+    destructive-impulses:
       text: Destructive Impulses
       subText: Two handed
       minor: true
@@ -148,7 +148,7 @@
       gw2-id: 1724
       type: traits
 
-    - id: destructive-impulses-mix
+    destructive-impulses-mix:
       text: Destructive Impulses
       subText: 50% dual wield, 50% 2h
       minor: true
@@ -159,7 +159,7 @@
       gw2-id: 1724
       type: traits
 
-    - id: notoriety
+    notoriety:
       text: Notoriety
       subText: 25 might
       modifiers:
@@ -169,7 +169,7 @@
       gw2-id: 1765
       type: traits
 
-    - id: targeted-destruction
+    targeted-destruction:
       text: Targeted Destruction
       subText: 25 vulnerability
       minor: true
@@ -179,7 +179,7 @@
       gw2-id: 1792
       type: traits
 
-    - id: swift-termination
+    swift-termination:
       text: Swift Termination
       modifiers:
         damage:
@@ -191,7 +191,7 @@
   id: 12
   items:
 
-    - id: tranquil-balance
+    tranquil-balance:
       text: Tranquil Balance
       modifiers:
         attributes:
@@ -199,7 +199,7 @@
       gw2-id: 1822
       type: traits
 
-    - id: life-attunement
+    life-attunement:
       text: Life Attunement
       minor: true
       modifiers:
@@ -210,7 +210,7 @@
       gw2-id: 1821
       type: traits
 
-    - id: invoking-harmony
+    invoking-harmony:
       text: Invoking Harmony
       modifiers:
         attributes:
@@ -222,7 +222,7 @@
   id: 63
   items:
 
-    - id: ambush-commander
+    ambush-commander:
       text: Ambush Commander
       subText: 5x Kalla's Fervor
       minor: true
@@ -233,7 +233,7 @@
       gw2-id: 2181
       type: traits
 
-    - id: blood-fury
+    blood-fury:
       text: Blood Fury
       modifiers:
         attributes:
@@ -241,7 +241,7 @@
       gw2-id: 2079
       type: traits
 
-    - id: heartpiercer
+    heartpiercer:
       text: Heartpiercer
       modifiers:
         attributes:
@@ -249,7 +249,7 @@
       gw2-id: 2092
       type: traits
 
-    - id: brutal-momentum
+    brutal-momentum:
       text: Brutal Momentum
       minor: true
       modifiers:
@@ -258,7 +258,7 @@
       gw2-id: 2142
       type: traits
 
-    - id: lasting-legacy
+    lasting-legacy:
       text: Lasting Legacy
       subText: additional bonus from 5x Kalla's Fervor
       modifiers:

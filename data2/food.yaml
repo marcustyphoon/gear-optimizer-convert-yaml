@@ -1,7 +1,7 @@
 - section: Power Food
   items:
 
-    - id: sweet-and-spicy-butternut-squash-soup
+    sweet-and-spicy-butternut-squash-soup:
       text: Bowl of Sweet and Spicy Butternut Squash Soup / Sous-Vide Steak
       modifiers:
         attributes:
@@ -10,7 +10,7 @@
       gw2-id: 41569
       type: items
 
-    - id: truffle-steak
+    truffle-steak:
       text: Plate of Truffle Steak / Coq Au Vin
       modifiers:
         attributes:
@@ -19,7 +19,7 @@
       gw2-id: 12467
       type: items
 
-    - id: curry-butternut-squash-soup
+    curry-butternut-squash-soup:
       text: Bowl of Curry Butternut Squash Soup
       modifiers:
         attributes:
@@ -28,7 +28,7 @@
       gw2-id: 12486
       type: items
 
-    - id: dragon's-breath-bun
+    dragon's-breath-bun:
       text: Dragon's Breath Bun
       subText: (100% uptime)
       modifiers:
@@ -38,7 +38,7 @@
       gw2-id: 43360
       type: items
 
-    - id: seaweed-salad
+    seaweed-salad:
       text: Bowl of Seaweed Salad
       subText: (90% uptime)
       modifiers:
@@ -47,7 +47,7 @@
       gw2-id: 12471
       type: items
 
-    - id: jerk-poultry
+    jerk-poultry:
       text: Plate of Jerk Poultry
       modifiers:
         attributes:
@@ -55,7 +55,7 @@
       gw2-id: 71797
       type: items
 
-    - id: sawgill-mushroom-risotto
+    sawgill-mushroom-risotto:
       text: Bowl of Sawgill Mushroom Risotto
       modifiers:
         attributes:
@@ -63,7 +63,7 @@
       gw2-id: 75010
       type: items
 
-    - id: roasted-cactus
+    roasted-cactus:
       text: Plate of Roasted Cactus
       modifiers:
         attributes:
@@ -71,7 +71,7 @@
       gw2-id: 66536
       type: items
 
-    - id: fried-golden-dumpling
+    fried-golden-dumpling:
       text: Fried Golden Dumpling / Cheesecake
       modifiers:
         attributes:
@@ -82,7 +82,7 @@
 - section: Support Food
   items:
 
-    - id: soul-pastry
+    soul-pastry:
       text: Soul Pastry / Beef Carpaccio
       modifiers:
         attributes:
@@ -91,7 +91,7 @@
       gw2-id: 89002
       type: items
 
-    - id: eggs-benedict
+    eggs-benedict:
       text: Plate of Eggs Benedict
       modifiers:
         attributes:
@@ -100,7 +100,7 @@
       gw2-id: 91842
       type: items
 
-    - id: nopalitos-saute
+    nopalitos-saute:
       text: Bowl of Nopalitos Sauté / Poultry Aspic
       modifiers:
         attributes:
@@ -109,7 +109,7 @@
       gw2-id: 66530
       type: items
 
-    - id: mussels-gnashblade
+    mussels-gnashblade:
       text: Plate of Mussels Gnashblade
       modifiers:
         damage:
@@ -122,7 +122,7 @@
 - section: Heal Food
   items:
 
-    - id: fruit-salad-mint-garnish
+    fruit-salad-mint-garnish:
       text: Bowl of Fruit Salad with Mint Garnish
       modifiers:
         attributes:
@@ -132,7 +132,7 @@
       gw2-id: 91690
       type: items
 
-    - id: mint-creme-brulee
+    mint-creme-brulee:
       text: Mint Creme Brulee
       modifiers:
         attributes:
@@ -142,7 +142,7 @@
       gw2-id: 91743
       type: items
 
-    - id: delicious-rice-ball
+    delicious-rice-ball:
       text: Delicious Rice Ball
       modifiers:
         attributes:
@@ -151,7 +151,7 @@
       gw2-id: 68634
       type: items
 
-    - id: poultry-satay
+    poultry-satay:
       text: Bowl of Poultry Satay
       modifiers:
         attributes:
@@ -163,7 +163,7 @@
 - section: Condition Food
   items:
 
-    - id: rare-veggie-pizza
+    rare-veggie-pizza:
       text: Rare Veggie Pizza / Veggie flatbread
       modifiers:
         attributes:
@@ -172,7 +172,7 @@
       gw2-id: 12464
       type: items
 
-    - id: beef-rendang
+    beef-rendang:
       text: Plate of Beef Rendang / Cured Meat flatbread
       modifiers:
         attributes:
@@ -181,7 +181,7 @@
       gw2-id: 86997
       type: items
 
-    - id: saffron-stuffed-mushroom
+    saffron-stuffed-mushroom:
       text: Saffron Stuffed Mushroom
       subText: (100% uptime)
       modifiers:
@@ -191,7 +191,7 @@
       gw2-id: 12476
       type: items
 
-    - id: steamed-red-dumpling
+    steamed-red-dumpling:
       text: Steamed Red Dumpling
       subText: (100% uptime)
       modifiers:
@@ -201,7 +201,7 @@
       gw2-id: 68635
       type: items
 
-    - id: fire-meat-chili
+    fire-meat-chili:
       text: Bowl of Fire Meat Chili
       modifiers:
         attributes:
@@ -210,7 +210,7 @@
       gw2-id: 12484
       type: items
 
-    - id: fancy-truffle-burger
+    fancy-truffle-burger:
       text: Fancy Truffle Burger
       modifiers:
         attributes:
@@ -219,7 +219,7 @@
       gw2-id: 12463
       type: items
 
-    - id: truffle-risotto
+    truffle-risotto:
       text: Bowl of Truffle Risotto
       modifiers:
         attributes:
@@ -228,7 +228,7 @@
       gw2-id: 12465
       type: items
 
-    - id: sweet-and-spicy-beans
+    sweet-and-spicy-beans:
       text: Bowl of Sweet and Spicy Beans
       modifiers:
         attributes:
@@ -237,7 +237,7 @@
       gw2-id: 66528
       type: items
 
-    - id: fire-flank-steak
+    fire-flank-steak:
       text: Plate of Fire Flank Steak
       modifiers:
         attributes:
@@ -246,7 +246,7 @@
       gw2-id: 12466
       type: items
 
-    - id: fancy-potato-and-leek-soup
+    fancy-potato-and-leek-soup:
       text: Bowl of Fancy Potato and Leek Soup
       modifiers:
         attributes:
@@ -255,7 +255,7 @@
       gw2-id: 12485
       type: items
 
-    - id: prickly-pear-pie
+    prickly-pear-pie:
       text: Prickly Pear Pie
       modifiers:
         attributes:
@@ -266,7 +266,7 @@
 - section: Hybrid Food
   items:
 
-    - id: dragon's-revelry-starcake
+    dragon's-revelry-starcake:
       text: Dragon's Revelry Starcake / Oyster Soup
       modifiers:
         attributes:
@@ -282,7 +282,7 @@
       gw2-id: 43550
       type: items
 
-    - id: birthday-blaster
+    birthday-blaster:
       text: Birthday Blaster
       modifiers:
         attributes:
@@ -298,7 +298,7 @@
       gw2-id: 66961
       type: items
 
-    - id: passion-fruit-tapioca-pudding
+    passion-fruit-tapioca-pudding:
       text: Bowl of Passion Fruit Tapioca Pudding
       modifiers:
         attributes:
@@ -307,7 +307,7 @@
       gw2-id: 71826
       type: items
 
-    - id: prickly-pear-tapioca-pudding
+    prickly-pear-tapioca-pudding:
       text: Bowl of Prickly Pear Tapioca Pudding
       modifiers:
         attributes:
@@ -316,7 +316,7 @@
       gw2-id: 76135
       type: items
 
-    - id: tropical-fruit-salad
+    tropical-fruit-salad:
       text: Bowl of Tropical Fruit Salad
       modifiers:
         attributes:
@@ -325,7 +325,7 @@
       gw2-id: 36793
       type: items
 
-    - id: spicy-chocolate-cookie
+    spicy-chocolate-cookie:
       text: Spicy Chocolate Cookie
       modifiers:
         attributes:
@@ -337,7 +337,7 @@
 - section: Toughness Food
   items:
 
-    - id: spicy-marinated-mushroom
+    spicy-marinated-mushroom:
       text: Spicy Marinated Mushroom
       modifiers:
         attributes:
@@ -346,7 +346,7 @@
       gw2-id: 41563
       type: items
 
-    - id: spicy-herbed-chicken
+    spicy-herbed-chicken:
       text: Plate of Spicy Herbed Chicken
       modifiers:
         attributes:
@@ -355,7 +355,7 @@
       gw2-id: 41567
       type: items
 
-    - id: truffle-ravioli
+    truffle-ravioli:
       text: Bowl of Truffle Ravioli
       modifiers:
         attributes:
@@ -364,7 +364,7 @@
       gw2-id: 12461
       type: items
 
-    - id: omnomberry-bread
+    omnomberry-bread:
       text: Loaf of Omnomberry Bread / Ravioli
       modifiers:
         attributes:
@@ -373,7 +373,7 @@
       gw2-id: 12473
       type: items
 
-    - id: kralkachocolate-bar
+    kralkachocolate-bar:
       text: Kralkachocolate Bar
       modifiers:
         attributes:
@@ -382,7 +382,7 @@
       gw2-id: 43358
       type: items
 
-    - id: chocolate-tapioca-pudding
+    chocolate-tapioca-pudding:
       text: Bowl of Chocolate Tapioca Pudding
       modifiers:
         attributes:
@@ -391,7 +391,7 @@
       gw2-id: 76415
       type: items
 
-    - id: tropical-mousse
+    tropical-mousse:
       text: Bowl of Tropical Mousse
       modifiers:
         attributes:
@@ -400,7 +400,7 @@
       gw2-id: 36841
       type: items
 
-    - id: elon-red
+    elon-red:
       text: Bowl of "Elon Red"
       modifiers:
         attributes:

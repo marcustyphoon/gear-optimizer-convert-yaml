@@ -1,7 +1,7 @@
 - section: Skills
   items:
 
-    - id: signet-of-might
+    signet-of-might:
       text: Signet of Might
       modifiers:
         attributes:
@@ -9,7 +9,7 @@
       gw2-id: 14404
       type: skills
 
-    - id: signet-of-fury
+    signet-of-fury:
       text: Signet of Fury
       modifiers:
         attributes:
@@ -17,7 +17,7 @@
       gw2-id: 14410
       type: skills
 
-    - id: dolyak-signet
+    dolyak-signet:
       text: Dolyak Signet
       modifiers:
         attributes:
@@ -29,7 +29,7 @@
   id: 4
   items:
 
-    - id: peak-performance
+    peak-performance:
       text: Peak Performance
       subText: passive
       modifiers:
@@ -38,7 +38,7 @@
       gw2-id: 1444
       type: traits
 
-    - id: peak-performance-2
+    peak-performance-2:
       text: Peak Performance
       subText: active, 100% uptime - check both boxes
       modifiers:
@@ -47,7 +47,7 @@
       gw2-id: 1444
       type: traits
 
-    - id: forceful-greatsword
+    forceful-greatsword:
       text: Forceful Greatsword
       subText: base
       modifiers:
@@ -56,7 +56,7 @@
       gw2-id: 1338
       type: traits
 
-    - id: forceful-greatsword-2
+    forceful-greatsword-2:
       text: Forceful Greatsword
       subText: with greatsword/spear - check both boxes
       modifiers:
@@ -65,7 +65,7 @@
       gw2-id: 1338
       type: traits
 
-    - id: great-fortitude
+    great-fortitude:
       text: Great Fortitude
       modifiers:
         conversion:
@@ -74,7 +74,7 @@
       gw2-id: 1449
       type: traits
 
-    - id: pinnacle-of-strength
+    pinnacle-of-strength:
       text: Pinnacle Of Strength
       minor: true
       modifiers:
@@ -83,7 +83,7 @@
       gw2-id: 1453
       type: traits
 
-    - id: berserkers-power
+    berserkers-power:
       text: Berserker's Power
       subText: 100% 3x
       modifiers:
@@ -96,7 +96,7 @@
   id: 36
   items:
 
-    - id: wounding-precision
+    wounding-precision:
       text: Wounding Precision
       modifiers:
         conversion:
@@ -104,7 +104,7 @@
       gw2-id: 1455
       type: traits
 
-    - id: signet-mastery
+    signet-mastery:
       text: Signet Mastery
       subText: 5x
       modifiers:
@@ -113,7 +113,7 @@
       gw2-id: 1344
       type: traits
 
-    - id: deep-strikes
+    deep-strikes:
       text: Deep Strikes
       minor: true
       modifiers:
@@ -122,7 +122,7 @@
       gw2-id: 1343
       type: traits
 
-    - id: blade-master
+    blade-master:
       text: Blademaster
       subText: base
       modifiers:
@@ -131,7 +131,7 @@
       gw2-id: 1333
       type: traits
 
-    - id: blade-master-2
+    blade-master-2:
       text: Blademaster
       subText: with sword 50% - check both boxes
       modifiers:
@@ -140,7 +140,7 @@
       gw2-id: 1333
       type: traits
 
-    - id: bloodlust
+    bloodlust:
       text: Bloodlust
       minor: true
       modifiers:
@@ -149,7 +149,7 @@
       gw2-id: 1337
       type: traits
 
-    - id: furious
+    furious:
       text: Furious
       subText: 25x
       modifiers:
@@ -162,7 +162,7 @@
   id: 22
   items:
 
-    - id: thick-skin
+    thick-skin:
       text: Thick Skin
       minor: true
       modifiers:
@@ -171,7 +171,7 @@
       gw2-id: 1350
       type: traits
 
-    - id: cull-the-weak
+    cull-the-weak:
       text: Cull the Weak
       modifiers:
         damage:
@@ -179,7 +179,7 @@
       gw2-id: 1372
       type: traits
 
-    - id: armored-attack
+    armored-attack:
       text: Armored Attack
       modifiers:
         conversion:
@@ -187,7 +187,7 @@
       gw2-id: 1379
       type: traits
 
-    - id: hardened-armor
+    hardened-armor:
       text: Hardened Armor
       minor: true
       modifiers:
@@ -200,7 +200,7 @@
   id: 11
   items:
 
-    - id: leg-specialist
+    leg-specialist:
       text: Leg Specialist
       modifiers:
         damage:
@@ -208,7 +208,7 @@
       gw2-id: 1469
       type: traits
 
-    - id: roaring-reveille
+    roaring-reveille:
       text: Roaring Reveille
       modifiers:
         attributes:
@@ -216,7 +216,7 @@
       gw2-id: 1471
       type: traits
 
-    - id: empowered-6
+    empowered-6:
       text: Empowered
       subText: 6x
       minor: true
@@ -226,7 +226,7 @@
       gw2-id: 1485
       type: traits
 
-    - id: empowered-9
+    empowered-9:
       text: Empowered
       subText: 9x
       minor: true
@@ -236,7 +236,7 @@
       gw2-id: 1485
       type: traits
 
-    - id: empowered-11
+    empowered-11:
       text: Empowered
       subText: 11x
       minor: true
@@ -246,7 +246,7 @@
       gw2-id: 1485
       type: traits
 
-    - id: warriors-cunning
+    warriors-cunning:
       text: Warrior's Cunning
       subText: 20% uptime -> +5% Damage
       modifiers:
@@ -255,7 +255,7 @@
       gw2-id: 1486
       type: traits
 
-    - id: vigorous-shouts
+    vigorous-shouts:
       text: Vigorous Shouts
       modifiers:
         conversion:
@@ -267,7 +267,7 @@
   id: 51
   items:
 
-    - id: warriors-sprint
+    warriors-sprint:
       text: Warrior's Sprint
       modifiers:
         damage:
@@ -275,7 +275,7 @@
       gw2-id: 1413
       type: traits
 
-    - id: double-standards
+    double-standards:
       text: Doubled Standards
       subText: +50 Pwr/Prc/Fer/Con
       modifiers:
@@ -287,7 +287,7 @@
       gw2-id: 1484
       type: traits
 
-    - id: axe-mastery-one
+    axe-mastery-one:
       text: Axe Mastery
       subText: without axe
       modifiers:
@@ -296,7 +296,7 @@
       gw2-id: 1369
       type: traits
 
-    - id: axe-mastery-two
+    axe-mastery-two:
       text: Axe Mastery
       subText: with axe - check both boxes
       modifiers:
@@ -309,7 +309,7 @@
   id: 18
   items:
 
-    - id: blood-reaction-no
+    blood-reaction-no:
       text: Blood Reaction
       subText: with 0% berserker mode
       modifiers:
@@ -318,7 +318,7 @@
       gw2-id: 2011
       type: traits
 
-    - id: blood-reaction-with
+    blood-reaction-with:
       text: Blood Reaction
       subText: with 100% berserker mode
       modifiers:
@@ -327,7 +327,7 @@
       gw2-id: 2011
       type: traits
 
-    - id: heat-the-soul
+    heat-the-soul:
       text: Heat the Soul
       subText: without torch
       modifiers:
@@ -336,7 +336,7 @@
       gw2-id: 2042
       type: traits
 
-    - id: heat-the-soul-with
+    heat-the-soul-with:
       text: Heat the Soul
       subText: with torch 50% - check both boxes
       modifiers:
@@ -345,7 +345,7 @@
       gw2-id: 2042
       type: traits
 
-    - id: fatal-frenzy
+    fatal-frenzy:
       text: Fatal Frenzy
       minor: true
       modifiers:
@@ -356,7 +356,7 @@
       gw2-id: 2046
       type: traits
 
-    - id: bloody-roar
+    bloody-roar:
       text: Bloody Roar
       modifiers:
         damage:
@@ -364,7 +364,7 @@
       gw2-id: 1928
       type: traits
 
-    - id: king-of-fires
+    king-of-fires:
       text: King of Fires
       modifiers:
         attributes:
@@ -372,7 +372,7 @@
       gw2-id: 2038
       type: traits
 
-    - id: eternal-champion
+    eternal-champion:
       text: Eternal Champion
       modifiers:
         attributes:
@@ -384,7 +384,7 @@
   id: 61
   items:
 
-    - id: pure-strike-boonless
+    pure-strike-boonless:
       text: Pure Strike
       subText: Against boonless
       modifiers:
@@ -393,7 +393,7 @@
       gw2-id: 2107
       type: traits
 
-    - id: sun-and-moon-style
+    sun-and-moon-style:
       text: Sun and Moon Style
       subText: 100% onhand dagger; no boons
       modifiers:
@@ -402,7 +402,7 @@
       gw2-id: 2095
       type: traits
 
-    - id: attackers-insight
+    attackers-insight:
       text: Attacker's Insight
       minor: true
       modifiers:
@@ -413,7 +413,7 @@
       gw2-id: 2130
       type: traits
 
-    - id: magebane-tether
+    magebane-tether:
       text: Magebane Tether
       subText: 75% uptime -> +7.5% Damage
       modifiers:

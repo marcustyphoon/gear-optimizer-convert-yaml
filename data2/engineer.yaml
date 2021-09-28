@@ -4,7 +4,7 @@
   id: 6
   items:
 
-    - id: glass-cannon
+    glass-cannon:
       text: Glass Cannon
       modifiers:
         damage:
@@ -12,7 +12,7 @@
       gw2-id: 1882
       type: traits
 
-    - id: explosive-temper
+    explosive-temper:
       text: Explosive Temper
       subText: 10x
       modifiers:
@@ -21,7 +21,7 @@
       gw2-id: 1892
       type: traits
 
-    - id: blast-shield
+    blast-shield:
       text: Blast Shield
       modifiers:
         conversion:
@@ -29,7 +29,7 @@
       gw2-id: 1944
       type: traits
 
-    - id: shaped-charge
+    shaped-charge:
       text: Shaped Charge
       minor: true
       modifiers:
@@ -38,7 +38,7 @@
       gw2-id: 429
       type: traits
 
-    - id: big-boomer
+    big-boomer:
       text: Big Boomer
       subText: 100%
       modifiers:
@@ -51,7 +51,7 @@
   id: 38
   items:
 
-    - id: chemical-rounds
+    chemical-rounds:
       text: Chemical Rounds
       modifiers:
         attributes:
@@ -59,7 +59,7 @@
       gw2-id: 1878
       type: traits
 
-    - id: high-caliber
+    high-caliber:
       text: High Caliber
       modifiers:
         attributes:
@@ -67,7 +67,7 @@
       gw2-id: 1914
       type: traits
 
-    - id: hematic-focus
+    hematic-focus:
       text: Hematic Focus
       modifiers:
         attributes:
@@ -76,7 +76,7 @@
       gw2-id: 536
       type: traits
 
-    - id: thermal-vision
+    thermal-vision:
       text: Thermal Vision
       modifiers:
         damage:
@@ -86,7 +86,7 @@
       gw2-id: 2006
       type: traits
 
-    - id: no-scope
+    no-scope:
       text: No Scope
       modifiers:
         attributes:
@@ -94,7 +94,7 @@
       gw2-id: 1923
       type: traits
 
-    - id: serrated-steel
+    serrated-steel:
       text: Serrated Steel
       modifiers:
         attributes:
@@ -103,7 +103,7 @@
       gw2-id: 516
       type: traits
 
-    - id: modified-ammunition-10
+    modified-ammunition-10:
       text: Modified Ammunition
       subText: 10x
       modifiers:
@@ -112,7 +112,7 @@
       gw2-id: 526
       type: traits
 
-    - id: modified-ammunition-14
+    modified-ammunition-14:
       text: Modified Ammunition
       subText: 14x
       modifiers:
@@ -121,7 +121,7 @@
       gw2-id: 526
       type: traits
 
-    - id: incendiary-powder
+    incendiary-powder:
       text: Incendiary Powder
       modifiers:
         attributes:
@@ -133,7 +133,7 @@
   id: 47
   items:
 
-    - id: over-shield
+    over-shield:
       text: Over Shield
       modifiers:
         damage:
@@ -141,7 +141,7 @@
       gw2-id: 394
       type: traits
 
-    - id: energy-amplifier
+    energy-amplifier:
       text: Energy Amplifier
       modifiers:
         attributes:
@@ -154,7 +154,7 @@
   id: 29
   items:
 
-    - id: health-insurance
+    health-insurance:
       text: Health Insurance
       subText: in med kit
       modifiers:
@@ -163,7 +163,7 @@
       gw2-id: 521
       type: traits
 
-    - id: compounding-chemicals
+    compounding-chemicals:
       text: Compounding Chemicals
       modifiers:
         attributes:
@@ -176,7 +176,7 @@
   id: 21
   items:
 
-    - id: excessive-energy
+    excessive-energy:
       text: Excessive Energy
       modifiers:
         damage:
@@ -189,7 +189,7 @@
   id: 43
   items:
 
-    - id: object-in-motion-1
+    object-in-motion-1:
       text: Object in Motion (One)
       subText: One
       modifiers:
@@ -198,7 +198,7 @@
       gw2-id: 1860
       type: traits
 
-    - id: object-in-motion-2
+    object-in-motion-2:
       text: Object in Motion (Two)
       subText: Two
       modifiers:
@@ -207,7 +207,7 @@
       gw2-id: 1860
       type: traits
 
-    - id: object-in-motion-3
+    object-in-motion-3:
       text: Object in Motion (Three)
       subText: Three
       modifiers:
@@ -216,7 +216,7 @@
       gw2-id: 1860
       type: traits
 
-    - id: impact-savant
+    impact-savant:
       text: Impact Savant
       modifiers:
         attributes:
@@ -225,7 +225,7 @@
       gw2-id: 1877
       type: traits
 
-    - id: kinetic-accelerators
+    kinetic-accelerators:
       text: Kinetic Accelerators
       modifiers:
         conversion:
@@ -233,7 +233,7 @@
       gw2-id: 2052
       type: traits
 
-    - id: applied-force
+    applied-force:
       text: Applied Force
       subText: 25 might
       modifiers:

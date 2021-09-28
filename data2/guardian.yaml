@@ -1,7 +1,7 @@
 - section: Skills
   items:
 
-    - id: bane-signet
+    bane-signet:
       text: Bane Signet
       modifiers:
         attributes:
@@ -9,7 +9,7 @@
       gw2-id: 9093
       type: skills
 
-    - id: bane-signet-2
+    bane-signet-2:
       text: Bane Signet
       subText: traited
       modifiers:
@@ -18,7 +18,7 @@
       gw2-id: 9093
       type: skills
 
-    - id: signet-of-judgement
+    signet-of-judgement:
       text: Signet of Judgement
       modifiers:
         damage:
@@ -26,7 +26,7 @@
       gw2-id: 9150
       type: skills
 
-    - id: signet-of-judgement-2
+    signet-of-judgement-2:
       text: Signet of Judgement
       subText: traited
       modifiers:
@@ -35,7 +35,7 @@
       gw2-id: 9150
       type: skills
 
-    - id: signet-of-mercy
+    signet-of-mercy:
       text: Signet of Mercy
       modifiers:
         attributes:
@@ -43,7 +43,7 @@
       gw2-id: 9163
       type: skills
 
-    - id: signet-of-mercy-2
+    signet-of-mercy-2:
       text: Signet of Mercy
       subText: traited
       modifiers:
@@ -52,7 +52,7 @@
       gw2-id: 9163
       type: skills
 
-    - id: signet-of-wrath
+    signet-of-wrath:
       text: Signet of Wrath
       modifiers:
         attributes:
@@ -60,7 +60,7 @@
       gw2-id: 9151
       type: skills
 
-    - id: signet-of-wrath-2
+    signet-of-wrath-2:
       text: Signet of Wrath
       subText: traited
       modifiers:
@@ -73,7 +73,7 @@
   id: 42
   items:
 
-    - id: fiery-wrath
+    fiery-wrath:
       text: Fiery Wrath
       modifiers:
         damage:
@@ -81,7 +81,7 @@
       gw2-id: 634
       type: traits
 
-    - id: symbolic-exposure
+    symbolic-exposure:
       text: Symbolic Exposure
       minor: true
       modifiers:
@@ -90,7 +90,7 @@
       gw2-id: 646
       type: traits
 
-    - id: zealous-blade
+    zealous-blade:
       text: Zealous Blade
       subText: assuming 50% GS
       modifiers:
@@ -99,7 +99,7 @@
       gw2-id: 653
       type: traits
 
-    - id: kindled-zeal
+    kindled-zeal:
       text: Kindled Zeal
       modifiers:
         conversion:
@@ -107,7 +107,7 @@
       gw2-id: 1556
       type: traits
 
-    - id: symbolic-avenger
+    symbolic-avenger:
       text: Symbolic Avenger
       subText: 5x
       modifiers:
@@ -120,7 +120,7 @@
   id: 16
   items:
 
-    - id: right-hand-strength
+    right-hand-strength:
       text: Right-Hand Strength
       subText: base (+80 prec)
       modifiers:
@@ -129,7 +129,7 @@
       gw2-id: 566
       type: traits
 
-    - id: right-hand-strength-2
+    right-hand-strength-2:
       text: Right-Hand Strength
       subText: 50% one-handed (+40 Power)
       modifiers:
@@ -138,7 +138,7 @@
       gw2-id: 566
       type: traits
 
-    - id: right-hand-strength-3
+    right-hand-strength-3:
       text: Right-Hand Strength
       subText: 100% one-handed (+80 Power)
       modifiers:
@@ -147,7 +147,7 @@
       gw2-id: 566
       type: traits
 
-    - id: radiant-fire
+    radiant-fire:
       text: Radiant Fire
       modifiers:
         attributes:
@@ -155,7 +155,7 @@
       gw2-id: 567
       type: traits
 
-    - id: retribution
+    retribution:
       text: Retribution
       modifiers:
         damage:
@@ -163,7 +163,7 @@
       gw2-id: 565
       type: traits
 
-    - id: radiant-power
+    radiant-power:
       text: Radiant Power
       minor: true
       modifiers:
@@ -173,7 +173,7 @@
       gw2-id: 568
       type: traits
 
-    - id: amplified-wrath
+    amplified-wrath:
       text: Amplified Wrath
       modifiers:
         attributes:
@@ -181,7 +181,7 @@
       gw2-id: 1686
       type: traits
 
-    - id: righteous-instincts
+    righteous-instincts:
       text: Righteous Instincts
       modifiers:
         attributes:
@@ -193,7 +193,7 @@
   id: 13
   items:
 
-    - id: stalwart-defender
+    stalwart-defender:
       text: Stalwart Defender
       modifiers:
         attributes:
@@ -205,7 +205,7 @@
   id: 49
   items:
 
-    - id: invigorating-bulwark
+    invigorating-bulwark:
       text: Invigorating Bulwark
       subText: 5x
       modifiers:
@@ -214,7 +214,7 @@
       gw2-id: 1899
       type: traits
 
-    - id: honorable-staff
+    honorable-staff:
       text: Honorable Staff
       subText: base
       modifiers:
@@ -223,7 +223,7 @@
       gw2-id: 557
       type: traits
 
-    - id: honorable-staff-2
+    honorable-staff-2:
       text: Honorable Staff
       subText: with staff - check both boxes
       modifiers:
@@ -232,7 +232,7 @@
       gw2-id: 557
       type: traits
 
-    - id: force-of-will
+    force-of-will:
       text: Force of Will
       subText: Assuming 1k vitality
       modifiers:
@@ -246,7 +246,7 @@
   id: 46
   items:
 
-    - id: inspired-virtue
+    inspired-virtue:
       text: Inspired Virtue
       subText: 6x
       minor: true
@@ -256,7 +256,7 @@
       gw2-id: 621
       type: traits
 
-    - id: inspired-virtue-9
+    inspired-virtue-9:
       text: Inspired Virtue
       subText: 9x
       minor: true
@@ -266,7 +266,7 @@
       gw2-id: 621
       type: traits
 
-    - id: inspired-virtue-12
+    inspired-virtue-12:
       text: Inspired Virtue
       subText: 12x
       minor: true
@@ -276,7 +276,7 @@
       gw2-id: 621
       type: traits
 
-    - id: unscathed-contender
+    unscathed-contender:
       text: Unscathed Contender
       modifiers:
         damage:
@@ -284,7 +284,7 @@
       gw2-id: 624
       type: traits
 
-    - id: virtue-of-retribution
+    virtue-of-retribution:
       text: Virtue of Resolution
       minor: true
       modifiers:
@@ -293,7 +293,7 @@
       gw2-id: 604
       type: traits
 
-    - id: inspiring-virtue
+    inspiring-virtue:
       text: Inspiring Virtue
       subText: 100%
       modifiers:
@@ -302,7 +302,7 @@
       gw2-id: 603
       type: traits
 
-    - id: power-of-the-virtuous
+    power-of-the-virtuous:
       text: Power of the Virtuous
       minor: true
       modifiers:
@@ -315,7 +315,7 @@
   id: 27
   items:
 
-    - id: zealots-aggression
+    zealots-aggression:
       text: Zealot's Aggression
       modifiers:
         damage:
@@ -323,7 +323,7 @@
       gw2-id: 1835
       type: traits
 
-    - id: pure-of-sight
+    pure-of-sight:
       text: Pure of Sight
       subText: Melee
       minor: true
@@ -333,7 +333,7 @@
       gw2-id: 1926
       type: traits
 
-    - id: pure-of-sight-ranged
+    pure-of-sight-ranged:
       text: Pure of Sight
       subText: Ranged
       minor: true
@@ -343,7 +343,7 @@
       gw2-id: 1926
       type: traits
 
-    - id: hunters-fortification
+    hunters-fortification:
       text: Hunter's Fortification
       modifiers:
         damage:
@@ -351,7 +351,7 @@
       gw2-id: 1908
       type: traits
 
-    - id: big-game-hunter
+    big-game-hunter:
       text: Big Game Hunter
       modifiers:
         damage:
@@ -363,7 +363,7 @@
   id: 62
   items:
 
-    - id: imbued-haste
+    imbued-haste:
       text: Imbued Haste
       minor: true
       modifiers:

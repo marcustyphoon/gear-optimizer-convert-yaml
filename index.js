@@ -1,3 +1,4 @@
+/* eslint-disable no-regex-spaces */
 /* eslint-disable no-case-declarations */
 /* eslint-disable prefer-template */
 /* eslint-disable no-await-in-loop */
@@ -154,13 +155,16 @@ const convert = async function () {
       lineWidth: -1,
       flowLevel: 6, // fileName.includes('utility') ? 7 : 6
     });
-    // eslint-disable-next-line no-regex-spaces
+
+    // add spacing
     // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
-    // eslint-disable-next-line no-regex-spaces
     resultYaml = resultYaml.replace(/\n    - id/g, '\n\n    - id').replace(/\n- section/g, '\n\n- section');
 
-    // console.log(resultYaml /* .slice(0, 300) */, '\n');
+    // id key to dictionary
+    resultYaml = resultYaml.replace(/    - id: (.*)/gm, '    $1:')
 
+
+    // console.log(resultYaml /* .slice(0, 300) */, '\n');
     fs.writeFile(`./data2/${fileName}`, resultYaml, { encoding: 'utf8', flag: 'w+' });
 
     // const fileData = await fs.readFile(`./data/${fileName}`);

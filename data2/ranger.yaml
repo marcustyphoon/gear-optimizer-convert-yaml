@@ -1,7 +1,7 @@
 - section: Skills
   items:
 
-    - id: signet-of-stone
+    signet-of-stone:
       text: Signet of Stone
       modifiers:
         attributes:
@@ -9,7 +9,7 @@
       gw2-id: 12500
       type: skills
 
-    - id: signet-of-the-wild
+    signet-of-the-wild:
       text: Signet of the Wild
       modifiers:
         attributes:
@@ -21,7 +21,7 @@
   id: 8
   items:
 
-    - id: farsighted
+    farsighted:
       text: Farsighted
       subText: Melee
       modifiers:
@@ -30,7 +30,7 @@
       gw2-id: 1000
       type: traits
 
-    - id: farsighted-2
+    farsighted-2:
       text: Farsighted
       subText: Ranged
       modifiers:
@@ -39,7 +39,7 @@
       gw2-id: 1000
       type: traits
 
-    - id: predators-onslaught
+    predators-onslaught:
       text: Predator's Onslaught
       subText: 100% uptime
       modifiers:
@@ -52,7 +52,7 @@
   id: 30
   items:
 
-    - id: hidden-barbs
+    hidden-barbs:
       text: Hidden Barbs
       modifiers:
         attributes:
@@ -60,7 +60,7 @@
       gw2-id: 1846
       type: traits
 
-    - id: hunters-tactics
+    hunters-tactics:
       text: Hunter's Tactics
       modifiers:
         damage:
@@ -71,7 +71,7 @@
       gw2-id: 1068
       type: traits
 
-    - id: light-on-your-feet
+    light-on-your-feet:
       text: Light on your Feet
       subText: 100% uptime
       modifiers:
@@ -82,7 +82,7 @@
       gw2-id: 1912
       type: traits
 
-    - id: vicious-quarry
+    vicious-quarry:
       text: Vicious Quarry
       modifiers:
         attributes:
@@ -95,7 +95,7 @@
   id: 33
   items:
 
-    - id: oakheart-salve
+    oakheart-salve:
       text: Oakheart Salve
       modifiers:
         damage:
@@ -103,7 +103,7 @@
       gw2-id: 1086
       type: traits
 
-    - id: taste-for-danger
+    taste-for-danger:
       text: Taste for Danger
       modifiers:
         attributes:
@@ -113,7 +113,7 @@
       gw2-id: 1099
       type: traits
 
-    - id: ambidexterity
+    ambidexterity:
       text: Ambidexterity
       subText: base
       modifiers:
@@ -122,7 +122,7 @@
       gw2-id: 1101
       type: traits
 
-    - id: ambidexterity-2
+    ambidexterity-2:
       text: Ambidexterity
       subText: with torch/dagger - check both boxes
       modifiers:
@@ -131,7 +131,7 @@
       gw2-id: 1101
       type: traits
 
-    - id: poison-master
+    poison-master:
       text: Poison Master
       modifiers:
         attributes:
@@ -143,7 +143,7 @@
   id: 25
   items:
 
-    - id: bountiful-hunter
+    bountiful-hunter:
       text: Bountiful Hunter
       subText: 6x
       modifiers:
@@ -152,7 +152,7 @@
       gw2-id: 1062
       type: traits
 
-    - id: bountiful-hunter-9
+    bountiful-hunter-9:
       text: Bountiful Hunter
       subText: 9x
       modifiers:
@@ -161,7 +161,7 @@
       gw2-id: 1062
       type: traits
 
-    - id: instinctive-reaction
+    instinctive-reaction:
       text: Instinctive Reaction
       modifiers:
         conversion:
@@ -169,7 +169,7 @@
       gw2-id: 978
       type: traits
 
-    - id: lingering-magic
+    lingering-magic:
       text: Lingering Magic
       modifiers:
         attributes:
@@ -182,7 +182,7 @@
   id: 32
   items:
 
-    - id: honed-axes
+    honed-axes:
       text: Honed Axes
       subText: base
       modifiers:
@@ -191,7 +191,7 @@
       gw2-id: 1066
       type: traits
 
-    - id: honed-axes-2
+    honed-axes-2:
       text: Honed Axes
       subText: with axe 50% - also check base
       modifiers:
@@ -200,7 +200,7 @@
       gw2-id: 1066
       type: traits
 
-    - id: honed-axes-3
+    honed-axes-3:
       text: Honed Axes
       subText: with axe 100% - also check base
       modifiers:
@@ -213,7 +213,7 @@
   id: 5
   items:
 
-    - id: natural-mender
+    natural-mender:
       text: Natural Mender
       modifiers:
         attributes:
@@ -226,7 +226,7 @@
   id: 55
   items:
 
-    - id: furious-strength
+    furious-strength:
       text: Furious Strength
       modifiers:
         damage:
@@ -235,7 +235,7 @@
       gw2-id: 2156
       type: traits
 
-    - id: twice-as-vicious
+    twice-as-vicious:
       text: Twice as Vicious
       modifiers:
         damage:
@@ -245,7 +245,7 @@
       gw2-id: 2127
       type: traits
 
-    - id: oppressive-superiority
+    oppressive-superiority:
       text: Oppressive Superiority
       modifiers:
         damage:
@@ -255,7 +255,7 @@
       gw2-id: 2143
       type: traits
 
-    - id: archetype-stout
+    archetype-stout:
       subText: Archetype Stout (Tough/Vit)
       modifiers:
         attributes:
@@ -264,7 +264,7 @@
       minor: true
       type: typography
 
-    - id: archetype-deadly
+    archetype-deadly:
       subText: Archetype Deadly (ConDmg/Prec)
       modifiers:
         attributes:
@@ -273,7 +273,7 @@
       minor: true
       type: typography
 
-    - id: archetype-versatile
+    archetype-versatile:
       subText: Archetype Versatile (Vit/Conc)
       modifiers:
         attributes:
@@ -282,7 +282,7 @@
       minor: true
       type: typography
 
-    - id: archetype-ferocious
+    archetype-ferocious:
       subText: Archetype Ferocious (Pwr/Feroc)
       modifiers:
         attributes:
@@ -291,7 +291,7 @@
       minor: true
       type: typography
 
-    - id: archetype-supportive
+    archetype-supportive:
       subText: Archetype Supportive (Vit/Heal)
       modifiers:
         attributes:
@@ -300,7 +300,7 @@
       minor: true
       type: typography
 
-    - id: sb-1
+    sb-1:
       subText: merged
       modifiers:
         attributes:
@@ -313,7 +313,7 @@
       gw2-id: 1900
       type: traits
 
-    - id: sb-2
+    sb-2:
       subText: merged
       modifiers:
         damage:
@@ -322,7 +322,7 @@
       gw2-id: 974
       type: traits
 
-    - id: sb-3
+    sb-3:
       subText: merged
       modifiers:
         attributes:
@@ -331,7 +331,7 @@
       gw2-id: 1065
       type: traits
 
-    - id: sb-4
+    sb-4:
       subText: merged, base
       modifiers:
         attributes:
