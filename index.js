@@ -147,6 +147,11 @@ const convert = async function () {
         // clean up leftover crap in yaml
         delete item.extraCSS;
         if (item.text) item.text = item.text.replace(/<.*>/g, '').trim();
+
+        if (item['gw2-id']) {
+          item.gw2id = item['gw2-id'];
+          delete item['gw2-id'];
+        }
       }
     }
 
