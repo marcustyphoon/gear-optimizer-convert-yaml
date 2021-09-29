@@ -165,8 +165,8 @@ const convert = async function () {
     // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
     resultYaml = resultYaml.replace(/\n    - id/g, '\n\n    - id').replace(/\n- section/g, '\n\n- section');
 
-    // id key to dictionary
-    resultYaml = resultYaml.replace(/    - id: (.*)/gm, '    $1:')
+    // id key to dictionary (changed my mind about this actually)
+    // resultYaml = resultYaml.replace(/    - id: (.*)/gm, '    $1:')
 
 
     // console.log(resultYaml /* .slice(0, 300) */, '\n');
