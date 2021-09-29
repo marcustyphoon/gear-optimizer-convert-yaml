@@ -135,9 +135,9 @@ const convert = async function () {
           }
         }
 
-        // remove empty object lol (bountiful oil)
+        // add note for bountiful oil
         if (!Object.keys(realNewModifiers).length) {
-          realNewModifiers = null;
+          realNewModifiers = { note: 'this is hardcoded internally' };
         }
 
         // console.log(JSON.stringify(realNewModifiers, null, 2));
