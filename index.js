@@ -62,7 +62,7 @@ const convert = async function () {
     data = data.list;
 
     for (const section of data) {
-      if (!section.items) continue;
+      if (!section.items) section.items = [];
 
       for (const item of section.items) {
         // temp
