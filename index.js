@@ -14,7 +14,7 @@ const multiplierConvertDamage = {
   'add: Effective Power': ['Strike Damage', 'add'],
   'target: Effective Condition Damage': ['Condition Damage', 'target'],
   'target: Effective Power': ['Strike Damage', 'target'],
-  
+
   'Critical Damage': ['Critical Damage', 'unknown'],
 
   'Burning Damage': ['Burning Damage', 'unknown'],
@@ -42,6 +42,18 @@ const points = [
   'Agony Resistance',
   'Armor',
 ];
+
+const nonDamagingConditions = [
+  'Blind',
+  'Chilled',
+  'Crippled',
+  'Fear',
+  'Immobile',
+  'Slow',
+  'Taunt',
+  'Vulnerability',
+  'Weakness',
+].map((name) => `${name} Duration`);
 
 const round = (num) => Number(Math.round(num + 'e4') + 'e-4');
 
@@ -113,6 +125,8 @@ const convert = async function () {
                   const isConv = type === 'buff' ? 'buff' : 'converted';
                   if (newModifiers.attributes[newAttr]) throw newModifiers.attributes[newAttr];
                   newModifiers.attributes[newAttr] = [value, isConv];
+                } else if (nonDamagingConditions.includes(attribute)) {
+                  // skip nondamaging conditions; we don't have all the traits anyway
                 } else {
                   // percent
                   if (value < 1) value *= 100;
