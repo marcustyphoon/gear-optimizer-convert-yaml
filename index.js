@@ -136,8 +136,15 @@ const convert = async function () {
         }
 
         // add note for bountiful oil
-        if (!Object.keys(realNewModifiers).length) {
-          realNewModifiers = { note: 'this is hardcoded internally' };
+        if (item.id === 'bountiful-maintenance-oil') {
+          realNewModifiers = {
+            'conversion': {
+              'Outgoing Healing': {
+                'Healing Power': '0.006%',
+                'Concentration': '0.008%',
+              },
+            },
+          };
         }
 
         // console.log(JSON.stringify(realNewModifiers, null, 2));
