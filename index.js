@@ -126,7 +126,6 @@ const convert = async function () {
           }
         }
 
-
         // remove empty keys
         let realNewModifiers = {};
         for (const [key, value] of Object.entries(newModifiers)) {
@@ -171,11 +170,12 @@ const convert = async function () {
 
     // add spacing
     // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
-    resultYaml = resultYaml.replace(/\n    - id/g, '\n\n    - id').replace(/\n- section/g, '\n\n- section');
+    resultYaml = resultYaml
+      .replace(/\n    - id/g, '\n\n    - id')
+      .replace(/\n- section/g, '\n\n- section');
 
     // id key to dictionary (changed my mind about this actually)
     // resultYaml = resultYaml.replace(/    - id: (.*)/gm, '    $1:')
-
 
     // console.log(resultYaml /* .slice(0, 300) */, '\n');
     fs.writeFile(`./data2/${fileName}`, resultYaml, { encoding: 'utf8', flag: 'w+' });
