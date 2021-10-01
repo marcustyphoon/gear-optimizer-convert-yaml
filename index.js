@@ -163,6 +163,7 @@ const convert = async function () {
         delete item['default-enabled'];
         if (item.text) item.text = item.text.replace(/<.*>/g, '').trim();
 
+        // eslint-disable-next-line no-prototype-builtins
         if (item.hasOwnProperty('gw2-id')) {
           item.gw2id = item['gw2-id'];
           delete item['gw2-id'];
