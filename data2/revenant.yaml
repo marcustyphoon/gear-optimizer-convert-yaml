@@ -9,7 +9,7 @@
       text: Acolyte of Torment
       modifiers:
         attributes:
-          - Torment Damage: 10%
+          Torment Damage: 10%
       type: traits
       gw2id: 1793
 
@@ -18,7 +18,7 @@
       minor: true
       modifiers:
         attributes:
-          - Condition Damage: [120, buff]
+          Condition Damage: [120, buff]
       type: traits
       gw2id: 1801
 
@@ -26,7 +26,7 @@
       text: Demonic Resistance
       modifiers:
         damage:
-          - Damage Reduction: [20%, unknown]
+          Damage Reduction: [20%, unknown]
       type: traits
       gw2id: 1726
 
@@ -34,7 +34,7 @@
       text: Pact of Pain
       modifiers:
         attributes:
-          - Condition Duration: 15%
+          Condition Duration: 15%
       type: traits
       gw2id: 1714
 
@@ -43,7 +43,7 @@
       minor: true
       modifiers:
         attributes:
-          - Condition Duration: 10%
+          Condition Duration: 10%
       type: traits
       gw2id: 1744
 
@@ -55,7 +55,7 @@
       text: Dwarven Battle Training
       modifiers:
         damage:
-          - Strike Damage: [10%, mult]
+          Strike Damage: [10%, mult]
       type: traits
       gw2id: 1740
 
@@ -64,7 +64,7 @@
       minor: true
       modifiers:
         damage:
-          - Damage Reduction: [10%, unknown]
+          Damage Reduction: [10%, unknown]
       type: traits
       gw2id: 1713
 
@@ -73,8 +73,8 @@
       subText: 100%
       modifiers:
         damage:
-          - Strike Damage: [10%, add]
-          - Condition Damage: [10%, add]
+          Strike Damage: [10%, add]
+          Condition Damage: [10%, add]
       type: traits
       gw2id: 1779
 
@@ -82,7 +82,7 @@
       text: Versed in Stone
       modifiers:
         conversion:
-          - Power: {Toughness: 13%}
+          Power: {Toughness: 13%}
       type: traits
       gw2id: 1770
 
@@ -94,7 +94,7 @@
       text: Rising Tide
       modifiers:
         damage:
-          - Strike Damage: [7%, mult]
+          Strike Damage: [7%, mult]
       type: traits
       gw2id: 1761
 
@@ -103,8 +103,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [7%, add]
-          - Condition Damage: [7%, add]
+          Strike Damage: [7%, add]
+          Condition Damage: [7%, add]
       type: traits
       gw2id: 1758
 
@@ -112,7 +112,7 @@
       text: Roiling Mists
       modifiers:
         attributes:
-          - Critical Chance: 20%
+          Critical Chance: 20%
       type: traits
       gw2id: 1719
 
@@ -125,7 +125,7 @@
       subText: 20% uptime -> +4% Damage
       modifiers:
         damage:
-          - Strike Damage: [4%, mult]
+          Strike Damage: [4%, mult]
       type: traits
       gw2id: 1767
 
@@ -135,8 +135,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [10%, add]
-          - Condition Damage: [10%, add]
+          Strike Damage: [10%, add]
+          Condition Damage: [10%, add]
       type: traits
       gw2id: 1724
 
@@ -146,8 +146,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [5%, add]
-          - Condition Damage: [5%, add]
+          Strike Damage: [5%, add]
+          Condition Damage: [5%, add]
       type: traits
       gw2id: 1724
 
@@ -157,8 +157,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [7.5%, add]
-          - Condition Damage: [7.5%, add]
+          Strike Damage: [7.5%, add]
+          Condition Damage: [7.5%, add]
       type: traits
       gw2id: 1724
 
@@ -167,8 +167,8 @@
       subText: 25 might
       modifiers:
         attributes:
-          - Power: [250, buff]
-          - Condition Damage: [-250, buff]
+          Power: [250, buff]
+          Condition Damage: [-250, buff]
       type: traits
       gw2id: 1765
 
@@ -178,7 +178,7 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [12.5%, mult]
+          Strike Damage: [12.5%, mult]
       type: traits
       gw2id: 1792
 
@@ -186,7 +186,7 @@
       text: Swift Termination
       modifiers:
         damage:
-          - Strike Damage: [10%, mult]
+          Strike Damage: [10%, mult]
       type: traits
       gw2id: 1800
 
@@ -198,7 +198,7 @@
       text: Tranquil Balance
       modifiers:
         attributes:
-          - Outgoing Healing: 20%
+          Outgoing Healing: 20%
       type: traits
       gw2id: 1822
 
@@ -207,9 +207,9 @@
       minor: true
       modifiers:
         attributes:
-          - Healing Power: [120, buff]
+          Healing Power: [120, buff]
         conversion:
-          - Concentration: {Healing Power: 7%}
+          Concentration: {Healing Power: 7%}
       type: traits
       gw2id: 1821
 
@@ -217,7 +217,7 @@
       text: Invoking Harmony
       modifiers:
         attributes:
-          - Outgoing Healing: 20%
+          Outgoing Healing: 20%
       type: traits
       gw2id: 1818
 
@@ -231,8 +231,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [10%, add]
-          - Condition Damage: [10%, add]
+          Strike Damage: [10%, add]
+          Condition Damage: [10%, add]
       type: traits
       gw2id: 2181
 
@@ -240,7 +240,7 @@
       text: Blood Fury
       modifiers:
         attributes:
-          - Bleeding Duration: 25%
+          Bleeding Duration: 25%
       type: traits
       gw2id: 2079
 
@@ -248,7 +248,7 @@
       text: Heartpiercer
       modifiers:
         attributes:
-          - Bleeding Damage: 25%
+          Bleeding Damage: 25%
       type: traits
       gw2id: 2092
 
@@ -257,7 +257,7 @@
       minor: true
       modifiers:
         attributes:
-          - Critical Chance: 33%
+          Critical Chance: 33%
       type: traits
       gw2id: 2142
 
@@ -266,7 +266,7 @@
       subText: additional bonus from 5x Kalla's Fervor
       modifiers:
         damage:
-          - Strike Damage: [5%, add]
-          - Condition Damage: [5%, add]
+          Strike Damage: [5%, add]
+          Condition Damage: [5%, add]
       type: traits
       gw2id: 2100

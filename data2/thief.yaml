@@ -6,7 +6,7 @@
       subText: passive
       modifiers:
         attributes:
-          - Power: [180, buff]
+          Power: [180, buff]
       type: skills
       gw2id: 13046
 
@@ -15,7 +15,7 @@
       subText: while active
       modifiers:
         attributes:
-          - Power: [540, buff]
+          Power: [540, buff]
       type: skills
       gw2id: 13046
 
@@ -23,7 +23,7 @@
       text: Signet of Agility
       modifiers:
         attributes:
-          - Precision: [180, buff]
+          Precision: [180, buff]
       type: skills
       gw2id: 13062
 
@@ -36,7 +36,7 @@
       subText: base
       modifiers:
         attributes:
-          - Power: [80, converted]
+          Power: [80, converted]
       type: traits
       gw2id: 1245
 
@@ -45,7 +45,7 @@
       subText: with dagger
       modifiers:
         attributes:
-          - Power: [80, converted]
+          Power: [80, converted]
       type: traits
       gw2id: 1245
 
@@ -53,7 +53,7 @@
       text: Deadly Ambition
       modifiers:
         attributes:
-          - Condition Damage: [120, buff]
+          Condition Damage: [120, buff]
       type: traits
       gw2id: 1164
 
@@ -62,7 +62,7 @@
       subText: base
       modifiers:
         attributes:
-          - Power: [80, buff]
+          Power: [80, buff]
       type: traits
       gw2id: 1704
 
@@ -71,7 +71,7 @@
       subText: 100% revealed - also check base
       modifiers:
         attributes:
-          - Power: [120, buff]
+          Power: [120, buff]
       type: traits
       gw2id: 1704
 
@@ -81,7 +81,7 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [20%, mult]
+          Strike Damage: [20%, mult]
       type: traits
       gw2id: 1257
 
@@ -89,8 +89,8 @@
       text: Potent Poison
       modifiers:
         attributes:
-          - Poison Damage: 33%
-          - Poison Duration: 33%
+          Poison Damage: 33%
+          Poison Duration: 33%
       type: traits
       gw2id: 1291
 
@@ -99,7 +99,7 @@
       subText: 50%
       modifiers:
         damage:
-          - Strike Damage: [10%, mult]
+          Strike Damage: [10%, mult]
       type: traits
       gw2id: 1269
 
@@ -113,7 +113,7 @@
       minor: true
       modifiers:
         attributes:
-          - Critical Chance: 10%
+          Critical Chance: 10%
       type: traits
       gw2id: 1281
 
@@ -122,7 +122,7 @@
       subText: 100% scholar (check both)
       modifiers:
         attributes:
-          - Critical Damage: 7%
+          Critical Damage: 7%
       type: traits
       gw2id: 1268
 
@@ -131,7 +131,7 @@
       subText: 100% flanking (check both)
       modifiers:
         attributes:
-          - Critical Chance: 7%
+          Critical Chance: 7%
       type: traits
       gw2id: 1268
 
@@ -139,7 +139,7 @@
       text: Practiced Tolerance
       modifiers:
         conversion:
-          - Ferocity: {Precision: 7%}
+          Ferocity: {Precision: 7%}
       type: traits
       gw2id: 1272
 
@@ -149,7 +149,7 @@
       minor: true
       modifiers:
         attributes:
-          - Critical Damage: 5%
+          Critical Damage: 5%
       type: traits
       gw2id: 1282
 
@@ -159,7 +159,7 @@
       minor: true
       modifiers:
         attributes:
-          - Critical Damage: 10%
+          Critical Damage: 10%
       type: traits
       gw2id: 1282
 
@@ -167,7 +167,7 @@
       text: No Quarter
       modifiers:
         attributes:
-          - Ferocity: [250, converted]
+          Ferocity: [250, converted]
       type: traits
       gw2id: 1904
 
@@ -180,7 +180,7 @@
       minor: true
       modifiers:
         attributes:
-          - Concentration: [240, buff]
+          Concentration: [240, buff]
       type: traits
       gw2id: 1242
 
@@ -193,7 +193,7 @@
       minor: true
       modifiers:
         attributes:
-          - Expertise: [150, converted]
+          Expertise: [150, converted]
       type: traits
       gw2id: 1232
 
@@ -203,8 +203,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [15%, add]
-          - Condition Damage: [15%, add]
+          Strike Damage: [15%, add]
+          Condition Damage: [15%, add]
       type: traits
       gw2id: 1157
 
@@ -212,7 +212,7 @@
       text: Deadly Ambush
       modifiers:
         attributes:
-          - Bleeding Damage: 25%
+          Bleeding Damage: 25%
       type: traits
       gw2id: 1706
 
@@ -224,9 +224,9 @@
       text: Marauder's Resilience
       modifiers:
         damage:
-          - Damage Reduction: [10%, unknown]
+          Damage Reduction: [10%, unknown]
         conversion:
-          - Vitality: {Power: 13%}
+          Vitality: {Power: 13%}
       type: traits
       gw2id: 1933
 
@@ -236,8 +236,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [7%, mult]
-          - Damage Reduction: [10%, unknown]
+          Strike Damage: [7%, mult]
+          Damage Reduction: [10%, unknown]
       type: traits
       gw2id: 1887
 
@@ -246,7 +246,7 @@
       subText: base
       modifiers:
         attributes:
-          - Power: [120, converted]
+          Power: [120, converted]
       type: traits
       gw2id: 1884
 
@@ -255,7 +255,7 @@
       subText: with staff (check both)
       modifiers:
         attributes:
-          - Power: [120, converted]
+          Power: [120, converted]
       type: traits
       gw2id: 1884
 
@@ -264,7 +264,7 @@
       subText: 3x
       modifiers:
         damage:
-          - Strike Damage: [15%, mult]
+          Strike Damage: [15%, mult]
       type: traits
       gw2id: 1893
 
@@ -273,7 +273,7 @@
       subText: 100% uptime
       modifiers:
         damage:
-          - Strike Damage: [10%, add]
+          Strike Damage: [10%, add]
       type: traits
       gw2id: 2047
 
@@ -282,7 +282,7 @@
       subText: 100% uptime
       modifiers:
         damage:
-          - Condition Damage: [15%, add]
+          Condition Damage: [15%, add]
       type: traits
       gw2id: 1833
 
@@ -295,7 +295,7 @@
       subText: base
       modifiers:
         attributes:
-          - Precision: [120, converted]
+          Precision: [120, converted]
       type: traits
       gw2id: 2118
 
@@ -304,7 +304,7 @@
       subText: with rifle (check both)
       modifiers:
         attributes:
-          - Precision: [120, converted]
+          Precision: [120, converted]
       type: traits
       gw2id: 2118
 
@@ -313,9 +313,9 @@
       subText: 6x
       modifiers:
         damage:
-          - Strike Damage: [6%, mult]
+          Strike Damage: [6%, mult]
         attributes:
-          - Concentration: [180, buff]
+          Concentration: [180, buff]
       type: traits
       gw2id: 2160
 
@@ -324,9 +324,9 @@
       subText: 9x
       modifiers:
         damage:
-          - Strike Damage: [9%, mult]
+          Strike Damage: [9%, mult]
         attributes:
-          - Concentration: [180, buff]
+          Concentration: [180, buff]
       type: traits
       gw2id: 2160
 
@@ -335,8 +335,8 @@
       minor: true
       modifiers:
         damage:
-          - Strike Damage: [10%, mult]
-          - Damage Reduction: [10%, unknown]
+          Strike Damage: [10%, mult]
+          Damage Reduction: [10%, unknown]
       type: traits
       gw2id: 2084
 
@@ -344,7 +344,7 @@
       text: Be Quick or Be Killed
       modifiers:
         attributes:
-          - Power: [200, buff]
-          - Precision: [200, buff]
+          Power: [200, buff]
+          Precision: [200, buff]
       type: traits
       gw2id: 2093
