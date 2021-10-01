@@ -6,22 +6,22 @@
       subText: (25x)
       modifiers:
         attributes:
-          Power: [750, buff]
-          Condition Damage: [750, buff]
+          - Power: [750, buff]
+          - Condition Damage: [750, buff]
       type: Boon
 
     - id: fury
       text: Fury
       modifiers:
         attributes:
-          Critical Chance: 20%
+          - Critical Chance: 20%
       type: Boon
 
     - id: protection
       text: Protection
       modifiers:
         damage:
-          Damage Reduction: [33%, unknown]
+          - Damage Reduction: [33%, unknown]
       type: Boon
 
     - id: vulnerability
@@ -29,8 +29,8 @@
       subText: (25x)
       modifiers:
         damage:
-          Strike Damage: [25%, target]
-          Condition Damage: [25%, target]
+          - Strike Damage: [25%, target]
+          - Condition Damage: [25%, target]
       type: Condition
 
 - section: Warrior buffs
@@ -40,8 +40,8 @@
       text: Banner of Strength
       modifiers:
         attributes:
-          Power: [100, buff]
-          Condition Damage: [100, buff]
+          - Power: [100, buff]
+          - Condition Damage: [100, buff]
       type: Skill
       gw2id: 14405
 
@@ -49,8 +49,8 @@
       text: Banner of Discipline
       modifiers:
         attributes:
-          Precision: [100, buff]
-          Ferocity: [100, buff]
+          - Precision: [100, buff]
+          - Ferocity: [100, buff]
       type: Skill
       gw2id: 14407
 
@@ -58,8 +58,8 @@
       text: Banner of Tactics
       modifiers:
         attributes:
-          Healing Power: [100, buff]
-          Boon Duration: 10%
+          - Healing Power: [100, buff]
+          - Boon Duration: 10%
       type: Skill
       gw2id: 14408
 
@@ -67,8 +67,8 @@
       text: Banner of Defense
       modifiers:
         attributes:
-          Toughness: [100, buff]
-          Vitality: [100, buff]
+          - Toughness: [100, buff]
+          - Vitality: [100, buff]
       type: Skill
       gw2id: 14528
 
@@ -76,7 +76,7 @@
       text: Empower Allies
       modifiers:
         attributes:
-          Power: [100, buff]
+          - Power: [100, buff]
       type: Trait
       gw2id: 1482
 
@@ -87,7 +87,7 @@
       text: Spotter
       modifiers:
         attributes:
-          Precision: [100, buff]
+          - Precision: [100, buff]
       type: Trait
       gw2id: 1016
 
@@ -95,7 +95,7 @@
       text: Frost Spirit
       modifiers:
         damage:
-          Strike Damage: [5%, add]
+          - Strike Damage: [5%, add]
       type: Skill
       gw2id: 12497
 
@@ -103,7 +103,7 @@
       text: Pinpoint Distribution
       modifiers:
         attributes:
-          Condition Damage: [100, buff]
+          - Condition Damage: [100, buff]
       type: Trait
       gw2id: 1984
 
@@ -111,7 +111,7 @@
       text: Strength in Numbers
       modifiers:
         attributes:
-          Toughness: [100, buff]
+          - Toughness: [100, buff]
       type: Trait
       gw2id: 584
 
@@ -122,7 +122,7 @@
       text: Bane Signet
       modifiers:
         attributes:
-          Power: [216, buff]
+          - Power: [216, buff]
       type: Skill
       gw2id: 9093
 
@@ -130,7 +130,7 @@
       text: Signet of Judgement
       modifiers:
         damage:
-          Damage Reduction: [12%, unknown]
+          - Damage Reduction: [12%, unknown]
       type: Skill
       gw2id: 9150
 
@@ -138,7 +138,7 @@
       text: Signet of Mercy
       modifiers:
         attributes:
-          Boon Duration: 10%
+          - Boon Duration: 10%
       type: Skill
       gw2id: 9163
 
@@ -146,7 +146,7 @@
       text: Signet of Wrath
       modifiers:
         attributes:
-          Condition Damage: [216, buff]
+          - Condition Damage: [216, buff]
       type: Skill
       gw2id: 9151
 
@@ -157,7 +157,7 @@
       text: Assassin's Presence
       modifiers:
         attributes:
-          Ferocity: [150, buff]
+          - Ferocity: [150, buff]
       type: Trait
       gw2id: 1786
 
@@ -165,7 +165,7 @@
       text: Facet of Nature—Dragon
       modifiers:
         attributes:
-          Boon Duration: 20%
+          - Boon Duration: 20%
       type: Skill
       gw2id: 29371
 
@@ -173,7 +173,7 @@
       text: Rite of the Great Dwarf
       modifiers:
         damage:
-          Damage Reduction: [50%, unknown]
+          - Damage Reduction: [50%, unknown]
       type: Skill
       gw2id: 27975
 
@@ -185,8 +185,8 @@
       subText: (100% uptime)
       modifiers:
         damage:
-          Strike Damage: [30%, target]
-          Condition Damage: [100%, target]
+          - Strike Damage: [30%, target]
+          - Condition Damage: [100%, target]
       type: CommonEffect
 
     - id: lightArmor
@@ -194,5 +194,5 @@
       subText: 1910 vs 2597
       modifiers:
         damage:
-          Strike Damage: [35.9686%, mult]
+          - Strike Damage: [35.9686%, mult]
       type: Text

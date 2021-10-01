@@ -5,7 +5,7 @@
       text: Signet of Spite
       modifiers:
         attributes:
-          Power: [180, buff]
+          - Power: [180, buff]
       type: skills
       gw2id: 10622
 
@@ -17,7 +17,7 @@
       text: Spiteful Talisman
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
       type: traits
       gw2id: 914
 
@@ -26,8 +26,8 @@
       subText: 25 might
       modifiers:
         attributes:
-          Power: [250, buff]
-          Condition Damage: [-250, buff]
+          - Power: [250, buff]
+          - Condition Damage: [-250, buff]
       type: traits
       gw2id: 829
 
@@ -36,7 +36,7 @@
       subText: 50%
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
       type: traits
       gw2id: 853
 
@@ -49,7 +49,7 @@
       minor: true
       modifiers:
         attributes:
-          Bleeding Duration: 20%
+          - Bleeding Duration: 20%
       type: traits
       gw2id: 802
 
@@ -58,7 +58,7 @@
       minor: true
       modifiers:
         attributes:
-          Precision: [180, converted]
+          - Precision: [180, converted]
       type: traits
       gw2id: 803
 
@@ -68,9 +68,9 @@
       minor: true
       modifiers:
         attributes:
-          Critical Chance: 20%
+          - Critical Chance: 20%
         conversion:
-          Condition Damage: {Precision: 13%}
+          - Condition Damage: {Precision: 13%}
       type: traits
       gw2id: 810
 
@@ -79,7 +79,7 @@
       subText: base only
       modifiers:
         attributes:
-          Condition Damage: [200, buff]
+          - Condition Damage: [200, buff]
       type: traits
       gw2id: 801
 
@@ -93,7 +93,7 @@
       minor: true
       modifiers:
         attributes:
-          Toughness: [120, buff]
+          - Toughness: [120, buff]
       type: traits
       gw2id: null
 
@@ -101,7 +101,7 @@
       text: Putrid Defense
       modifiers:
         attributes:
-          Poison Damage: 15%
+          - Poison Damage: 15%
       type: traits
       gw2id: 857
 
@@ -110,7 +110,7 @@
       subText: 6x carapace
       modifiers:
         attributes:
-          Power: [60, buff]
+          - Power: [60, buff]
       type: traits
       gw2id: 855
 
@@ -119,7 +119,7 @@
       subText: 25x carapace
       modifiers:
         attributes:
-          Power: [250, buff]
+          - Power: [250, buff]
       type: traits
       gw2id: 855
 
@@ -132,8 +132,8 @@
       subText: 100%
       modifiers:
         damage:
-          Strike Damage: [10%, add]
-          Condition Damage: [10%, add]
+          - Strike Damage: [10%, add]
+          - Condition Damage: [10%, add]
       type: traits
       gw2id: 894
 
@@ -141,7 +141,7 @@
       text: Vital Persistence
       modifiers:
         attributes:
-          Vitality: [180, converted]
+          - Vitality: [180, converted]
       type: traits
       gw2id: 861
 
@@ -150,8 +150,8 @@
       subText: 'INACCURATE: 100% in shroud'
       modifiers:
         attributes:
-          Critical Chance: 33%
-          Ferocity: [300, buff]
+          - Critical Chance: 33%
+          - Ferocity: [300, buff]
       type: traits
       gw2id: 893
 
@@ -163,7 +163,7 @@
       text: Fell Beacon
       modifiers:
         conversion:
-          Expertise: {Condition Damage: 7%}
+          - Expertise: {Condition Damage: 7%}
       type: traits
       gw2id: 2074
 
@@ -173,8 +173,8 @@
       minor: true
       modifiers:
         attributes:
-          Concentration: [150, converted]
-          Expertise: [150, converted]
+          - Concentration: [150, converted]
+          - Expertise: [150, converted]
       type: traits
       gw2id: 2121
 
@@ -184,8 +184,8 @@
       minor: true
       modifiers:
         attributes:
-          Concentration: [225, converted]
-          Expertise: [225, converted]
+          - Concentration: [225, converted]
+          - Expertise: [225, converted]
       type: traits
       gw2id: 2121
 
@@ -194,7 +194,7 @@
       subText: Torment only
       modifiers:
         attributes:
-          Torment Damage: 25%
+          - Torment Damage: 25%
       type: traits
       gw2id: 2164
 
@@ -206,7 +206,7 @@
       text: Soul Eater
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
       type: traits
       gw2id: 1969
 
@@ -215,7 +215,7 @@
       subText: 25x
       modifiers:
         attributes:
-          Critical Chance: 50%
+          - Critical Chance: 50%
       type: traits
       gw2id: 2031
 
@@ -225,7 +225,7 @@
       minor: true
       modifiers:
         damage:
-          Strike Damage: [15%, mult]
+          - Strike Damage: [15%, mult]
       type: traits
       gw2id: 2018
 
@@ -234,6 +234,6 @@
       subText: 'INACCURATE: 100% in shroud'
       modifiers:
         attributes:
-          Ferocity: [300, buff]
+          - Ferocity: [300, buff]
       type: traits
       gw2id: 2021

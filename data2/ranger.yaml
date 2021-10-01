@@ -5,7 +5,7 @@
       text: Signet of Stone
       modifiers:
         attributes:
-          Toughness: [180, buff]
+          - Toughness: [180, buff]
       type: skills
       gw2id: 12500
 
@@ -13,7 +13,7 @@
       text: Signet of the Wild
       modifiers:
         attributes:
-          Ferocity: [180, buff]
+          - Ferocity: [180, buff]
       type: skills
       gw2id: 12491
 
@@ -26,7 +26,7 @@
       subText: Melee
       modifiers:
         damage:
-          Strike Damage: [5%, mult]
+          - Strike Damage: [5%, mult]
       type: traits
       gw2id: 1000
 
@@ -35,7 +35,7 @@
       subText: Ranged
       modifiers:
         damage:
-          Strike Damage: [15%, mult]
+          - Strike Damage: [15%, mult]
       type: traits
       gw2id: 1000
 
@@ -44,7 +44,7 @@
       subText: 100% uptime
       modifiers:
         damage:
-          Strike Damage: [15%, mult]
+          - Strike Damage: [15%, mult]
       type: traits
       gw2id: 996
 
@@ -56,7 +56,7 @@
       text: Hidden Barbs
       modifiers:
         attributes:
-          Bleeding Damage: 33%
+          - Bleeding Damage: 33%
       type: traits
       gw2id: 1846
 
@@ -64,9 +64,9 @@
       text: Hunter's Tactics
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
         attributes:
-          Critical Chance: 10%
+          - Critical Chance: 10%
       minor: true
       type: traits
       gw2id: 1068
@@ -76,9 +76,9 @@
       subText: 100% uptime
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
         attributes:
-          Condition Duration: 10%
+          - Condition Duration: 10%
       type: traits
       gw2id: 1912
 
@@ -86,8 +86,8 @@
       text: Vicious Quarry
       modifiers:
         attributes:
-          Ferocity: [250, buff]
-          Critical Chance: 10%
+          - Ferocity: [250, buff]
+          - Critical Chance: 10%
       type: traits
       gw2id: 1888
 
@@ -99,7 +99,7 @@
       text: Oakheart Salve
       modifiers:
         damage:
-          Damage Reduction: [5%, unknown]
+          - Damage Reduction: [5%, unknown]
       type: traits
       gw2id: 1086
 
@@ -107,9 +107,9 @@
       text: Taste for Danger
       modifiers:
         attributes:
-          Vitality: [120, buff]
+          - Vitality: [120, buff]
         conversion:
-          Expertise: {Vitality: 7%}
+          - Expertise: {Vitality: 7%}
       type: traits
       gw2id: 1099
 
@@ -118,7 +118,7 @@
       subText: base
       modifiers:
         attributes:
-          Condition Damage: [120, buff]
+          - Condition Damage: [120, buff]
       type: traits
       gw2id: 1101
 
@@ -127,7 +127,7 @@
       subText: with torch/dagger - check both boxes
       modifiers:
         attributes:
-          Condition Damage: [120, buff]
+          - Condition Damage: [120, buff]
       type: traits
       gw2id: 1101
 
@@ -135,7 +135,7 @@
       text: Poison Master
       modifiers:
         attributes:
-          Poison Damage: 25%
+          - Poison Damage: 25%
       type: traits
       gw2id: 1701
 
@@ -148,7 +148,7 @@
       subText: 6x
       modifiers:
         damage:
-          Strike Damage: [6%, mult]
+          - Strike Damage: [6%, mult]
       type: traits
       gw2id: 1062
 
@@ -157,7 +157,7 @@
       subText: 9x
       modifiers:
         damage:
-          Strike Damage: [9%, mult]
+          - Strike Damage: [9%, mult]
       type: traits
       gw2id: 1062
 
@@ -165,7 +165,7 @@
       text: Instinctive Reaction
       modifiers:
         conversion:
-          Healing Power: {Power: 7%}
+          - Healing Power: {Power: 7%}
       type: traits
       gw2id: 978
 
@@ -173,7 +173,7 @@
       text: Lingering Magic
       modifiers:
         attributes:
-          Concentration: [240, buff]
+          - Concentration: [240, buff]
       minor: true
       type: traits
       gw2id: 1059
@@ -187,7 +187,7 @@
       subText: base
       modifiers:
         attributes:
-          Ferocity: [120, buff]
+          - Ferocity: [120, buff]
       type: traits
       gw2id: 1066
 
@@ -196,7 +196,7 @@
       subText: with axe 50% - also check base
       modifiers:
         attributes:
-          Ferocity: [60, buff]
+          - Ferocity: [60, buff]
       type: traits
       gw2id: 1066
 
@@ -205,7 +205,7 @@
       subText: with axe 100% - also check base
       modifiers:
         attributes:
-          Ferocity: [120, buff]
+          - Ferocity: [120, buff]
       type: traits
       gw2id: 1066
 
@@ -217,7 +217,7 @@
       text: Natural Mender
       modifiers:
         attributes:
-          Outgoing Healing: 20%
+          - Outgoing Healing: 20%
       minor: true
       type: traits
       gw2id: 1992
@@ -230,7 +230,7 @@
       text: Furious Strength
       modifiers:
         damage:
-          Strike Damage: [15%, add]
+          - Strike Damage: [15%, add]
       minor: true
       type: traits
       gw2id: 2156
@@ -239,8 +239,8 @@
       text: Twice as Vicious
       modifiers:
         damage:
-          Strike Damage: [10%, add]
-          Condition Damage: [10%, add]
+          - Strike Damage: [10%, add]
+          - Condition Damage: [10%, add]
       minor: true
       type: traits
       gw2id: 2127
@@ -249,9 +249,9 @@
       text: Oppressive Superiority
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
         attributes:
-          Condition Duration: 10%
+          - Condition Duration: 10%
       type: traits
       gw2id: 2143
 
@@ -259,8 +259,8 @@
       subText: Archetype Stout (Tough/Vit)
       modifiers:
         attributes:
-          Toughness: [200, buff]
-          Vitality: [100, buff]
+          - Toughness: [200, buff]
+          - Vitality: [100, buff]
       minor: true
       type: typography
 
@@ -268,8 +268,8 @@
       subText: Archetype Deadly (ConDmg/Prec)
       modifiers:
         attributes:
-          Condition Damage: [150, buff]
-          Precision: [100, buff]
+          - Condition Damage: [150, buff]
+          - Precision: [100, buff]
       minor: true
       type: typography
 
@@ -277,8 +277,8 @@
       subText: Archetype Versatile (Vit/Conc)
       modifiers:
         attributes:
-          Vitality: [200, buff]
-          Concentration: [225, buff]
+          - Vitality: [200, buff]
+          - Concentration: [225, buff]
       minor: true
       type: typography
 
@@ -286,8 +286,8 @@
       subText: Archetype Ferocious (Pwr/Feroc)
       modifiers:
         attributes:
-          Power: [150, buff]
-          Ferocity: [100, buff]
+          - Power: [150, buff]
+          - Ferocity: [100, buff]
       minor: true
       type: typography
 
@@ -295,8 +295,8 @@
       subText: Archetype Supportive (Vit/Heal)
       modifiers:
         attributes:
-          Vitality: [100, buff]
-          Outgoing Healing: 25%
+          - Vitality: [100, buff]
+          - Outgoing Healing: 25%
       minor: true
       type: typography
 
@@ -304,11 +304,11 @@
       subText: merged
       modifiers:
         attributes:
-          Power: [150, buff]
-          Precision: [150, buff]
-          Condition Damage: [150, buff]
-          Toughness: [150, buff]
-          Vitality: [150, buff]
+          - Power: [150, buff]
+          - Precision: [150, buff]
+          - Condition Damage: [150, buff]
+          - Toughness: [150, buff]
+          - Vitality: [150, buff]
       minor: true
       type: traits
       gw2id: 1900
@@ -317,7 +317,7 @@
       subText: merged
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
       minor: true
       type: traits
       gw2id: 974
@@ -326,7 +326,7 @@
       subText: merged
       modifiers:
         attributes:
-          Ferocity: [300, buff]
+          - Ferocity: [300, buff]
       minor: true
       type: traits
       gw2id: 1065
@@ -335,7 +335,7 @@
       subText: merged, base
       modifiers:
         attributes:
-          Ferocity: [120, buff]
+          - Ferocity: [120, buff]
       minor: true
       type: traits
       gw2id: 1066

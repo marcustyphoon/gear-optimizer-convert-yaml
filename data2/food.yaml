@@ -5,8 +5,8 @@
       text: Bowl of Sweet and Spicy Butternut Squash Soup / Sous-Vide Steak
       modifiers:
         attributes:
-          Power: [100, converted]
-          Ferocity: [70, converted]
+          - Power: [100, converted]
+          - Ferocity: [70, converted]
       type: items
       gw2id: 41569
 
@@ -14,8 +14,8 @@
       text: Plate of Truffle Steak / Coq Au Vin
       modifiers:
         attributes:
-          Power: [100, converted]
-          Precision: [70, converted]
+          - Power: [100, converted]
+          - Precision: [70, converted]
       type: items
       gw2id: 12467
 
@@ -23,8 +23,8 @@
       text: Bowl of Curry Butternut Squash Soup
       modifiers:
         attributes:
-          Precision: [100, converted]
-          Ferocity: [70, converted]
+          - Precision: [100, converted]
+          - Ferocity: [70, converted]
       type: items
       gw2id: 12486
 
@@ -33,8 +33,8 @@
       subText: (100% uptime)
       modifiers:
         attributes:
-          Power: [200, converted]
-          Ferocity: [70, converted]
+          - Power: [200, converted]
+          - Ferocity: [70, converted]
       type: items
       gw2id: 43360
 
@@ -43,7 +43,7 @@
       subText: (90% uptime)
       modifiers:
         damage:
-          Strike Damage: [4.5%, mult]
+          - Strike Damage: [4.5%, mult]
       type: items
       gw2id: 12471
 
@@ -51,7 +51,7 @@
       text: Plate of Jerk Poultry
       modifiers:
         attributes:
-          Power: [150, converted]
+          - Power: [150, converted]
       type: items
       gw2id: 71797
 
@@ -59,7 +59,7 @@
       text: Bowl of Sawgill Mushroom Risotto
       modifiers:
         attributes:
-          Precision: [150, converted]
+          - Precision: [150, converted]
       type: items
       gw2id: 75010
 
@@ -67,7 +67,7 @@
       text: Plate of Roasted Cactus
       modifiers:
         attributes:
-          Ferocity: [100, converted]
+          - Ferocity: [100, converted]
       type: items
       gw2id: 66536
 
@@ -75,7 +75,7 @@
       text: Fried Golden Dumpling / Cheesecake
       modifiers:
         attributes:
-          Concentration: [100, converted]
+          - Concentration: [100, converted]
       type: items
       gw2id: 68633
 
@@ -86,8 +86,8 @@
       text: Soul Pastry / Beef Carpaccio
       modifiers:
         attributes:
-          Concentration: [100, converted]
-          Power: [70, converted]
+          - Concentration: [100, converted]
+          - Power: [70, converted]
       type: items
       gw2id: 89002
 
@@ -95,8 +95,8 @@
       text: Plate of Eggs Benedict
       modifiers:
         attributes:
-          Concentration: [100, converted]
-          Expertise: [70, converted]
+          - Concentration: [100, converted]
+          - Expertise: [70, converted]
       type: items
       gw2id: 91842
 
@@ -104,8 +104,8 @@
       text: Bowl of Nopalitos Sauté / Poultry Aspic
       modifiers:
         attributes:
-          Concentration: [100, converted]
-          Toughness: [70, converted]
+          - Concentration: [100, converted]
+          - Toughness: [70, converted]
       type: items
       gw2id: 66530
 
@@ -113,9 +113,9 @@
       text: Plate of Mussels Gnashblade
       modifiers:
         damage:
-          Damage Reduction: [10%, unknown]
+          - Damage Reduction: [10%, unknown]
         attributes:
-          Concentration: [70, converted]
+          - Concentration: [70, converted]
       type: items
       gw2id: 74969
 
@@ -126,9 +126,9 @@
       text: Bowl of Fruit Salad with Mint Garnish
       modifiers:
         attributes:
-          Healing Power: [100, converted]
-          Concentration: [70, converted]
-          Outgoing Healing: 10%
+          - Healing Power: [100, converted]
+          - Concentration: [70, converted]
+          - Outgoing Healing: 10%
       type: items
       gw2id: 91690
 
@@ -136,9 +136,9 @@
       text: Mint Creme Brulee
       modifiers:
         attributes:
-          Concentration: [100, converted]
-          Healing Power: [70, converted]
-          Outgoing Healing: 10%
+          - Concentration: [100, converted]
+          - Healing Power: [70, converted]
+          - Outgoing Healing: 10%
       type: items
       gw2id: 91743
 
@@ -146,8 +146,8 @@
       text: Delicious Rice Ball
       modifiers:
         attributes:
-          Healing Power: [100, converted]
-          Outgoing Healing: 10%
+          - Healing Power: [100, converted]
+          - Outgoing Healing: 10%
       type: items
       gw2id: 68634
 
@@ -155,8 +155,8 @@
       text: Bowl of Poultry Satay
       modifiers:
         attributes:
-          Healing Power: [100, converted]
-          Concentration: [70, converted]
+          - Healing Power: [100, converted]
+          - Concentration: [70, converted]
       type: items
       gw2id: 87076
 
@@ -167,8 +167,8 @@
       text: Rare Veggie Pizza / Veggie flatbread
       modifiers:
         attributes:
-          Expertise: [100, converted]
-          Condition Damage: [70, converted]
+          - Expertise: [100, converted]
+          - Condition Damage: [70, converted]
       type: items
       gw2id: 12464
 
@@ -176,8 +176,8 @@
       text: Plate of Beef Rendang / Cured Meat flatbread
       modifiers:
         attributes:
-          Condition Damage: [100, converted]
-          Expertise: [70, converted]
+          - Condition Damage: [100, converted]
+          - Expertise: [70, converted]
       type: items
       gw2id: 86997
 
@@ -186,8 +186,8 @@
       subText: (100% uptime)
       modifiers:
         attributes:
-          Precision: [70, converted]
-          Condition Damage: [200, converted]
+          - Precision: [70, converted]
+          - Condition Damage: [200, converted]
       type: items
       gw2id: 12476
 
@@ -196,8 +196,8 @@
       subText: (100% uptime)
       modifiers:
         attributes:
-          Power: [200, converted]
-          Condition Damage: [140, converted]
+          - Power: [200, converted]
+          - Condition Damage: [140, converted]
       type: items
       gw2id: 68635
 
@@ -205,8 +205,8 @@
       text: Bowl of Fire Meat Chili
       modifiers:
         attributes:
-          Burning Duration: 15%
-          Precision: [70, converted]
+          - Burning Duration: 15%
+          - Precision: [70, converted]
       type: items
       gw2id: 12484
 
@@ -214,8 +214,8 @@
       text: Fancy Truffle Burger
       modifiers:
         attributes:
-          Poison Duration: 15%
-          Precision: [70, converted]
+          - Poison Duration: 15%
+          - Precision: [70, converted]
       type: items
       gw2id: 12463
 
@@ -223,8 +223,8 @@
       text: Bowl of Truffle Risotto
       modifiers:
         attributes:
-          Condition Damage: [100, converted]
-          Precision: [70, converted]
+          - Condition Damage: [100, converted]
+          - Precision: [70, converted]
       type: items
       gw2id: 12465
 
@@ -232,8 +232,8 @@
       text: Bowl of Sweet and Spicy Beans
       modifiers:
         attributes:
-          Expertise: [100, converted]
-          Power: [70, converted]
+          - Expertise: [100, converted]
+          - Power: [70, converted]
       type: items
       gw2id: 66528
 
@@ -241,8 +241,8 @@
       text: Plate of Fire Flank Steak
       modifiers:
         attributes:
-          Power: [100, converted]
-          Condition Damage: [70, converted]
+          - Power: [100, converted]
+          - Condition Damage: [70, converted]
       type: items
       gw2id: 12466
 
@@ -250,8 +250,8 @@
       text: Bowl of Fancy Potato and Leek Soup
       modifiers:
         attributes:
-          Precision: [100, converted]
-          Condition Damage: [70, converted]
+          - Precision: [100, converted]
+          - Condition Damage: [70, converted]
       type: items
       gw2id: 12485
 
@@ -259,7 +259,7 @@
       text: Prickly Pear Pie
       modifiers:
         attributes:
-          Expertise: [100, converted]
+          - Expertise: [100, converted]
       type: items
       gw2id: 66538
 
@@ -270,15 +270,15 @@
       text: Dragon's Revelry Starcake / Oyster Soup
       modifiers:
         attributes:
-          Power: [45, converted]
-          Precision: [45, converted]
-          Toughness: [45, converted]
-          Vitality: [45, converted]
-          Concentration: [45, converted]
-          Condition Damage: [45, converted]
-          Expertise: [45, converted]
-          Ferocity: [45, converted]
-          Healing Power: [45, converted]
+          - Power: [45, converted]
+          - Precision: [45, converted]
+          - Toughness: [45, converted]
+          - Vitality: [45, converted]
+          - Concentration: [45, converted]
+          - Condition Damage: [45, converted]
+          - Expertise: [45, converted]
+          - Ferocity: [45, converted]
+          - Healing Power: [45, converted]
       type: items
       gw2id: 43550
 
@@ -286,15 +286,15 @@
       text: Birthday Blaster
       modifiers:
         attributes:
-          Power: [40, converted]
-          Precision: [40, converted]
-          Toughness: [40, converted]
-          Vitality: [40, converted]
-          Concentration: [40, converted]
-          Condition Damage: [40, converted]
-          Expertise: [40, converted]
-          Ferocity: [40, converted]
-          Healing Power: [40, converted]
+          - Power: [40, converted]
+          - Precision: [40, converted]
+          - Toughness: [40, converted]
+          - Vitality: [40, converted]
+          - Concentration: [40, converted]
+          - Condition Damage: [40, converted]
+          - Expertise: [40, converted]
+          - Ferocity: [40, converted]
+          - Healing Power: [40, converted]
       type: items
       gw2id: 66961
 
@@ -302,8 +302,8 @@
       text: Bowl of Passion Fruit Tapioca Pudding
       modifiers:
         attributes:
-          Power: [100, converted]
-          Healing Power: [70, converted]
+          - Power: [100, converted]
+          - Healing Power: [70, converted]
       type: items
       gw2id: 71826
 
@@ -311,8 +311,8 @@
       text: Bowl of Prickly Pear Tapioca Pudding
       modifiers:
         attributes:
-          Condition Damage: [100, converted]
-          Healing Power: [70, converted]
+          - Condition Damage: [100, converted]
+          - Healing Power: [70, converted]
       type: items
       gw2id: 76135
 
@@ -320,8 +320,8 @@
       text: Bowl of Tropical Fruit Salad
       modifiers:
         attributes:
-          Condition Damage: [70, converted]
-          Healing Power: [100, converted]
+          - Condition Damage: [70, converted]
+          - Healing Power: [100, converted]
       type: items
       gw2id: 36793
 
@@ -329,8 +329,8 @@
       text: Spicy Chocolate Cookie
       modifiers:
         attributes:
-          Healing Power: [100, converted]
-          Precision: [70, converted]
+          - Healing Power: [100, converted]
+          - Precision: [70, converted]
       type: items
       gw2id: 12454
 
@@ -341,8 +341,8 @@
       text: Spicy Marinated Mushroom
       modifiers:
         attributes:
-          Power: [100, converted]
-          Toughness: [70, converted]
+          - Power: [100, converted]
+          - Toughness: [70, converted]
       type: items
       gw2id: 41563
 
@@ -350,8 +350,8 @@
       text: Plate of Spicy Herbed Chicken
       modifiers:
         attributes:
-          Power: [70, converted]
-          Toughness: [100, converted]
+          - Power: [70, converted]
+          - Toughness: [100, converted]
       type: items
       gw2id: 41567
 
@@ -359,8 +359,8 @@
       text: Bowl of Truffle Ravioli
       modifiers:
         attributes:
-          Precision: [70, converted]
-          Toughness: [100, converted]
+          - Precision: [70, converted]
+          - Toughness: [100, converted]
       type: items
       gw2id: 12461
 
@@ -368,8 +368,8 @@
       text: Loaf of Omnomberry Bread / Ravioli
       modifiers:
         attributes:
-          Vitality: [100, converted]
-          Toughness: [70, converted]
+          - Vitality: [100, converted]
+          - Toughness: [70, converted]
       type: items
       gw2id: 12473
 
@@ -377,8 +377,8 @@
       text: Kralkachocolate Bar
       modifiers:
         attributes:
-          Healing Power: [100, converted]
-          Toughness: [70, converted]
+          - Healing Power: [100, converted]
+          - Toughness: [70, converted]
       type: items
       gw2id: 43358
 
@@ -386,8 +386,8 @@
       text: Bowl of Chocolate Tapioca Pudding
       modifiers:
         attributes:
-          Healing Power: [70, converted]
-          Toughness: [100, converted]
+          - Healing Power: [70, converted]
+          - Toughness: [100, converted]
       type: items
       gw2id: 76415
 
@@ -395,8 +395,8 @@
       text: Bowl of Tropical Mousse
       modifiers:
         attributes:
-          Condition Damage: [70, converted]
-          Toughness: [100, converted]
+          - Condition Damage: [70, converted]
+          - Toughness: [100, converted]
       type: items
       gw2id: 36841
 
@@ -404,7 +404,7 @@
       text: Bowl of "Elon Red"
       modifiers:
         attributes:
-          Expertise: [100, converted]
-          Toughness: [70, converted]
+          - Expertise: [100, converted]
+          - Toughness: [70, converted]
       type: items
       gw2id: 82541

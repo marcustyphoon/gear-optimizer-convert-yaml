@@ -5,8 +5,8 @@
       text: Slaying Potion
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
-          Damage Reduction: [10%, unknown]
+          - Strike Damage: [10%, mult]
+          - Damage Reduction: [10%, unknown]
       type: items
       gw2id: 50082
 
@@ -14,8 +14,8 @@
       text: Furious Sharpening Stone
       modifiers:
         conversion:
-          Power: {Precision: 3%}
-          Ferocity: {Precision: 3%}
+          - Power: {Precision: 3%}
+          - Ferocity: {Precision: 3%}
       type: items
       gw2id: 67530
 
@@ -23,7 +23,7 @@
       text: Superior Sharpening Stone
       modifiers:
         conversion:
-          Power: {Precision: 3%, Ferocity: 6%}
+          - Power: {Precision: 3%, Ferocity: 6%}
       type: items
       gw2id: 9443
 
@@ -31,7 +31,7 @@
       text: Toxic Sharpening Stone
       modifiers:
         conversion:
-          Power: {Condition Damage: 6%, Expertise: 8%}
+          - Power: {Condition Damage: 6%, Expertise: 8%}
       type: items
       gw2id: 48915
 
@@ -39,7 +39,7 @@
       text: Magnanimous Sharpening Stone
       modifiers:
         conversion:
-          Power: {Vitality: 3%, Toughness: 3%}
+          - Power: {Vitality: 3%, Toughness: 3%}
       type: items
       gw2id: 81034
 
@@ -47,7 +47,7 @@
       text: Bountiful Sharpening Stone
       modifiers:
         conversion:
-          Power: {Healing Power: 6%, Concentration: 8%}
+          - Power: {Healing Power: 6%, Concentration: 8%}
       type: items
       gw2id: 67531
 
@@ -58,7 +58,7 @@
       text: Potent Lucent Oil
       modifiers:
         conversion:
-          Concentration: {Power: 3%, Precision: 3%}
+          - Concentration: {Power: 3%, Precision: 3%}
       type: items
       gw2id: 89203
 
@@ -66,7 +66,7 @@
       text: Toxic Maintenance Oil
       modifiers:
         conversion:
-          Concentration: {Power: 3%, Condition Damage: 6%}
+          - Concentration: {Power: 3%, Condition Damage: 6%}
       type: items
       gw2id: 48916
 
@@ -74,7 +74,7 @@
       text: Enhanced Lucent Oil
       modifiers:
         conversion:
-          Concentration: {Precision: 3%, Condition Damage: 6%}
+          - Concentration: {Precision: 3%, Condition Damage: 6%}
       type: items
       gw2id: 89157
 
@@ -82,8 +82,8 @@
       text: Furious Maintenance Oil
       modifiers:
         conversion:
-          Concentration: {Precision: 3%}
-          Healing Power: {Precision: 3%}
+          - Concentration: {Precision: 3%}
+          - Healing Power: {Precision: 3%}
       type: items
       gw2id: 67529
 
@@ -91,7 +91,7 @@
       text: Magnanimous Maintenance Oil
       modifiers:
         conversion:
-          Concentration: {Vitality: 3%, Toughness: 3%}
+          - Concentration: {Vitality: 3%, Toughness: 3%}
       type: items
       gw2id: 81157
 
@@ -99,7 +99,7 @@
       text: Master Maintenance Oil
       modifiers:
         conversion:
-          Concentration: {Precision: 3%, Healing Power: 6%}
+          - Concentration: {Precision: 3%, Healing Power: 6%}
       type: items
       gw2id: 9461
 
@@ -107,8 +107,8 @@
       text: Corsair Maintenance Oil
       modifiers:
         conversion:
-          Concentration: {Toughness: 3%}
-          Expertise: {Toughness: 3%}
+          - Concentration: {Toughness: 3%}
+          - Expertise: {Toughness: 3%}
       type: items
       gw2id: 86016
 
@@ -119,7 +119,7 @@
       text: Bountiful Maintenance Oil
       modifiers:
         conversion:
-          Outgoing Healing: {Healing Power: 0.006%, Concentration: 0.008%}
+          - Outgoing Healing: {Healing Power: 0.006%, Concentration: 0.008%}
       type: items
       gw2id: 67528
 
@@ -130,7 +130,7 @@
       text: Toxic Focusing Crystal
       modifiers:
         conversion:
-          Condition Damage: {Power: 3%, Precision: 3%}
+          - Condition Damage: {Power: 3%, Precision: 3%}
       type: items
       gw2id: 48917
 
@@ -138,8 +138,8 @@
       text: Furious Tuning Crystal
       modifiers:
         conversion:
-          Condition Damage: {Precision: 3%}
-          Expertise: {Precision: 3%}
+          - Condition Damage: {Precision: 3%}
+          - Expertise: {Precision: 3%}
       type: items
       gw2id: 67524
 
@@ -147,7 +147,7 @@
       text: Master Tuning Crystal
       modifiers:
         conversion:
-          Condition Damage: {Precision: 3%, Expertise: 8%}
+          - Condition Damage: {Precision: 3%, Expertise: 8%}
       type: items
       gw2id: 9476
 
@@ -155,7 +155,7 @@
       text: Magnanimous Tuning Crystal
       modifiers:
         conversion:
-          Condition Damage: {Vitality: 3%, Toughness: 3%}
+          - Condition Damage: {Vitality: 3%, Toughness: 3%}
       type: items
       gw2id: 81079
 
@@ -163,7 +163,7 @@
       text: Bountiful Tuning Crystal
       modifiers:
         conversion:
-          Condition Damage: {Healing Power: 6%, Concentration: 8%}
+          - Condition Damage: {Healing Power: 6%, Concentration: 8%}
       type: items
       gw2id: 67522
 
@@ -174,8 +174,8 @@
       text: Holographic Super Apple
       modifiers:
         conversion:
-          Condition Damage: {Concentration: 8%}
-          Concentration: {Precision: 3%}
+          - Condition Damage: {Concentration: 8%}
+          - Concentration: {Precision: 3%}
       type: items
       gw2id: 87336
 
@@ -183,8 +183,8 @@
       text: Holographic Super Drumstick
       modifiers:
         conversion:
-          Healing Power: {Concentration: 8%}
-          Concentration: {Precision: 3%}
+          - Healing Power: {Concentration: 8%}
+          - Concentration: {Precision: 3%}
       type: items
       gw2id: 87329
 
@@ -192,8 +192,8 @@
       text: Holographic Super Cheese
       modifiers:
         conversion:
-          Power: {Concentration: 8%}
-          Concentration: {Precision: 3%}
+          - Power: {Concentration: 8%}
+          - Concentration: {Precision: 3%}
       type: items
       gw2id: 87358
 
@@ -204,7 +204,7 @@
       text: Writ of Masterful Accuracy
       modifiers:
         attributes:
-          Precision: [200, converted]
+          - Precision: [200, converted]
       type: items
       gw2id: 76833
 
@@ -212,7 +212,7 @@
       text: Writ of Masterful Malice
       modifiers:
         attributes:
-          Condition Damage: [200, converted]
+          - Condition Damage: [200, converted]
       type: items
       gw2id: 72510
 
@@ -220,7 +220,7 @@
       text: Writ of Masterful Strength
       modifiers:
         attributes:
-          Power: [200, converted]
+          - Power: [200, converted]
       type: items
       gw2id: 73191
 
@@ -231,6 +231,6 @@
       text: Potion Of Karka Toughness
       modifiers:
         attributes:
-          Toughness: [150, converted]
+          - Toughness: [150, converted]
       type: items
       gw2id: 42428

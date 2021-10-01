@@ -9,7 +9,7 @@
       text: Glass Cannon
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
       type: traits
       gw2id: 1882
 
@@ -18,7 +18,7 @@
       subText: 10x
       modifiers:
         attributes:
-          Ferocity: [200, buff]
+          - Ferocity: [200, buff]
       type: traits
       gw2id: 1892
 
@@ -26,7 +26,7 @@
       text: Blast Shield
       modifiers:
         conversion:
-          Vitality: {Power: 10%}
+          - Vitality: {Power: 10%}
       type: traits
       gw2id: 1944
 
@@ -35,7 +35,7 @@
       minor: true
       modifiers:
         damage:
-          Strike Damage: [12.5%, mult]
+          - Strike Damage: [12.5%, mult]
       type: traits
       gw2id: 429
 
@@ -44,7 +44,7 @@
       subText: 100%
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
       type: traits
       gw2id: 1947
 
@@ -56,7 +56,7 @@
       text: Chemical Rounds
       modifiers:
         attributes:
-          Condition Damage: [120, buff]
+          - Condition Damage: [120, buff]
       type: traits
       gw2id: 1878
 
@@ -64,7 +64,7 @@
       text: High Caliber
       modifiers:
         attributes:
-          Critical Chance: 15%
+          - Critical Chance: 15%
       type: traits
       gw2id: 1914
 
@@ -72,7 +72,7 @@
       text: Hematic Focus
       modifiers:
         attributes:
-          Critical Chance: 10%
+          - Critical Chance: 10%
       minor: true
       type: traits
       gw2id: 536
@@ -81,9 +81,9 @@
       text: Thermal Vision
       modifiers:
         damage:
-          Condition Damage: [5%, add]
+          - Condition Damage: [5%, add]
         attributes:
-          Expertise: [150, converted]
+          - Expertise: [150, converted]
       type: traits
       gw2id: 2006
 
@@ -91,7 +91,7 @@
       text: No Scope
       modifiers:
         attributes:
-          Ferocity: [150, buff]
+          - Ferocity: [150, buff]
       type: traits
       gw2id: 1923
 
@@ -99,7 +99,7 @@
       text: Serrated Steel
       modifiers:
         attributes:
-          Bleeding Duration: 33%
+          - Bleeding Duration: 33%
       minor: true
       type: traits
       gw2id: 516
@@ -109,7 +109,7 @@
       subText: 10x
       modifiers:
         damage:
-          Strike Damage: [20%, mult]
+          - Strike Damage: [20%, mult]
       type: traits
       gw2id: 526
 
@@ -118,7 +118,7 @@
       subText: 14x
       modifiers:
         damage:
-          Strike Damage: [28%, mult]
+          - Strike Damage: [28%, mult]
       type: traits
       gw2id: 526
 
@@ -126,7 +126,7 @@
       text: Incendiary Powder
       modifiers:
         attributes:
-          Burning Duration: 33%
+          - Burning Duration: 33%
       type: traits
       gw2id: 433
 
@@ -138,7 +138,7 @@
       text: Over Shield
       modifiers:
         damage:
-          Damage Reduction: [6.6%, unknown]
+          - Damage Reduction: [6.6%, unknown]
       type: traits
       gw2id: 394
 
@@ -146,7 +146,7 @@
       text: Energy Amplifier
       modifiers:
         attributes:
-          Healing Power: [120, buff]
+          - Healing Power: [120, buff]
       minor: true
       type: traits
       gw2id: 519
@@ -160,7 +160,7 @@
       subText: in med kit
       modifiers:
         attributes:
-          Outgoing Healing: 20%
+          - Outgoing Healing: 20%
       type: traits
       gw2id: 521
 
@@ -168,7 +168,7 @@
       text: Compounding Chemicals
       modifiers:
         attributes:
-          Concentration: [240, buff]
+          - Concentration: [240, buff]
       minor: true
       type: traits
       gw2id: 413
@@ -181,7 +181,7 @@
       text: Excessive Energy
       modifiers:
         damage:
-          Strike Damage: [10%, add]
+          - Strike Damage: [10%, add]
       minor: true
       type: traits
       gw2id: 1936
@@ -195,7 +195,7 @@
       subText: One
       modifiers:
         damage:
-          Strike Damage: [5%, mult]
+          - Strike Damage: [5%, mult]
       type: traits
       gw2id: 1860
 
@@ -204,7 +204,7 @@
       subText: Two
       modifiers:
         damage:
-          Strike Damage: [10%, mult]
+          - Strike Damage: [10%, mult]
       type: traits
       gw2id: 1860
 
@@ -213,7 +213,7 @@
       subText: Three
       modifiers:
         damage:
-          Strike Damage: [15%, mult]
+          - Strike Damage: [15%, mult]
       type: traits
       gw2id: 1860
 
@@ -221,7 +221,7 @@
       text: Impact Savant
       modifiers:
         attributes:
-          Vitality: [-180, buff]
+          - Vitality: [-180, buff]
       minor: true
       type: traits
       gw2id: 1877
@@ -230,7 +230,7 @@
       text: Kinetic Accelerators
       modifiers:
         conversion:
-          Concentration: {Power: 10%}
+          - Concentration: {Power: 10%}
       type: traits
       gw2id: 2052
 
@@ -239,7 +239,7 @@
       subText: 25 might
       modifiers:
         attributes:
-          Power: [375, buff]
-          Condition Damage: [-375, buff]
+          - Power: [375, buff]
+          - Condition Damage: [-375, buff]
       type: traits
       gw2id: 1849
