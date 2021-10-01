@@ -14,10 +14,10 @@ const multiplierConvertDamage = {
   'add: Effective Power': ['Strike Damage', 'add'],
   'target: Effective Condition Damage': ['Condition Damage', 'target'],
   'target: Effective Power': ['Strike Damage', 'target'],
+  'Critical Damage': ['Critical Damage', 'unknown']
 };
 const multiplierConvertPercent = {
   'Effective Healing': 'Outgoing Healing',
-  'Critical Damage': 'Critical Damage',
   'Burning Damage': 'Burning Damage',
   'Bleeding Damage': 'Bleeding Damage',
   'Poison Damage': 'Poison Damage',
