@@ -87,11 +87,16 @@ const convert = async function () {
                 if (Object.keys(multiplierConvertDamage).includes(attribute)) {
                   const newAttrData = multiplierConvertDamage[attribute];
                   // damage
-                  newModifiers.damage[newAttrData[0]] = [round(value * 100) + '%', newAttrData[1]];
+                  newModifiers.damage[newAttrData[0]] = [
+                    ...(newModifiers.damage[newAttrData[0]] || []),
+                    round(value * 100) + '%',
+                    newAttrData[1],
+                  ];
                 } else {
                   // percent
                   if (value < 1) value *= 100;
                   const newAttr = multiplierConvertPercent[attribute];
+                  if (newModifiers.attributes[newAttr]) throw newModifiers.attributes[newAttr];
                   newModifiers.attributes[newAttr] = round(value) + '%';
                 }
 
@@ -104,10 +109,12 @@ const convert = async function () {
                 if (points.includes(attribute)) {
                   // statpoints
                   const isConv = type === 'buff' ? 'buff' : 'converted';
+                  if (newModifiers.attributes[newAttr]) throw newModifiers.attributes[newAttr];
                   newModifiers.attributes[newAttr] = [value, isConv];
                 } else {
                   // percent
                   if (value < 1) value *= 100;
+                  if (newModifiers.attributes[newAttr]) throw newModifiers.attributes[newAttr];
                   newModifiers.attributes[newAttr] = round(value) + '%';
                 }
                 break;
@@ -118,6 +125,7 @@ const convert = async function () {
                 for (const [source, amount] of sources) {
                   result[source] = round(amount * 100) + '%';
                 }
+                if (newModifiers.conversion[attribute]) throw newModifiers.conversion[attribute];
                 newModifiers.conversion[attribute] = result;
                 break;
               default:
