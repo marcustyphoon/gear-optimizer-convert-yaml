@@ -29,6 +29,7 @@
           Strike Damage: [5%, mult]
       type: traits
       gw2id: 1000
+      defaultEnabled: true
 
     - id: farsighted-2
       text: Farsighted
@@ -38,6 +39,7 @@
           Strike Damage: [15%, mult]
       type: traits
       gw2id: 1000
+      defaultEnabled: true
 
     - id: predators-onslaught
       text: Predator's Onslaught
@@ -47,6 +49,7 @@
           Strike Damage: [15%, mult]
       type: traits
       gw2id: 996
+      defaultEnabled: true
 
 - section: Skirmishing
   id: 30
@@ -59,6 +62,7 @@
           Bleeding Damage: [33%, unknown]
       type: traits
       gw2id: 1846
+      defaultEnabled: true
 
     - id: hunters-tactics
       text: Hunter's Tactics
@@ -70,6 +74,7 @@
       minor: true
       type: traits
       gw2id: 1068
+      defaultEnabled: true
 
     - id: light-on-your-feet
       text: Light on your Feet
@@ -81,6 +86,7 @@
           Condition Duration: 10%
       type: traits
       gw2id: 1912
+      defaultEnabled: true
 
     - id: vicious-quarry
       text: Vicious Quarry
@@ -90,6 +96,7 @@
           Critical Chance: 10%
       type: traits
       gw2id: 1888
+      defaultEnabled: true
 
 - section: Wilderness Survival
   id: 33
@@ -102,6 +109,7 @@
           Damage Reduction: [5%, unknown]
       type: traits
       gw2id: 1086
+      defaultEnabled: true
 
     - id: taste-for-danger
       text: Taste for Danger
@@ -112,6 +120,7 @@
           Expertise: {Vitality: 7%}
       type: traits
       gw2id: 1099
+      defaultEnabled: true
 
     - id: ambidexterity
       text: Ambidexterity
@@ -121,6 +130,7 @@
           Condition Damage: [120, buff]
       type: traits
       gw2id: 1101
+      defaultEnabled: true
 
     - id: ambidexterity-2
       text: Ambidexterity
@@ -130,6 +140,7 @@
           Condition Damage: [120, buff]
       type: traits
       gw2id: 1101
+      defaultEnabled: true
 
     - id: poison-master
       text: Poison Master
@@ -138,6 +149,7 @@
           Poison Damage: [25%, unknown]
       type: traits
       gw2id: 1701
+      defaultEnabled: true
 
 - section: Nature Magic
   id: 25
@@ -151,6 +163,7 @@
           Strike Damage: [6%, mult]
       type: traits
       gw2id: 1062
+      defaultEnabled: true
 
     - id: bountiful-hunter-9
       text: Bountiful Hunter
@@ -160,6 +173,7 @@
           Strike Damage: [9%, mult]
       type: traits
       gw2id: 1062
+      defaultEnabled: true
 
     - id: instinctive-reaction
       text: Instinctive Reaction
@@ -168,6 +182,7 @@
           Healing Power: {Power: 7%}
       type: traits
       gw2id: 978
+      defaultEnabled: true
 
     - id: lingering-magic
       text: Lingering Magic
@@ -177,6 +192,7 @@
       minor: true
       type: traits
       gw2id: 1059
+      defaultEnabled: true
 
 - section: Beastmastery
   id: 32
@@ -190,6 +206,7 @@
           Ferocity: [120, buff]
       type: traits
       gw2id: 1066
+      defaultEnabled: true
 
     - id: honed-axes-2
       text: Honed Axes
@@ -199,6 +216,7 @@
           Ferocity: [60, buff]
       type: traits
       gw2id: 1066
+      defaultEnabled: true
 
     - id: honed-axes-3
       text: Honed Axes
@@ -208,6 +226,7 @@
           Ferocity: [120, buff]
       type: traits
       gw2id: 1066
+      defaultEnabled: true
 
 - section: Druid
   id: 5
@@ -221,6 +240,7 @@
       minor: true
       type: traits
       gw2id: 1992
+      defaultEnabled: true
 
 - section: Soulbeast
   id: 55
@@ -234,6 +254,7 @@
       minor: true
       type: traits
       gw2id: 2156
+      defaultEnabled: true
 
     - id: twice-as-vicious
       text: Twice as Vicious
@@ -244,6 +265,7 @@
       minor: true
       type: traits
       gw2id: 2127
+      defaultEnabled: true
 
     - id: oppressive-superiority
       text: Oppressive Superiority
@@ -254,6 +276,7 @@
           Condition Duration: 10%
       type: traits
       gw2id: 2143
+      defaultEnabled: true
 
     - id: archetype-stout
       subText: Archetype Stout (Tough/Vit)
@@ -263,6 +286,7 @@
           Vitality: [100, buff]
       minor: true
       type: typography
+      defaultEnabled: true
 
     - id: archetype-deadly
       subText: Archetype Deadly (ConDmg/Prec)
@@ -272,6 +296,7 @@
           Precision: [100, buff]
       minor: true
       type: typography
+      defaultEnabled: true
 
     - id: archetype-versatile
       subText: Archetype Versatile (Vit/Conc)
@@ -281,6 +306,7 @@
           Concentration: [225, buff]
       minor: true
       type: typography
+      defaultEnabled: true
 
     - id: archetype-ferocious
       subText: Archetype Ferocious (Pwr/Feroc)
@@ -290,6 +316,7 @@
           Ferocity: [100, buff]
       minor: true
       type: typography
+      defaultEnabled: true
 
     - id: archetype-supportive
       subText: Archetype Supportive (Vit/Heal)
@@ -299,6 +326,7 @@
           Outgoing Healing: 25%
       minor: true
       type: typography
+      defaultEnabled: true
 
     - id: sb-1
       subText: merged
@@ -312,6 +340,7 @@
       minor: true
       type: traits
       gw2id: 1900
+      defaultEnabled: true
 
     - id: sb-2
       subText: merged
@@ -321,6 +350,7 @@
       minor: true
       type: traits
       gw2id: 974
+      defaultEnabled: true
 
     - id: sb-3
       subText: merged
@@ -330,6 +360,7 @@
       minor: true
       type: traits
       gw2id: 1065
+      defaultEnabled: true
 
     - id: sb-4
       subText: merged, base
@@ -339,3 +370,4 @@
       minor: true
       type: traits
       gw2id: 1066
+      defaultEnabled: true

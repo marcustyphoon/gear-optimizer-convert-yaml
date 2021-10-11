@@ -29,6 +29,7 @@
           Strike Damage: [12.5%, mult]
       type: traits
       gw2id: 1941
+      defaultEnabled: true
 
     - id: egotism
       text: Egotism
@@ -37,6 +38,7 @@
           Strike Damage: [10%, mult]
       type: traits
       gw2id: 713
+      defaultEnabled: true
 
     - id: vicious-expression
       text: Vicious Expression
@@ -45,6 +47,7 @@
           Strike Damage: [15%, mult]
       type: traits
       gw2id: 681
+      defaultEnabled: true
 
 - section: Dueling
   id: 1
@@ -58,6 +61,7 @@
           Ferocity: [150, buff]
       type: traits
       gw2id: 708
+      defaultEnabled: true
 
     - id: superiority-complex
       text: Superiority Complex
@@ -67,6 +71,7 @@
           Critical Damage: [20%, unknown]
       type: traits
       gw2id: 692
+      defaultEnabled: true
 
 - section: Chaos
   id: 45
@@ -80,6 +85,7 @@
           Damage Reduction: [25%, unknown]
       type: traits
       gw2id: 675
+      defaultEnabled: true
 
     - id: illusionary-membrane
       text: Illusionary Membrane
@@ -89,6 +95,7 @@
           Condition Damage: [10%, add]
       type: traits
       gw2id: 667
+      defaultEnabled: true
 
     - id: chaotic-potency
       text: Chaotic Potency
@@ -98,6 +105,7 @@
           Condition Damage: [120, buff]
       type: traits
       gw2id: 669
+      defaultEnabled: true
 
     - id: chaotic-potency-2
       text: Chaotic Potency
@@ -107,6 +115,7 @@
           Condition Damage: [120, buff]
       type: traits
       gw2id: 669
+      defaultEnabled: true
 
     - id: chaotic-persistence
       text: Chaotic Persistence
@@ -117,6 +126,7 @@
           Expertise: [250, buff]
       type: traits
       gw2id: 1865
+      defaultEnabled: true
 
 - section: Inspiration
   id: 23
@@ -130,6 +140,7 @@
       minor: true
       type: traits
       gw2id: 1915
+      defaultEnabled: true
 
 - section: Illusions
   id: 24
@@ -146,6 +157,7 @@
       minor: true
       type: traits
       gw2id: 723
+      defaultEnabled: true
 
 - section: Chronomancer
   id: 40
@@ -158,6 +170,7 @@
           Critical Chance: 15%
       type: traits
       gw2id: 2009
+      defaultEnabled: true
 
 - section: Mirage
   id: 59
@@ -171,3 +184,4 @@
       minor: true
       type: traits
       gw2id: 2069
+      defaultEnabled: true

@@ -12,6 +12,7 @@
           Torment Damage: [10%, unknown]
       type: traits
       gw2id: 1793
+      defaultEnabled: true
 
     - id: seething-malice
       text: Seething Malice
@@ -21,6 +22,7 @@
           Condition Damage: [120, buff]
       type: traits
       gw2id: 1801
+      defaultEnabled: true
 
     - id: demonic-resistance
       text: Demonic Resistance
@@ -29,6 +31,7 @@
           Damage Reduction: [20%, unknown]
       type: traits
       gw2id: 1726
+      defaultEnabled: true
 
     - id: pact-of-pain
       text: Pact of Pain
@@ -37,6 +40,7 @@
           Condition Duration: 15%
       type: traits
       gw2id: 1714
+      defaultEnabled: true
 
     - id: yearning-empowerment
       text: Yearning Empowerement
@@ -46,6 +50,7 @@
           Condition Duration: 10%
       type: traits
       gw2id: 1744
+      defaultEnabled: true
 
 - section: Retribution
   id: 9
@@ -58,6 +63,7 @@
           Strike Damage: [10%, mult]
       type: traits
       gw2id: 1740
+      defaultEnabled: true
 
     - id: determined-resolution
       text: Determined Resolution
@@ -67,6 +73,7 @@
           Damage Reduction: [10%, unknown]
       type: traits
       gw2id: 1713
+      defaultEnabled: true
 
     - id: vicious-reprisal
       text: Vicious Reprisal
@@ -77,6 +84,7 @@
           Condition Damage: [10%, add]
       type: traits
       gw2id: 1779
+      defaultEnabled: true
 
     - id: versed-in-stone
       text: Versed in Stone
@@ -85,6 +93,7 @@
           Power: {Toughness: 13%}
       type: traits
       gw2id: 1770
+      defaultEnabled: true
 
 - section: Invocation
   id: 3
@@ -97,6 +106,7 @@
           Strike Damage: [7%, mult]
       type: traits
       gw2id: 1761
+      defaultEnabled: true
 
     - id: ferocious-aggression
       text: Ferocious Aggression
@@ -107,6 +117,7 @@
           Condition Damage: [7%, add]
       type: traits
       gw2id: 1758
+      defaultEnabled: true
 
     - id: roiling-mists
       text: Roiling Mists
@@ -115,6 +126,7 @@
           Critical Chance: 20%
       type: traits
       gw2id: 1719
+      defaultEnabled: true
 
 - section: Devastation
   id: 15
@@ -128,6 +140,7 @@
           Strike Damage: [4%, mult]
       type: traits
       gw2id: 1767
+      defaultEnabled: true
 
     - id: destructive-impulses-dual
       text: Destructive Impulses
@@ -139,6 +152,7 @@
           Condition Damage: [10%, add]
       type: traits
       gw2id: 1724
+      defaultEnabled: true
 
     - id: destructive-impulses
       text: Destructive Impulses
@@ -150,6 +164,7 @@
           Condition Damage: [5%, add]
       type: traits
       gw2id: 1724
+      defaultEnabled: true
 
     - id: destructive-impulses-mix
       text: Destructive Impulses
@@ -161,6 +176,7 @@
           Condition Damage: [7.5%, add]
       type: traits
       gw2id: 1724
+      defaultEnabled: true
 
     - id: notoriety
       text: Notoriety
@@ -171,6 +187,7 @@
           Condition Damage: [-250, buff]
       type: traits
       gw2id: 1765
+      defaultEnabled: true
 
     - id: targeted-destruction
       text: Targeted Destruction
@@ -181,6 +198,7 @@
           Strike Damage: [12.5%, mult]
       type: traits
       gw2id: 1792
+      defaultEnabled: true
 
     - id: swift-termination
       text: Swift Termination
@@ -189,6 +207,7 @@
           Strike Damage: [10%, mult]
       type: traits
       gw2id: 1800
+      defaultEnabled: true
 
 - section: Salvation
   id: 12
@@ -201,6 +220,7 @@
           Outgoing Healing: 20%
       type: traits
       gw2id: 1822
+      defaultEnabled: true
 
     - id: life-attunement
       text: Life Attunement
@@ -212,6 +232,7 @@
           Concentration: {Healing Power: 7%}
       type: traits
       gw2id: 1821
+      defaultEnabled: true
 
     - id: invoking-harmony
       text: Invoking Harmony
@@ -220,6 +241,7 @@
           Outgoing Healing: 20%
       type: traits
       gw2id: 1818
+      defaultEnabled: true
 
 - section: Renegade
   id: 63
@@ -235,6 +257,7 @@
           Condition Damage: [10%, add]
       type: traits
       gw2id: 2181
+      defaultEnabled: true
 
     - id: blood-fury
       text: Blood Fury
@@ -243,6 +266,7 @@
           Bleeding Duration: 25%
       type: traits
       gw2id: 2079
+      defaultEnabled: true
 
     - id: heartpiercer
       text: Heartpiercer
@@ -251,6 +275,7 @@
           Bleeding Damage: [25%, unknown]
       type: traits
       gw2id: 2092
+      defaultEnabled: true
 
     - id: brutal-momentum
       text: Brutal Momentum
@@ -260,6 +285,7 @@
           Critical Chance: 33%
       type: traits
       gw2id: 2142
+      defaultEnabled: true
 
     - id: lasting-legacy
       text: Lasting Legacy
@@ -270,3 +296,4 @@
           Condition Damage: [5%, add]
       type: traits
       gw2id: 2100
+      defaultEnabled: true

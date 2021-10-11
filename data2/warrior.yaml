@@ -37,6 +37,7 @@
           Strike Damage: [5%, add]
       type: traits
       gw2id: 1444
+      defaultEnabled: true
 
     - id: peak-performance-2
       text: Peak Performance
@@ -46,6 +47,7 @@
           Strike Damage: [10%, add]
       type: traits
       gw2id: 1444
+      defaultEnabled: true
 
     - id: forceful-greatsword
       text: Forceful Greatsword
@@ -55,6 +57,7 @@
           Power: [120, buff]
       type: traits
       gw2id: 1338
+      defaultEnabled: true
 
     - id: forceful-greatsword-2
       text: Forceful Greatsword
@@ -64,6 +67,7 @@
           Power: [120, buff]
       type: traits
       gw2id: 1338
+      defaultEnabled: true
 
     - id: great-fortitude
       text: Great Fortitude
@@ -73,6 +77,7 @@
           Ferocity: {Power: 10%}
       type: traits
       gw2id: 1449
+      defaultEnabled: true
 
     - id: pinnacle-of-strength
       text: Pinnacle Of Strength
@@ -82,6 +87,7 @@
           Power: [250, buff]
       type: traits
       gw2id: 1453
+      defaultEnabled: true
 
     - id: berserkers-power
       text: Berserker's Power
@@ -91,6 +97,7 @@
           Strike Damage: [21%, add]
       type: traits
       gw2id: 1437
+      defaultEnabled: true
 
 - section: Arms
   id: 36
@@ -103,6 +110,7 @@
           Expertise: {Precision: 7%}
       type: traits
       gw2id: 1455
+      defaultEnabled: true
 
     - id: signet-mastery
       text: Signet Mastery
@@ -112,6 +120,7 @@
           Ferocity: [500, converted]
       type: traits
       gw2id: 1344
+      defaultEnabled: true
 
     - id: deep-strikes
       text: Deep Strikes
@@ -121,6 +130,7 @@
           Condition Damage: [180, buff]
       type: traits
       gw2id: 1343
+      defaultEnabled: true
 
     - id: blade-master
       text: Blademaster
@@ -130,6 +140,7 @@
           Expertise: [120, buff]
       type: traits
       gw2id: 1333
+      defaultEnabled: true
 
     - id: blade-master-2
       text: Blademaster
@@ -139,6 +150,7 @@
           Condition Damage: [60, buff]
       type: traits
       gw2id: 1333
+      defaultEnabled: true
 
     - id: bloodlust
       text: Bloodlust
@@ -148,6 +160,7 @@
           Bleeding Duration: 33%
       type: traits
       gw2id: 1337
+      defaultEnabled: true
 
     - id: furious
       text: Furious
@@ -157,6 +170,7 @@
           Condition Damage: [250, buff]
       type: traits
       gw2id: 1346
+      defaultEnabled: true
 
 - section: Defense
   id: 22
@@ -170,6 +184,7 @@
           Damage Reduction: [5%, unknown]
       type: traits
       gw2id: 1350
+      defaultEnabled: true
 
     - id: cull-the-weak
       text: Cull the Weak
@@ -178,6 +193,7 @@
           Strike Damage: [10%, mult]
       type: traits
       gw2id: 1372
+      defaultEnabled: true
 
     - id: armored-attack
       text: Armored Attack
@@ -186,6 +202,7 @@
           Power: {Toughness: 10%}
       type: traits
       gw2id: 1379
+      defaultEnabled: true
 
     - id: hardened-armor
       text: Hardened Armor
@@ -195,6 +212,7 @@
           Damage Reduction: [10%, unknown]
       type: traits
       gw2id: 1380
+      defaultEnabled: true
 
 - section: Tactics
   id: 11
@@ -207,6 +225,7 @@
           Strike Damage: [10%, mult]
       type: traits
       gw2id: 1469
+      defaultEnabled: true
 
     - id: roaring-reveille
       text: Roaring Reveille
@@ -215,6 +234,7 @@
           Concentration: [120, buff]
       type: traits
       gw2id: 1471
+      defaultEnabled: true
 
     - id: empowered-6
       text: Empowered
@@ -225,6 +245,7 @@
           Strike Damage: [6%, mult]
       type: traits
       gw2id: 1485
+      defaultEnabled: true
 
     - id: empowered-9
       text: Empowered
@@ -235,6 +256,7 @@
           Strike Damage: [9%, mult]
       type: traits
       gw2id: 1485
+      defaultEnabled: true
 
     - id: empowered-11
       text: Empowered
@@ -245,6 +267,7 @@
           Strike Damage: [11%, mult]
       type: traits
       gw2id: 1485
+      defaultEnabled: true
 
     - id: warriors-cunning
       text: Warrior's Cunning
@@ -254,6 +277,7 @@
           Strike Damage: [5%, mult]
       type: traits
       gw2id: 1486
+      defaultEnabled: true
 
     - id: vigorous-shouts
       text: Vigorous Shouts
@@ -262,6 +286,7 @@
           Healing Power: {Power: 13%}
       type: traits
       gw2id: 1470
+      defaultEnabled: true
 
 - section: Discipline
   id: 51
@@ -274,6 +299,7 @@
           Strike Damage: [10%, add]
       type: traits
       gw2id: 1413
+      defaultEnabled: true
 
     - id: double-standards
       text: Doubled Standards
@@ -286,6 +312,7 @@
           Condition Damage: [50, buff]
       type: traits
       gw2id: 1484
+      defaultEnabled: true
 
     - id: axe-mastery-one
       text: Axe Mastery
@@ -295,6 +322,7 @@
           Ferocity: [120, buff]
       type: traits
       gw2id: 1369
+      defaultEnabled: true
 
     - id: axe-mastery-two
       text: Axe Mastery
@@ -304,6 +332,7 @@
           Ferocity: [120, buff]
       type: traits
       gw2id: 1369
+      defaultEnabled: true
 
 - section: Berserker
   id: 18
@@ -317,6 +346,7 @@
           Ferocity: {Precision: 7%}
       type: traits
       gw2id: 2011
+      defaultEnabled: true
 
     - id: blood-reaction-with
       text: Blood Reaction
@@ -326,6 +356,7 @@
           Ferocity: {Precision: 14%}
       type: traits
       gw2id: 2011
+      defaultEnabled: true
 
     - id: heat-the-soul
       text: Heat the Soul
@@ -335,6 +366,7 @@
           Condition Damage: [120, buff]
       type: traits
       gw2id: 2042
+      defaultEnabled: true
 
     - id: heat-the-soul-with
       text: Heat the Soul
@@ -344,6 +376,7 @@
           Condition Damage: [60, buff]
       type: traits
       gw2id: 2042
+      defaultEnabled: true
 
     - id: fatal-frenzy
       text: Fatal Frenzy
@@ -355,6 +388,7 @@
           Toughness: [-300, buff]
       type: traits
       gw2id: 2046
+      defaultEnabled: true
 
     - id: bloody-roar
       text: Bloody Roar
@@ -363,6 +397,7 @@
           Strike Damage: [20%, mult]
       type: traits
       gw2id: 1928
+      defaultEnabled: true
 
     - id: king-of-fires
       text: King of Fires
@@ -371,6 +406,7 @@
           Burning Duration: 33%
       type: traits
       gw2id: 2038
+      defaultEnabled: true
 
     - id: eternal-champion
       text: Eternal Champion
@@ -379,6 +415,7 @@
           Toughness: [300, buff]
       type: traits
       gw2id: 2043
+      defaultEnabled: true
 
 - section: Spellbreaker
   id: 61
@@ -392,6 +429,7 @@
           Critical Damage: [14%, unknown]
       type: traits
       gw2id: 2107
+      defaultEnabled: true
 
     - id: sun-and-moon-style
       text: Sun and Moon Style
@@ -401,6 +439,7 @@
           Strike Damage: [10%, mult]
       type: traits
       gw2id: 2095
+      defaultEnabled: true
 
     - id: attackers-insight
       text: Attacker's Insight
@@ -412,6 +451,7 @@
           Precision: [250, buff]
       type: traits
       gw2id: 2130
+      defaultEnabled: true
 
     - id: magebane-tether
       text: Magebane Tether
@@ -421,3 +461,4 @@
           Strike Damage: [7.5%, mult]
       type: traits
       gw2id: 2060
+      defaultEnabled: true

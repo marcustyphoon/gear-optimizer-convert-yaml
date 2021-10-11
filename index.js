@@ -184,6 +184,8 @@ const convert = async function () {
           item.gw2id = item['gw2-id'];
           delete item['gw2-id'];
         }
+
+        if (section.id) item.defaultEnabled = true;
       }
     }
 
