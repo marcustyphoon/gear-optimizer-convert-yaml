@@ -1,0 +1,128 @@
+Power Fractal: |-
+  {
+    "Runes": "scholar",
+    "Sigil1": "force",
+    "Sigil2": "impact/night/slaying-both",
+    "Enhancement": "slaying-potion",
+    "Nourishment": "sweet-and-spicy-butternut-squash-soup"
+  }
+CFB Balth (toxic oil): |-
+  {
+    "Runes": "balthazar",
+    "Sigil1": "bursting",
+    "Sigil2": "",
+    "Enhancement": "toxic-maintenance-oil",
+    "Nourishment": "beef-rendang"
+  }
+CFB Balth: |-
+  {
+    "Runes": "balthazar",
+    "Sigil1": "bursting",
+    "Sigil2": "",
+    "Enhancement": "toxic-focusing-crystal",
+    "Nourishment": "beef-rendang"
+  }
+Hybrid FB Traveler: |-
+  {
+    "Runes": "traveler",
+    "Sigil1": "bursting",
+    "Sigil2": "smoldering",
+    "Enhancement": "master-tuning-crystal",
+    "Nourishment": "beef-rendang"
+  }
+Heal: |-
+  {
+    "Runes": "monk",
+    "Sigil1": "concentration",
+    "Sigil2": "transference",
+    "Enhancement": "bountiful-maintenance-oil",
+    "Nourishment": "fruit-salad-mint-garnish"
+  }
+Condi Bers: |-
+  {
+    "Runes": "renegade",
+    "Sigil1": "",
+    "Sigil2": "",
+    "Enhancement": "master-tuning-crystal",
+    "Nourishment": "rare-veggie-pizza"
+  }
+extras6: |-
+  {
+    "Runes": "elementalist",
+    "Sigil1": "",
+    "Sigil2": "",
+    "Enhancement": "toxic-focusing-crystal",
+    "Nourishment": "rare-veggie-pizza"
+  }
+extras7: |-
+  {
+    "Runes": "flame-legion",
+    "Sigil1": "impact/night/slaying-both",
+    "Sigil2": "bursting",
+    "Enhancement": "toxic-focusing-crystal",
+    "Nourishment": "dragon's-revelry-starcake"
+  }
+extras8: |-
+  {
+    "Runes": "elementalist",
+    "Sigil1": "bursting",
+    "Sigil2": "smoldering",
+    "Enhancement": "toxic-focusing-crystal",
+    "Nourishment": "rare-veggie-pizza"
+  }
+extras9: |-
+  {
+    "Runes": "scholar",
+    "Sigil1": "force",
+    "Sigil2": "impact/night/slaying-both",
+    "Enhancement": "slaying-potion",
+    "Nourishment": "truffle-steak"
+  }
+extras10: |-
+  {
+    "Runes": "krait",
+    "Sigil1": "bursting",
+    "Sigil2": "",
+    "Enhancement": "toxic-focusing-crystal",
+    "Nourishment": "beef-rendang"
+  }
+extras11: |-
+  {
+    "Runes": "",
+    "Sigil1": "",
+    "Sigil2": "",
+    "Enhancement": "",
+    "Nourishment": ""
+  }
+extras12: |-
+  {
+    "Runes": "nightmare",
+    "Sigil1": "",
+    "Sigil2": "",
+    "Enhancement": "toxic-focusing-crystal",
+    "Nourishment": "beef-rendang"
+  }
+extras13: |-
+  {
+    "Runes": "nightmare",
+    "Sigil1": "bursting",
+    "Sigil2": "",
+    "Enhancement": "master-tuning-crystal",
+    "Nourishment": "beef-rendang"
+  }
+extras14: |-
+  {
+    "Runes": "krait",
+    "Sigil1": "",
+    "Sigil2": "",
+    "Enhancement": "toxic-focusing-crystal",
+    "Nourishment": "rare-veggie-pizza"
+  }
+extras15: |-
+  {
+    "Runes": "krait",
+    "Sigil1": "",
+    "Sigil2": "",
+    "Enhancement": "master-tuning-crystal",
+    "Nourishment": "beef-rendang"
+  }

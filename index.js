@@ -6,59 +6,6 @@
 import fs from 'fs/promises';
 import yaml from 'js-yaml';
 
-const multiplierConvertDamage = {
-  'Effective Power': ['Strike Damage', 'mult'],
-  'Effective Health': ['Damage Reduction', 'unknown'],
-  'Effective Condition Damage': ['Condition Damage', 'mult'],
-  'add: Effective Condition Damage': ['Condition Damage', 'add'],
-  'add: Effective Power': ['Strike Damage', 'add'],
-  'target: Effective Condition Damage': ['Condition Damage', 'target'],
-  'target: Effective Power': ['Strike Damage', 'target'],
-
-  'Critical Damage': ['Critical Damage', 'unknown'],
-
-  'Burning Damage': ['Burning Damage', 'unknown'],
-  'Bleeding Damage': ['Bleeding Damage', 'unknown'],
-  'Poison Damage': ['Poison Damage', 'unknown'],
-  'Torment Damage': ['Torment Damage', 'unknown'],
-  'Confusion Damage': ['Confusion Damage', 'unknown'],
-};
-const multiplierConvertPercent = {
-  'Effective Healing': 'Outgoing Healing',
-};
-const attrbuteConvert = {
-  'Health': 'Maximum Health',
-};
-const points = [
-  'Power',
-  'Precision',
-  'Toughness',
-  'Vitality',
-  'Ferocity',
-  'Condition Damage',
-  'Expertise',
-  'Concentration',
-  'Healing Power',
-  'Agony Resistance',
-  'Armor',
-];
-
-const nonDamagingConditions = [
-  'Blind',
-  'Chilled',
-  'Crippled',
-  'Fear',
-  'Immobile',
-  'Slow',
-  'Taunt',
-  'Vulnerability',
-  'Weakness',
-].map((name) => `${name} Duration`);
-
-const round = (num) => Number(Math.round(num + 'e4') + 'e-4');
-
-// const addPlus = (value) => (value > 0 ? '+' + value : String(value));
-
 const convert = async function () {
   const files = await fs.readdir('./data');
 
@@ -68,128 +15,79 @@ const convert = async function () {
   for (const fileName of files) {
     console.log('\n', fileName);
     const fileData = await fs.readFile(`./data/${fileName}`);
-    console.time(fileName);
-    let data = yaml.load(fileData);
-    console.timeEnd(fileName);
+    const allData = yaml.load(fileData);
 
-    // flatten list
-    data = data.list;
+    const outputData = {
+      'traits': {},
+      'skills': {},
+    };
 
-    for (const section of data) {
-      if (!section.items) section.items = [];
+    const extrasMap = new Map();
 
-      for (const item of section.items) {
-        // temp
-        // count++;
-        // if (count > 60) return;
+    for (const section of allData.list) {
+      const className = section.class;
 
-        // console.log('\n  ', item.id);
+      outputData.traits[section.class] = [];
+      outputData.skills[section.class] = [];
 
-        const newModifiers = {
-          damage: {},
-          attributes: {},
-          conversion: {},
-        };
+      for (const build of section.builds) {
+        const { name, traits } = build;
+        const data = JSON.parse(traits);
 
-        const parsedModifiersArray = Object.entries(JSON.parse(item.modifiers));
-        for (const [type, modifiers] of parsedModifiersArray) {
-          // eslint-disable-next-line prefer-const
-          for (let [attribute, value] of Object.entries(modifiers)) {
-            // console.log('  ', type, attribute, value);
-            switch (type) {
-              case 'multiplier':
-                if (Object.keys(multiplierConvertDamage).includes(attribute)) {
-                  const newAttrData = multiplierConvertDamage[attribute];
-                  // damage
-                  newModifiers.damage[newAttrData[0]] = [
-                    ...(newModifiers.damage[newAttrData[0]] || []),
-                    round(value * 100) + '%',
-                    newAttrData[1],
-                  ];
-                } else {
-                  // percent
-                  if (value < 1) value *= 100;
-                  const newAttr = multiplierConvertPercent[attribute];
-                  if (newModifiers.attributes[newAttr]) throw newModifiers.attributes[newAttr];
-                  newModifiers.attributes[newAttr] = round(value) + '%';
-                }
+        for (const type of ['traits', 'skills']) {
+          if (data[type].skills && data[type].skills.length === 0) {
+            // nothin
+          } else {
+            const thisData = JSON.stringify(data[type], null, 2);
 
-                break;
-              case 'buff':
-              case 'flat':
-                let newAttr = attribute;
-                if (attrbuteConvert[attribute]) newAttr = attrbuteConvert[attribute];
-
-                if (points.includes(attribute)) {
-                  // statpoints
-                  const isConv = type === 'buff' ? 'buff' : 'converted';
-                  if (newModifiers.attributes[newAttr]) throw newModifiers.attributes[newAttr];
-                  newModifiers.attributes[newAttr] = [value, isConv];
-                } else if (nonDamagingConditions.includes(attribute)) {
-                  // skip nondamaging conditions; we don't have all the traits anyway
-                } else {
-                  // percent
-                  if (value < 1) value *= 100;
-                  if (newModifiers.attributes[newAttr]) throw newModifiers.attributes[newAttr];
-                  newModifiers.attributes[newAttr] = round(value) + '%';
-                }
-                break;
-              case 'convert':
-                // console.log('  ', type, attribute, value);
-                const sources = Object.entries(value);
-                const result = {};
-                for (const [source, amount] of sources) {
-                  result[source] = round(amount * 100) + '%';
-                }
-                if (newModifiers.conversion[attribute]) throw newModifiers.conversion[attribute];
-                newModifiers.conversion[attribute] = result;
-                break;
-              default:
-                throw type;
-            }
+          
+            outputData[type][section.class].push({ name, value: thisData });
+            build[type] = name;
           }
+          
         }
 
-        // remove empty keys
-        let realNewModifiers = {};
-        for (const [key, value] of Object.entries(newModifiers)) {
-          if (Object.keys(value).length) {
-            realNewModifiers[key] = value;
-          }
+        const extrasData = JSON.stringify(data.extras, null, 2);
+        if (!extrasMap.has(extrasData)) {
+          const index = extrasMap.size;
+          extrasMap.set(extrasData, index);
+          build.extras = `extras${index}`;
+        } else {
+          build.extras = `extras${extrasMap.get(extrasData)}`;
         }
-
-        // add note for bountiful oil
-        if (item.id === 'bountiful-maintenance-oil') {
-          realNewModifiers = {
-            'conversion': {
-              'Outgoing Healing': {
-                'Healing Power': '0.006%',
-                'Concentration': '0.008%',
-              },
-            },
-          };
-        }
-
-        // console.log(JSON.stringify(realNewModifiers, null, 2));
-
-        item.modifiers = realNewModifiers;
-
-        // clean up leftover crap in yaml
-        delete item.extraCSS;
-        delete item['default-enabled'];
-        if (item.text) item.text = item.text.replace(/<.*>/g, '').trim();
-
-        // eslint-disable-next-line no-prototype-builtins
-        if (item.hasOwnProperty('gw2-id')) {
-          item.gw2id = item['gw2-id'];
-          delete item['gw2-id'];
-        }
-
-        if (section.id) item.defaultEnabled = true;
       }
     }
 
-    let resultYaml = yaml.dump(data, {
+    // const traitsOutput = {
+    //   'GraphQL ID': 'presetTraits',
+    //   'list': [],
+    // };
+
+    // const skillsOutput = {
+    //   'GraphQL ID': 'presetTraits',
+    //   'list': [],
+    // };
+
+    // const extrasOutput = {
+    //   'GraphQL ID': 'presetTraits',
+    //   'list': [],
+    // };
+
+    outputData.extras = Object.fromEntries(Array.from(extrasMap.entries()).map(([a, b]) => [`extras${b}`, a]))
+
+    for (const type of ['traits', 'skills', 'extras']) {
+
+      let resultYaml = yaml.dump(outputData[type], {
+        // forceQuotes: true,
+        lineWidth: -1,
+        flowLevel: 6, // fileName.includes('utility') ? 7 : 6
+      });
+
+      fs.writeFile(`./data2/${type}.yaml`, resultYaml, { encoding: 'utf8', flag: 'w+' });
+
+    }
+
+    let resultYaml = yaml.dump(allData, {
       // forceQuotes: true,
       lineWidth: -1,
       flowLevel: 6, // fileName.includes('utility') ? 7 : 6
@@ -198,8 +96,8 @@ const convert = async function () {
     // add spacing
     // resultYaml = resultYaml.replace(/\n/g, '\n\n').replace(/\n\n        /g, '\n        ');
     resultYaml = resultYaml
-      .replace(/\n    - id/g, '\n\n    - id')
-      .replace(/\n- section/g, '\n\n- section');
+      .replace(/\n  - /g, '\n\n  - ')
+      .replace(/\n      - /g, '\n\n      - ');
 
     // id key to dictionary (changed my mind about this actually)
     // resultYaml = resultYaml.replace(/    - id: (.*)/gm, '    $1:')

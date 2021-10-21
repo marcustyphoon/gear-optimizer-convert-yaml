@@ -1,0 +1,58 @@
+mesmer: []
+guardian:
+  - name: DH
+    value: |-
+      {
+        "skills": [
+          "bane-signet-2"
+        ]
+      }
+  - name: pQFB
+    value: |-
+      {
+        "skills": [
+          "bane-signet-2"
+        ]
+      }
+  - name: CFB w/ Quickness
+    value: |-
+      {
+        "skills": [
+          "signet-of-wrath"
+        ]
+      }
+  - name: CFB DPS
+    value: |-
+      {
+        "skills": [
+          "signet-of-wrath"
+        ]
+      }
+  - name: Healbrand
+    value: |-
+      {
+        "skills": [
+          "bane-signet-2"
+        ]
+      }
+warrior:
+  - name: Power Banner Bers
+    value: |-
+      {
+        "skills": [
+          "signet-of-might"
+        ]
+      }
+elementalist: []
+ranger: []
+revenant: []
+engineer: []
+necromancer: []
+thief:
+  - name: Staff Daredevil
+    value: |-
+      {
+        "skills": [
+          "signet-of-agility"
+        ]
+      }
