@@ -11,7 +11,7 @@ list:
         priority: Power DPS
         distribution: Power Chrono
         traits: Power Chrono
-        extras: Power Fractal
+        extras: generic0
 
   - class: guardian
     builds:
@@ -24,7 +24,7 @@ list:
         distribution: DH (Radiance)
         traits: DH
         skills: DH
-        extras: Power Fractal
+        extras: generic0
 
       - name: pQFB
         id: pqfb
@@ -34,7 +34,7 @@ list:
         distribution: Power Firebrand (approx.)
         traits: pQFB
         skills: pQFB
-        extras: Power Fractal
+        extras: generic0
 
       - name: CFB w/ Quickness
         id: cqfb
@@ -44,7 +44,7 @@ list:
         distribution: Quickness CFB (Virtues, allies)
         traits: CFB w/ Quickness
         skills: CFB w/ Quickness
-        extras: CFB Balth (toxic oil)
+        extras: CFB w/ Quickness
 
       - name: CFB DPS
         id: cfb
@@ -54,7 +54,7 @@ list:
         distribution: CFB (Virtues, 5 page, allies)
         traits: CFB DPS
         skills: CFB DPS
-        extras: CFB Balth
+        extras: CFB DPS
 
       - name: Hybrid FB (Virtues)
         id: hycfb-virtues-leadership
@@ -63,7 +63,7 @@ list:
         priority: Condi Boon
         distribution: Hybrid FB (Virtues)
         traits: Hybrid FB (Virtues)
-        extras: Hybrid FB Traveler
+        extras: Hybrid FB (Virtues)
 
       - name: Hybrid FB (Honor)
         id: hycfb-honor-leadership
@@ -72,7 +72,7 @@ list:
         priority: Condi Boon
         distribution: Hybrid FB (Honor)
         traits: Hybrid FB (Honor)
-        extras: Hybrid FB Traveler
+        extras: Hybrid FB (Honor)
 
       - name: Healbrand
         id: hb
@@ -82,7 +82,7 @@ list:
         distribution: None
         traits: Healbrand
         skills: Healbrand
-        extras: Heal
+        extras: generic1
 
   - class: warrior
     builds:
@@ -95,7 +95,7 @@ list:
         distribution: Power Banner Warrior
         traits: Power Banner Bers
         skills: Power Banner Bers
-        extras: Power Fractal
+        extras: generic0
 
       - name: Condi Banner Bers
         id: cbers
@@ -104,7 +104,7 @@ list:
         priority: Condi DPS
         distribution: Condi Banner Warrior
         traits: Condi Banner Bers
-        extras: Condi Bers
+        extras: Condi Banner Bers
 
   - class: elementalist
     builds:
@@ -116,7 +116,7 @@ list:
         priority: Power DPS
         distribution: Power Weaver (BTTH)
         traits: Power Weaver
-        extras: Power Fractal
+        extras: generic0
 
       - name: Condi Weaver SW
         id: cwea
@@ -125,7 +125,7 @@ list:
         priority: Condi DPS
         distribution: Condi Weaver (Sword)
         traits: Condi Weaver SW
-        extras: extras6
+        extras: Condi Weaver SW
 
       - name: Hybrid Weaver
         id: hwea
@@ -134,7 +134,7 @@ list:
         priority: Hybrid DPS
         distribution: Hybrid Weaver
         traits: Hybrid Weaver
-        extras: extras7
+        extras: Hybrid Weaver
 
       - name: Condi Tempest
         id: ctemp
@@ -143,7 +143,7 @@ list:
         priority: Condi DPS
         distribution: Condi Tempest
         traits: Condi Tempest
-        extras: extras8
+        extras: Condi Tempest
 
       - name: Heal Tempest
         id: healtemp
@@ -152,7 +152,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Tempest
-        extras: Heal
+        extras: generic1
 
   - class: ranger
     builds:
@@ -164,7 +164,7 @@ list:
         priority: Power DPS
         distribution: Power Slb
         traits: Power Slb
-        extras: extras9
+        extras: Power Slb
 
       - name: Condi Slb SB
         id: cslb-sb
@@ -173,7 +173,7 @@ list:
         priority: Condi DPS
         distribution: Condi Slb (D/T SB)
         traits: Condi Slb SB
-        extras: extras10
+        extras: Condi Slb SB
 
       - name: Condi Slb D/T A/D
         id: cslb-dtad
@@ -182,7 +182,7 @@ list:
         priority: Condi DPS
         distribution: Condi Slb (D/T A/D)
         traits: Condi Slb D/T A/D
-        extras: extras10
+        extras: Condi Slb D/T A/D
 
       - name: Hybrid Slb
         id: hslb
@@ -191,7 +191,7 @@ list:
         priority: Hybrid DPS
         distribution: Hybrid Slb (A/T D/A)
         traits: Hybrid Slb
-        extras: extras10
+        extras: Hybrid Slb
 
       - name: Condi Druid*
         id: condidruid
@@ -200,7 +200,7 @@ list:
         priority: Condi Boon
         distribution: Condi Druid
         traits: Condi Druid*
-        extras: extras11
+        extras: Condi Druid*
 
       - name: Heal Druid
         id: druid
@@ -209,7 +209,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Druid
-        extras: Heal
+        extras: generic1
 
   - class: revenant
     builds:
@@ -221,7 +221,7 @@ list:
         priority: Power Boon
         distribution: Alacrity Renegade
         traits: Power Alac Ren
-        extras: Power Fractal
+        extras: generic0
 
       - name: Condi RR Ren Invo
         id: cren-rr-invo
@@ -230,7 +230,7 @@ list:
         priority: Condi DPS
         distribution: Condi RR (Invocation)
         traits: Condi RR Ren Invo
-        extras: extras12
+        extras: Condi RR Ren Invo
 
       - name: Condi DPS Ren Deva
         id: cren-deva
@@ -239,7 +239,7 @@ list:
         priority: Condi DPS
         distribution: Condi Renegade (Devastation)
         traits: Condi DPS Ren Deva
-        extras: extras12
+        extras: Condi DPS Ren Deva
 
       - name: Power Herald DE
         id: herald
@@ -248,7 +248,7 @@ list:
         priority: Power DPS
         distribution: Power Herald DE
         traits: Power Herald DE
-        extras: Power Fractal
+        extras: generic0
 
       - name: Heal Ren
         id: healren
@@ -257,7 +257,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Ren
-        extras: Heal
+        extras: generic1
 
   - class: engineer
     builds:
@@ -269,7 +269,7 @@ list:
         priority: Power DPS
         distribution: Power Holo
         traits: Power Holo
-        extras: Power Fractal
+        extras: generic0
 
       - name: Power Scrapper
         id: pscrap
@@ -278,7 +278,7 @@ list:
         priority: Power DPS
         distribution: Power Scrapper
         traits: Power Scrapper
-        extras: Power Fractal
+        extras: generic0
 
       - name: Quickness Scrapper
         id: qscrap
@@ -287,7 +287,7 @@ list:
         priority: Power DPS
         distribution: Quickness Scrapper
         traits: Quickness Scrapper
-        extras: Power Fractal
+        extras: generic0
 
       - name: Heal Scrapper
         id: healscrapper
@@ -296,7 +296,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Scrapper
-        extras: Heal
+        extras: generic1
 
   - class: necromancer
     builds:
@@ -308,7 +308,7 @@ list:
         priority: Condi DPS
         distribution: Condi Scourge
         traits: DPS Scourge
-        extras: extras13
+        extras: generic2
 
       - name: Condi Reaper
         id: creaper
@@ -317,7 +317,7 @@ list:
         priority: Hybrid DPS
         distribution: Condi Reaper
         traits: Condi Reaper
-        extras: extras14
+        extras: Condi Reaper
 
   - class: thief
     builds:
@@ -329,7 +329,7 @@ list:
         priority: Condi DPS
         distribution: Condi Deadeye
         traits: Condi Deadeye
-        extras: extras13
+        extras: generic2
 
       - name: Staff Daredevil
         id: staffdd
@@ -339,7 +339,7 @@ list:
         distribution: Staff Daredevil
         traits: Staff Daredevil
         skills: Staff Daredevil
-        extras: Power Fractal
+        extras: generic0
 
       - name: Condi Daredevil
         id: cdd
@@ -348,7 +348,7 @@ list:
         priority: Condi DPS
         distribution: Condi Daredevil
         traits: Condi Daredevil
-        extras: extras15
+        extras: Condi Daredevil
 
       - name: Rifle Deadeye
         id: rifleded
@@ -357,4 +357,4 @@ list:
         priority: Power DPS
         distribution: Rifle Deadeye
         traits: Rifle Deadeye
-        extras: Power Fractal
+        extras: generic0

@@ -1,128 +1,190 @@
-Power Fractal: |-
-  {
-    "Runes": "scholar",
-    "Sigil1": "force",
-    "Sigil2": "impact/night/slaying-both",
-    "Enhancement": "slaying-potion",
-    "Nourishment": "sweet-and-spicy-butternut-squash-soup"
-  }
-CFB Balth (toxic oil): |-
-  {
-    "Runes": "balthazar",
-    "Sigil1": "bursting",
-    "Sigil2": "",
-    "Enhancement": "toxic-maintenance-oil",
-    "Nourishment": "beef-rendang"
-  }
-CFB Balth: |-
-  {
-    "Runes": "balthazar",
-    "Sigil1": "bursting",
-    "Sigil2": "",
-    "Enhancement": "toxic-focusing-crystal",
-    "Nourishment": "beef-rendang"
-  }
-Hybrid FB Traveler: |-
-  {
-    "Runes": "traveler",
-    "Sigil1": "bursting",
-    "Sigil2": "smoldering",
-    "Enhancement": "master-tuning-crystal",
-    "Nourishment": "beef-rendang"
-  }
-Heal: |-
-  {
-    "Runes": "monk",
-    "Sigil1": "concentration",
-    "Sigil2": "transference",
-    "Enhancement": "bountiful-maintenance-oil",
-    "Nourishment": "fruit-salad-mint-garnish"
-  }
-Condi Bers: |-
-  {
-    "Runes": "renegade",
-    "Sigil1": "",
-    "Sigil2": "",
-    "Enhancement": "master-tuning-crystal",
-    "Nourishment": "rare-veggie-pizza"
-  }
-extras6: |-
-  {
-    "Runes": "elementalist",
-    "Sigil1": "",
-    "Sigil2": "",
-    "Enhancement": "toxic-focusing-crystal",
-    "Nourishment": "rare-veggie-pizza"
-  }
-extras7: |-
-  {
-    "Runes": "flame-legion",
-    "Sigil1": "impact/night/slaying-both",
-    "Sigil2": "bursting",
-    "Enhancement": "toxic-focusing-crystal",
-    "Nourishment": "dragon's-revelry-starcake"
-  }
-extras8: |-
-  {
-    "Runes": "elementalist",
-    "Sigil1": "bursting",
-    "Sigil2": "smoldering",
-    "Enhancement": "toxic-focusing-crystal",
-    "Nourishment": "rare-veggie-pizza"
-  }
-extras9: |-
-  {
-    "Runes": "scholar",
-    "Sigil1": "force",
-    "Sigil2": "impact/night/slaying-both",
-    "Enhancement": "slaying-potion",
-    "Nourishment": "truffle-steak"
-  }
-extras10: |-
-  {
-    "Runes": "krait",
-    "Sigil1": "bursting",
-    "Sigil2": "",
-    "Enhancement": "toxic-focusing-crystal",
-    "Nourishment": "beef-rendang"
-  }
-extras11: |-
-  {
-    "Runes": "",
-    "Sigil1": "",
-    "Sigil2": "",
-    "Enhancement": "",
-    "Nourishment": ""
-  }
-extras12: |-
-  {
-    "Runes": "nightmare",
-    "Sigil1": "",
-    "Sigil2": "",
-    "Enhancement": "toxic-focusing-crystal",
-    "Nourishment": "beef-rendang"
-  }
-extras13: |-
-  {
-    "Runes": "nightmare",
-    "Sigil1": "bursting",
-    "Sigil2": "",
-    "Enhancement": "master-tuning-crystal",
-    "Nourishment": "beef-rendang"
-  }
-extras14: |-
-  {
-    "Runes": "krait",
-    "Sigil1": "",
-    "Sigil2": "",
-    "Enhancement": "toxic-focusing-crystal",
-    "Nourishment": "rare-veggie-pizza"
-  }
-extras15: |-
-  {
-    "Runes": "krait",
-    "Sigil1": "",
-    "Sigil2": "",
-    "Enhancement": "master-tuning-crystal",
-    "Nourishment": "beef-rendang"
-  }
+generic:
+  - name: generic0
+    value: |-
+      {
+        "Runes": "scholar",
+        "Sigil1": "force",
+        "Sigil2": "impact/night/slaying-both",
+        "Enhancement": "slaying-potion",
+        "Nourishment": "sweet-and-spicy-butternut-squash-soup"
+      }
+  - name: generic1
+    value: |-
+      {
+        "Runes": "monk",
+        "Sigil1": "concentration",
+        "Sigil2": "transference",
+        "Enhancement": "bountiful-maintenance-oil",
+        "Nourishment": "fruit-salad-mint-garnish"
+      }
+  - name: generic2
+    value: |-
+      {
+        "Runes": "nightmare",
+        "Sigil1": "bursting",
+        "Sigil2": "",
+        "Enhancement": "master-tuning-crystal",
+        "Nourishment": "beef-rendang"
+      }
+mesmer: []
+guardian:
+  - name: CFB w/ Quickness
+    value: |-
+      {
+        "Runes": "balthazar",
+        "Sigil1": "bursting",
+        "Sigil2": "",
+        "Enhancement": "toxic-maintenance-oil",
+        "Nourishment": "beef-rendang"
+      }
+  - name: CFB DPS
+    value: |-
+      {
+        "Runes": "balthazar",
+        "Sigil1": "bursting",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: Hybrid FB (Virtues)
+    value: |-
+      {
+        "Runes": "traveler",
+        "Sigil1": "bursting",
+        "Sigil2": "smoldering",
+        "Enhancement": "master-tuning-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: Hybrid FB (Honor)
+    value: |-
+      {
+        "Runes": "traveler",
+        "Sigil1": "bursting",
+        "Sigil2": "smoldering",
+        "Enhancement": "master-tuning-crystal",
+        "Nourishment": "beef-rendang"
+      }
+warrior:
+  - name: Condi Banner Bers
+    value: |-
+      {
+        "Runes": "renegade",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "master-tuning-crystal",
+        "Nourishment": "rare-veggie-pizza"
+      }
+elementalist:
+  - name: Condi Weaver SW
+    value: |-
+      {
+        "Runes": "elementalist",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "rare-veggie-pizza"
+      }
+  - name: Hybrid Weaver
+    value: |-
+      {
+        "Runes": "flame-legion",
+        "Sigil1": "impact/night/slaying-both",
+        "Sigil2": "bursting",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "dragon's-revelry-starcake"
+      }
+  - name: Condi Tempest
+    value: |-
+      {
+        "Runes": "elementalist",
+        "Sigil1": "bursting",
+        "Sigil2": "smoldering",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "rare-veggie-pizza"
+      }
+ranger:
+  - name: Power Slb
+    value: |-
+      {
+        "Runes": "scholar",
+        "Sigil1": "force",
+        "Sigil2": "impact/night/slaying-both",
+        "Enhancement": "slaying-potion",
+        "Nourishment": "truffle-steak"
+      }
+  - name: Condi Slb SB
+    value: |-
+      {
+        "Runes": "krait",
+        "Sigil1": "bursting",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: Condi Slb D/T A/D
+    value: |-
+      {
+        "Runes": "krait",
+        "Sigil1": "bursting",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: Hybrid Slb
+    value: |-
+      {
+        "Runes": "krait",
+        "Sigil1": "bursting",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: Condi Druid*
+    value: |-
+      {
+        "Runes": "",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "",
+        "Nourishment": ""
+      }
+revenant:
+  - name: Condi RR Ren Invo
+    value: |-
+      {
+        "Runes": "nightmare",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: Condi DPS Ren Deva
+    value: |-
+      {
+        "Runes": "nightmare",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+engineer: []
+necromancer:
+  - name: Condi Reaper
+    value: |-
+      {
+        "Runes": "krait",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "rare-veggie-pizza"
+      }
+thief:
+  - name: Condi Daredevil
+    value: |-
+      {
+        "Runes": "krait",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "master-tuning-crystal",
+        "Nourishment": "beef-rendang"
+      }
