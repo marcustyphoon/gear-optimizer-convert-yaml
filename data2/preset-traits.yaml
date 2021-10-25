@@ -11,6 +11,7 @@ list:
         priority: Power DPS
         distribution: Power Chrono
         traits: Power Chrono
+        skills: none
         extras: generic0
 
   - class: guardian
@@ -63,6 +64,7 @@ list:
         priority: Condi Boon
         distribution: Hybrid FB (Virtues)
         traits: Hybrid FB (Virtues)
+        skills: none
         extras: Hybrid FB (Virtues)
 
       - name: Hybrid FB (Honor)
@@ -72,6 +74,7 @@ list:
         priority: Condi Boon
         distribution: Hybrid FB (Honor)
         traits: Hybrid FB (Honor)
+        skills: none
         extras: Hybrid FB (Honor)
 
       - name: Healbrand
@@ -104,6 +107,7 @@ list:
         priority: Condi DPS
         distribution: Condi Banner Warrior
         traits: Condi Banner Bers
+        skills: none
         extras: Condi Banner Bers
 
   - class: elementalist
@@ -116,6 +120,7 @@ list:
         priority: Power DPS
         distribution: Power Weaver (BTTH)
         traits: Power Weaver
+        skills: none
         extras: generic0
 
       - name: Condi Weaver SW
@@ -125,6 +130,7 @@ list:
         priority: Condi DPS
         distribution: Condi Weaver (Sword)
         traits: Condi Weaver SW
+        skills: none
         extras: Condi Weaver SW
 
       - name: Hybrid Weaver
@@ -134,6 +140,7 @@ list:
         priority: Hybrid DPS
         distribution: Hybrid Weaver
         traits: Hybrid Weaver
+        skills: none
         extras: Hybrid Weaver
 
       - name: Condi Tempest
@@ -143,6 +150,7 @@ list:
         priority: Condi DPS
         distribution: Condi Tempest
         traits: Condi Tempest
+        skills: none
         extras: Condi Tempest
 
       - name: Heal Tempest
@@ -152,6 +160,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Tempest
+        skills: none
         extras: generic1
 
   - class: ranger
@@ -164,6 +173,7 @@ list:
         priority: Power DPS
         distribution: Power Slb
         traits: Power Slb
+        skills: none
         extras: Power Slb
 
       - name: Condi Slb SB
@@ -173,6 +183,7 @@ list:
         priority: Condi DPS
         distribution: Condi Slb (D/T SB)
         traits: Condi Slb SB
+        skills: none
         extras: Condi Slb SB
 
       - name: Condi Slb D/T A/D
@@ -182,6 +193,7 @@ list:
         priority: Condi DPS
         distribution: Condi Slb (D/T A/D)
         traits: Condi Slb D/T A/D
+        skills: none
         extras: Condi Slb D/T A/D
 
       - name: Hybrid Slb
@@ -191,6 +203,7 @@ list:
         priority: Hybrid DPS
         distribution: Hybrid Slb (A/T D/A)
         traits: Hybrid Slb
+        skills: none
         extras: Hybrid Slb
 
       - name: Condi Druid*
@@ -200,6 +213,7 @@ list:
         priority: Condi Boon
         distribution: Condi Druid
         traits: Condi Druid*
+        skills: none
         extras: Condi Druid*
 
       - name: Heal Druid
@@ -209,6 +223,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Druid
+        skills: none
         extras: generic1
 
   - class: revenant
@@ -221,6 +236,7 @@ list:
         priority: Power Boon
         distribution: Alacrity Renegade
         traits: Power Alac Ren
+        skills: none
         extras: generic0
 
       - name: Condi RR Ren Invo
@@ -230,6 +246,7 @@ list:
         priority: Condi DPS
         distribution: Condi RR (Invocation)
         traits: Condi RR Ren Invo
+        skills: none
         extras: Condi RR Ren Invo
 
       - name: Condi DPS Ren Deva
@@ -239,6 +256,7 @@ list:
         priority: Condi DPS
         distribution: Condi Renegade (Devastation)
         traits: Condi DPS Ren Deva
+        skills: none
         extras: Condi DPS Ren Deva
 
       - name: Power Herald DE
@@ -248,6 +266,7 @@ list:
         priority: Power DPS
         distribution: Power Herald DE
         traits: Power Herald DE
+        skills: none
         extras: generic0
 
       - name: Heal Ren
@@ -257,6 +276,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Ren
+        skills: none
         extras: generic1
 
   - class: engineer
@@ -269,6 +289,7 @@ list:
         priority: Power DPS
         distribution: Power Holo
         traits: Power Holo
+        skills: none
         extras: generic0
 
       - name: Power Scrapper
@@ -278,6 +299,7 @@ list:
         priority: Power DPS
         distribution: Power Scrapper
         traits: Power Scrapper
+        skills: none
         extras: generic0
 
       - name: Quickness Scrapper
@@ -287,6 +309,7 @@ list:
         priority: Power DPS
         distribution: Quickness Scrapper
         traits: Quickness Scrapper
+        skills: none
         extras: generic0
 
       - name: Heal Scrapper
@@ -296,6 +319,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Scrapper
+        skills: none
         extras: generic1
 
   - class: necromancer
@@ -308,6 +332,7 @@ list:
         priority: Condi DPS
         distribution: Condi Scourge
         traits: DPS Scourge
+        skills: none
         extras: generic2
 
       - name: Condi Reaper
@@ -317,6 +342,7 @@ list:
         priority: Hybrid DPS
         distribution: Condi Reaper
         traits: Condi Reaper
+        skills: none
         extras: Condi Reaper
 
   - class: thief
@@ -329,6 +355,7 @@ list:
         priority: Condi DPS
         distribution: Condi Deadeye
         traits: Condi Deadeye
+        skills: none
         extras: generic2
 
       - name: Staff Daredevil
@@ -348,6 +375,7 @@ list:
         priority: Condi DPS
         distribution: Condi Daredevil
         traits: Condi Daredevil
+        skills: none
         extras: Condi Daredevil
 
       - name: Rifle Deadeye
@@ -357,4 +385,5 @@ list:
         priority: Power DPS
         distribution: Rifle Deadeye
         traits: Rifle Deadeye
+        skills: none
         extras: generic0

@@ -71,7 +71,7 @@ const convert = async function () {
 
         for (const type of ['traits', 'skills']) {
           if (data[type].skills && data[type].skills.length === 0) {
-            // nothin
+            build[type] = 'none';
           } else {
             const thisData = JSON.stringify(data[type], null, 2);
 
