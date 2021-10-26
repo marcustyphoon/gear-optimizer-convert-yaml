@@ -12,7 +12,7 @@ list:
         distribution: Power Chrono
         traits: Power Chrono
         skills: none
-        extras: generic0
+        extras: generic106
 
   - class: guardian
     builds:
@@ -25,7 +25,7 @@ list:
         distribution: DH (Radiance)
         traits: DH Radiance w/ PI
         skills: DH Radiance w/ PI
-        extras: generic0
+        extras: generic106
 
       - name: DH Radiance
         id: dh-radiance
@@ -35,7 +35,7 @@ list:
         distribution: DH (Radiance)
         traits: DH Radiance
         skills: DH Radiance
-        extras: generic0
+        extras: generic106
 
       - name: DH Virtues
         id: dh-virtues
@@ -55,7 +55,7 @@ list:
         distribution: Power Firebrand (approx.)
         traits: pQFB
         skills: pQFB
-        extras: generic0
+        extras: generic106
 
       - name: CFB w/ Quickness
         id: cqfb
@@ -125,7 +125,7 @@ list:
         distribution: None
         traits: Healbrand
         skills: Healbrand
-        extras: generic1
+        extras: generic92
 
   - class: warrior
     builds:
@@ -138,7 +138,7 @@ list:
         distribution: Power Banner Warrior
         traits: Power Banner Bers
         skills: Power Banner Bers
-        extras: generic0
+        extras: generic106
 
       - name: Condi Banner Bers
         id: cbers
@@ -158,7 +158,7 @@ list:
         distribution: Power Banner Spellbreaker
         traits: Power Banner SPB
         skills: Power Banner SPB
-        extras: generic0
+        extras: generic106
 
   - class: elementalist
     builds:
@@ -171,7 +171,7 @@ list:
         distribution: Power Weaver (BTTH)
         traits: Power Weaver
         skills: none
-        extras: generic0
+        extras: generic106
 
       - name: Condi Weaver SW
         id: cwea
@@ -211,7 +211,7 @@ list:
         distribution: None
         traits: Heal Tempest
         skills: none
-        extras: generic1
+        extras: generic92
 
   - class: ranger
     builds:
@@ -274,7 +274,7 @@ list:
         distribution: None
         traits: Heal Druid
         skills: none
-        extras: generic1
+        extras: generic92
 
   - class: revenant
     builds:
@@ -287,7 +287,7 @@ list:
         distribution: Alacrity Renegade
         traits: Power Alac Ren
         skills: none
-        extras: generic0
+        extras: generic106
 
       - name: Condi Alac Ren Invo
         id: celeren-rr-invo
@@ -337,7 +337,7 @@ list:
         distribution: Power Herald DE
         traits: Power Herald DE
         skills: none
-        extras: generic0
+        extras: generic106
 
       - name: Condi Herald
         id: herald
@@ -357,7 +357,7 @@ list:
         distribution: None
         traits: Heal Ren
         skills: none
-        extras: generic1
+        extras: generic92
 
   - class: engineer
     builds:
@@ -370,7 +370,7 @@ list:
         distribution: Power Holo
         traits: Power Holo
         skills: none
-        extras: generic0
+        extras: generic106
 
       - name: Power Scrapper
         id: pscrap
@@ -380,7 +380,7 @@ list:
         distribution: Power Scrapper
         traits: Power Scrapper
         skills: none
-        extras: generic0
+        extras: generic106
 
       - name: Quickness Scrapper
         id: qscrap
@@ -390,7 +390,7 @@ list:
         distribution: Quickness Scrapper
         traits: Quickness Scrapper
         skills: none
-        extras: generic0
+        extras: generic106
 
       - name: Heal Scrapper
         id: healscrapper
@@ -400,7 +400,7 @@ list:
         distribution: None
         traits: Heal Scrapper
         skills: none
-        extras: generic1
+        extras: generic92
 
   - class: necromancer
     builds:
@@ -413,7 +413,7 @@ list:
         distribution: Condi Scourge
         traits: DPS Scourge
         skills: none
-        extras: generic2
+        extras: DPS Scourge
 
       - name: Condi Reaper
         id: creaper
@@ -436,7 +436,7 @@ list:
         distribution: Condi Deadeye
         traits: Condi Deadeye
         skills: none
-        extras: generic2
+        extras: Condi Deadeye
 
       - name: Staff Daredevil
         id: staffdd
@@ -446,7 +446,7 @@ list:
         distribution: Staff Daredevil
         traits: Staff Daredevil
         skills: Staff Daredevil
-        extras: generic0
+        extras: generic106
 
       - name: Boon Daredevil*
         id: boondd
@@ -476,4 +476,4 @@ list:
         distribution: Rifle Deadeye
         traits: Rifle Deadeye
         skills: none
-        extras: generic0
+        extras: generic106

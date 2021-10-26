@@ -1,2762 +1,2798 @@
-mesmer:
-  - name: Power Chrono
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "10",
-          "1",
-          "40"
+- name: Power Chrono
+  profession: CHRONOMANCER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "10",
+        "1",
+        "40"
+      ],
+      "selectedTraits": [
+        [
+          682,
+          713,
+          681
         ],
-        "selectedTraits": [
-          [
-            682,
-            713,
-            681
-          ],
-          [
-            701,
-            708,
-            692
-          ],
-          [
-            1995,
-            1978,
-            1890
-          ]
+        [
+          701,
+          708,
+          692
         ],
-        "items": [
-          {
-            "fragility": {
-              "amount": ""
-            },
-            "egotism": {
-              "amount": ""
-            },
-            "vicious-expression": {
-              "amount": ""
-            }
+        [
+          1995,
+          1978,
+          1890
+        ]
+      ],
+      "items": [
+        {
+          "fragility": {
+            "amount": ""
           },
-          {
-            "fencers-finesse": {
-              "amount": ""
-            },
-            "superiority-complex-base": true,
-            "superiority-complex": {
-              "amount": ""
-            }
+          "egotism": {
+            "amount": ""
           },
-          {
-            "danger-time": true
+          "vicious-expression": {
+            "amount": ""
           }
-        ]
-      }
-guardian:
-  - name: DH Radiance w/ PI
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "42",
-          "27"
-        ],
-        "selectedTraits": [
-          [
-            574,
-            565,
-            579
-          ],
-          [
-            634,
-            653,
-            2017
-          ],
-          [
-            1898,
-            1835,
-            1955
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": ""
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+        },
+        {
+          "fencers-finesse": {
+            "amount": ""
           },
-          {
-            "fiery-wrath": true,
-            "symbolic-exposure": true,
-            "zealous-blade-base": true,
-            "zealous-blade-gs": {
-              "amount": ""
-            },
-            "kindled-zeal": true,
-            "symbolic-avenger": true
-          },
-          {
-            "zealots-aggression": true,
-            "pure-of-sight": true,
-            "pure-of-sight-ranged": false,
-            "hunters-fortification": true,
-            "big-game-hunter": true
+          "superiority-complex-base": true,
+          "superiority-complex": {
+            "amount": ""
           }
+        },
+        {
+          "danger-time": true
+        }
+      ]
+    }
+- name: DH Radiance w/ PI
+  profession: DRAGONHUNTER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "42",
+        "27"
+      ],
+      "selectedTraits": [
+        [
+          574,
+          565,
+          579
+        ],
+        [
+          634,
+          653,
+          2017
+        ],
+        [
+          1898,
+          1835,
+          1955
         ]
-      }
-  - name: DH Radiance
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "42",
-          "27"
-        ],
-        "selectedTraits": [
-          [
-            574,
-            565,
-            1683
-          ],
-          [
-            634,
-            653,
-            2017
-          ],
-          [
-            1898,
-            1835,
-            1955
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": ""
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": ""
           },
-          {
-            "fiery-wrath": true,
-            "symbolic-exposure": true,
-            "zealous-blade-base": true,
-            "zealous-blade-gs": {
-              "amount": ""
-            },
-            "kindled-zeal": true,
-            "symbolic-avenger": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "zealots-aggression": true,
-            "pure-of-sight": true,
-            "pure-of-sight-ranged": false,
-            "hunters-fortification": true,
-            "big-game-hunter": true
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "fiery-wrath": true,
+          "symbolic-exposure": true,
+          "zealous-blade-base": true,
+          "zealous-blade-gs": {
+            "amount": ""
+          },
+          "kindled-zeal": true,
+          "symbolic-avenger": true
+        },
+        {
+          "zealots-aggression": true,
+          "pure-of-sight": true,
+          "pure-of-sight-ranged": false,
+          "hunters-fortification": true,
+          "big-game-hunter": true
+        }
+      ]
+    }
+- name: DH Radiance
+  profession: DRAGONHUNTER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "42",
+        "27"
+      ],
+      "selectedTraits": [
+        [
+          574,
+          565,
+          1683
+        ],
+        [
+          634,
+          653,
+          2017
+        ],
+        [
+          1898,
+          1835,
+          1955
+        ]
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": ""
+          },
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
+          },
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "fiery-wrath": true,
+          "symbolic-exposure": true,
+          "zealous-blade-base": true,
+          "zealous-blade-gs": {
+            "amount": ""
+          },
+          "kindled-zeal": true,
+          "symbolic-avenger": true
+        },
+        {
+          "zealots-aggression": true,
+          "pure-of-sight": true,
+          "pure-of-sight-ranged": false,
+          "hunters-fortification": true,
+          "big-game-hunter": true
+        }
+      ]
+    }
+- name: DH Virtues
+  profession: DRAGONHUNTER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "46",
+        "42",
+        "27"
+      ],
+      "selectedTraits": [
+        [
+          624,
+          603,
+          622
+        ],
+        [
+          634,
+          653,
+          2017
+        ],
+        [
+          1898,
+          1835,
+          1955
+        ]
+      ],
+      "items": [
+        {
+          "inspired-virtue": {
+            "amount": ""
+          },
+          "unscathed-contender": {
+            "amount": ""
+          },
+          "virtue-of-retribution": true,
+          "inspiring-virtue": {
+            "amount": ""
+          },
+          "power-of-the-virtuous": true
+        },
+        {
+          "fiery-wrath": true,
+          "symbolic-exposure": true,
+          "zealous-blade-base": true,
+          "zealous-blade-gs": {
+            "amount": ""
+          },
+          "kindled-zeal": true,
+          "symbolic-avenger": true
+        },
+        {
+          "zealots-aggression": true,
+          "pure-of-sight": true,
+          "pure-of-sight-ranged": false,
+          "hunters-fortification": true,
+          "big-game-hunter": true
+        }
+      ]
+    }
+- name: pQFB
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "42",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          574,
+          565,
+          579
+        ],
+        [
+          634,
+          653,
+          2017
+        ],
+        [
+          2101,
+          2076,
+          2159
+        ]
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": ""
+          },
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
+          },
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "fiery-wrath": true,
+          "symbolic-exposure": true,
+          "zealous-blade-base": true,
+          "zealous-blade-gs": {
+            "amount": ""
+          },
+          "kindled-zeal": true,
+          "symbolic-avenger": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: CFB w/ Quickness
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "46",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          566,
+          567,
+          1686
+        ],
+        [
+          617,
+          587,
+          622
+        ],
+        [
+          2101,
+          2076,
+          2159
         ]
-      }
-  - name: DH Virtues
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "46",
-          "42",
-          "27"
-        ],
-        "selectedTraits": [
-          [
-            624,
-            603,
-            622
-          ],
-          [
-            634,
-            653,
-            2017
-          ],
-          [
-            1898,
-            1835,
-            1955
-          ]
-        ],
-        "items": [
-          {
-            "inspired-virtue": {
-              "amount": ""
-            },
-            "unscathed-contender": {
-              "amount": ""
-            },
-            "virtue-of-retribution": true,
-            "inspiring-virtue": {
-              "amount": ""
-            },
-            "power-of-the-virtuous": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": "100"
           },
-          {
-            "fiery-wrath": true,
-            "symbolic-exposure": true,
-            "zealous-blade-base": true,
-            "zealous-blade-gs": {
-              "amount": ""
-            },
-            "kindled-zeal": true,
-            "symbolic-avenger": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "zealots-aggression": true,
-            "pure-of-sight": true,
-            "pure-of-sight-ranged": false,
-            "hunters-fortification": true,
-            "big-game-hunter": true
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "inspired-virtue": {
+            "amount": ""
+          },
+          "unscathed-contender": {
+            "amount": ""
+          },
+          "virtue-of-retribution": true,
+          "inspiring-virtue": {
+            "amount": ""
+          },
+          "power-of-the-virtuous": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: CFB DPS 5 page
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "46",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          566,
+          567,
+          1686
+        ],
+        [
+          617,
+          587,
+          622
+        ],
+        [
+          2075,
+          2116,
+          2159
         ]
-      }
-  - name: pQFB
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "42",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            574,
-            565,
-            579
-          ],
-          [
-            634,
-            653,
-            2017
-          ],
-          [
-            2101,
-            2076,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": ""
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": "100"
           },
-          {
-            "fiery-wrath": true,
-            "symbolic-exposure": true,
-            "zealous-blade-base": true,
-            "zealous-blade-gs": {
-              "amount": ""
-            },
-            "kindled-zeal": true,
-            "symbolic-avenger": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "inspired-virtue": {
+            "amount": ""
+          },
+          "unscathed-contender": {
+            "amount": ""
+          },
+          "virtue-of-retribution": true,
+          "inspiring-virtue": {
+            "amount": ""
+          },
+          "power-of-the-virtuous": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: CFB DPS 8 page
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "46",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          566,
+          567,
+          1686
+        ],
+        [
+          617,
+          587,
+          622
+        ],
+        [
+          2086,
+          2116,
+          2159
         ]
-      }
-  - name: CFB w/ Quickness
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "46",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            566,
-            567,
-            1686
-          ],
-          [
-            617,
-            587,
-            622
-          ],
-          [
-            2101,
-            2076,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": "100"
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": "100"
           },
-          {
-            "inspired-virtue": {
-              "amount": ""
-            },
-            "unscathed-contender": {
-              "amount": ""
-            },
-            "virtue-of-retribution": true,
-            "inspiring-virtue": {
-              "amount": ""
-            },
-            "power-of-the-virtuous": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "inspired-virtue": {
+            "amount": ""
+          },
+          "unscathed-contender": {
+            "amount": ""
+          },
+          "virtue-of-retribution": true,
+          "inspiring-virtue": {
+            "amount": ""
+          },
+          "power-of-the-virtuous": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: CQB 40%
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "46",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          566,
+          567,
+          1686
+        ],
+        [
+          617,
+          587,
+          622
+        ],
+        [
+          2101,
+          2076,
+          2159
         ]
-      }
-  - name: CFB DPS 5 page
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "46",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            566,
-            567,
-            1686
-          ],
-          [
-            617,
-            587,
-            622
-          ],
-          [
-            2075,
-            2116,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": "100"
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": "100"
           },
-          {
-            "inspired-virtue": {
-              "amount": ""
-            },
-            "unscathed-contender": {
-              "amount": ""
-            },
-            "virtue-of-retribution": true,
-            "inspiring-virtue": {
-              "amount": ""
-            },
-            "power-of-the-virtuous": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "inspired-virtue": {
+            "amount": ""
+          },
+          "unscathed-contender": {
+            "amount": ""
+          },
+          "virtue-of-retribution": true,
+          "inspiring-virtue": {
+            "amount": ""
+          },
+          "power-of-the-virtuous": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Hybrid FB (Virtues)
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "46",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          566,
+          567,
+          1686
+        ],
+        [
+          617,
+          587,
+          622
+        ],
+        [
+          2101,
+          2116,
+          2159
         ]
-      }
-  - name: CFB DPS 8 page
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "46",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            566,
-            567,
-            1686
-          ],
-          [
-            617,
-            587,
-            622
-          ],
-          [
-            2086,
-            2116,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": "100"
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": "100"
           },
-          {
-            "inspired-virtue": {
-              "amount": ""
-            },
-            "unscathed-contender": {
-              "amount": ""
-            },
-            "virtue-of-retribution": true,
-            "inspiring-virtue": {
-              "amount": ""
-            },
-            "power-of-the-virtuous": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "inspired-virtue": {
+            "amount": ""
+          },
+          "unscathed-contender": {
+            "amount": ""
+          },
+          "virtue-of-retribution": true,
+          "inspiring-virtue": {
+            "amount": ""
+          },
+          "power-of-the-virtuous": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Hybrid FB (Honor)
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "49",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          566,
+          567,
+          1686
+        ],
+        [
+          654,
+          562,
+          558
+        ],
+        [
+          2101,
+          2116,
+          2159
         ]
-      }
-  - name: CQB 40%
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "46",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            566,
-            567,
-            1686
-          ],
-          [
-            617,
-            587,
-            622
-          ],
-          [
-            2101,
-            2076,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": "100"
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": "100"
           },
-          {
-            "inspired-virtue": {
-              "amount": ""
-            },
-            "unscathed-contender": {
-              "amount": ""
-            },
-            "virtue-of-retribution": true,
-            "inspiring-virtue": {
-              "amount": ""
-            },
-            "power-of-the-virtuous": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "invigorating-bulwark": {
+            "amount": ""
+          },
+          "honorable-staff": true,
+          "honorable-staff-2": true,
+          "force-of-will": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Healbrand
+  profession: FIREBRAND
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "16",
+        "49",
+        "62"
+      ],
+      "selectedTraits": [
+        [
+          574,
+          578,
+          579
+        ],
+        [
+          1899,
+          557,
+          558
+        ],
+        [
+          2101,
+          2063,
+          2159
         ]
-      }
-  - name: Hybrid FB (Virtues)
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "46",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            566,
-            567,
-            1686
-          ],
-          [
-            617,
-            587,
-            622
-          ],
-          [
-            2101,
-            2116,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": "100"
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "right-hand-strength": true,
+          "right-hand-strength-1h": {
+            "amount": ""
           },
-          {
-            "inspired-virtue": {
-              "amount": ""
-            },
-            "unscathed-contender": {
-              "amount": ""
-            },
-            "virtue-of-retribution": true,
-            "inspiring-virtue": {
-              "amount": ""
-            },
-            "power-of-the-virtuous": true
+          "radiant-fire": true,
+          "retribution": {
+            "amount": ""
           },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "radiant-power": true,
+          "amplified-wrath": true,
+          "righteous-instincts": true
+        },
+        {
+          "invigorating-bulwark": {
+            "amount": ""
+          },
+          "honorable-staff": true,
+          "honorable-staff-2": false,
+          "force-of-will": true
+        },
+        {
+          "imbued-haste": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Power Banner Bers
+  profession: BERSERKER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "4",
+        "51",
+        "18"
+      ],
+      "selectedTraits": [
+        [
+          1444,
+          1449,
+          1437
+        ],
+        [
+          1413,
+          1484,
+          1369
+        ],
+        [
+          1977,
+          2011,
+          1928
         ]
-      }
-  - name: Hybrid FB (Honor)
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "49",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            566,
-            567,
-            1686
-          ],
-          [
-            654,
-            562,
-            558
-          ],
-          [
-            2101,
-            2116,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": "100"
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+      ],
+      "items": [
+        {
+          "peak-performance": true,
+          "peak-performance-2": false,
+          "forceful-greatsword": true,
+          "forceful-greatsword-2": false,
+          "great-fortitude": true,
+          "pinnacle-of-strength": {
+            "amount": ""
           },
-          {
-            "invigorating-bulwark": {
-              "amount": ""
-            },
-            "honorable-staff": true,
-            "honorable-staff-2": true,
-            "force-of-will": true
-          },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "berserkers-power": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Healbrand
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "16",
-          "49",
-          "62"
-        ],
-        "selectedTraits": [
-          [
-            574,
-            578,
-            579
-          ],
-          [
-            1899,
-            557,
-            558
-          ],
-          [
-            2101,
-            2063,
-            2159
-          ]
-        ],
-        "items": [
-          {
-            "right-hand-strength": true,
-            "right-hand-strength-1h": {
-              "amount": ""
-            },
-            "radiant-fire": true,
-            "retribution": {
-              "amount": ""
-            },
-            "radiant-power": true,
-            "amplified-wrath": true,
-            "righteous-instincts": true
+        },
+        {
+          "warriors-sprint": {
+            "amount": ""
           },
-          {
-            "invigorating-bulwark": {
-              "amount": ""
-            },
-            "honorable-staff": true,
-            "honorable-staff-2": false,
-            "force-of-will": true
-          },
-          {
-            "imbued-haste": {
-              "amount": ""
-            }
+          "double-standards-str": true,
+          "double-standards-disc": true,
+          "axe-mastery-one": true,
+          "axe-mastery-axe": {
+            "amount": ""
           }
+        },
+        {
+          "blood-reaction-base": true,
+          "blood-reaction-with": {
+            "amount": ""
+          },
+          "heat-the-soul": true,
+          "heat-the-soul-with": {
+            "amount": ""
+          },
+          "fatal-frenzy-power-condi": {
+            "amount": ""
+          },
+          "fatal-frenzy-toughness": true,
+          "bloody-roar": {
+            "amount": ""
+          },
+          "king-of-fires": true,
+          "eternal-champion": true
+        }
+      ]
+    }
+- name: Condi Banner Bers
+  profession: BERSERKER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "36",
+        "51",
+        "18"
+      ],
+      "selectedTraits": [
+        [
+          1455,
+          1333,
+          1346
+        ],
+        [
+          1329,
+          1484,
+          1657
+        ],
+        [
+          2039,
+          2042,
+          2038
         ]
-      }
-warrior:
-  - name: Power Banner Bers
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "4",
-          "51",
-          "18"
-        ],
-        "selectedTraits": [
-          [
-            1444,
-            1449,
-            1437
-          ],
-          [
-            1413,
-            1484,
-            1369
-          ],
-          [
-            1977,
-            2011,
-            1928
-          ]
-        ],
-        "items": [
-          {
-            "peak-performance": true,
-            "peak-performance-2": false,
-            "forceful-greatsword": true,
-            "forceful-greatsword-2": false,
-            "great-fortitude": true,
-            "pinnacle-of-strength": {
-              "amount": ""
-            },
-            "berserkers-power": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "wounding-precision": true,
+          "signet-mastery": {
+            "amount": ""
           },
-          {
-            "warriors-sprint": {
-              "amount": ""
-            },
-            "double-standards-str": true,
-            "double-standards-disc": true,
-            "axe-mastery-one": true,
-            "axe-mastery-axe": {
-              "amount": ""
-            }
+          "deep-strikes": {
+            "amount": ""
           },
-          {
-            "blood-reaction-base": true,
-            "blood-reaction-with": {
-              "amount": ""
-            },
-            "heat-the-soul": true,
-            "heat-the-soul-with": {
-              "amount": ""
-            },
-            "fatal-frenzy-power-condi": {
-              "amount": ""
-            },
-            "fatal-frenzy-toughness": true,
-            "bloody-roar": {
-              "amount": ""
-            },
-            "king-of-fires": true,
-            "eternal-champion": true
+          "blade-master": true,
+          "blade-master-2": {
+            "amount": ""
+          },
+          "bloodlust": true,
+          "furious": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Condi Banner Bers
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "36",
-          "51",
-          "18"
-        ],
-        "selectedTraits": [
-          [
-            1455,
-            1333,
-            1346
-          ],
-          [
-            1329,
-            1484,
-            1657
-          ],
-          [
-            2039,
-            2042,
-            2038
-          ]
-        ],
-        "items": [
-          {
-            "wounding-precision": true,
-            "signet-mastery": {
-              "amount": ""
-            },
-            "deep-strikes": {
-              "amount": ""
-            },
-            "blade-master": true,
-            "blade-master-2": {
-              "amount": ""
-            },
-            "bloodlust": true,
-            "furious": {
-              "amount": ""
-            }
+        },
+        {
+          "warriors-sprint": {
+            "amount": ""
           },
-          {
-            "warriors-sprint": {
-              "amount": ""
-            },
-            "double-standards-str": true,
-            "double-standards-disc": true,
-            "axe-mastery-one": true,
-            "axe-mastery-axe": {
-              "amount": ""
-            }
-          },
-          {
-            "blood-reaction-base": true,
-            "blood-reaction-with": {
-              "amount": ""
-            },
-            "heat-the-soul": true,
-            "heat-the-soul-with": {
-              "amount": ""
-            },
-            "fatal-frenzy-power-condi": {
-              "amount": ""
-            },
-            "fatal-frenzy-toughness": true,
-            "bloody-roar": {
-              "amount": ""
-            },
-            "king-of-fires": true,
-            "eternal-champion": true
+          "double-standards-str": true,
+          "double-standards-disc": true,
+          "axe-mastery-one": true,
+          "axe-mastery-axe": {
+            "amount": ""
           }
+        },
+        {
+          "blood-reaction-base": true,
+          "blood-reaction-with": {
+            "amount": ""
+          },
+          "heat-the-soul": true,
+          "heat-the-soul-with": {
+            "amount": ""
+          },
+          "fatal-frenzy-power-condi": {
+            "amount": ""
+          },
+          "fatal-frenzy-toughness": true,
+          "bloody-roar": {
+            "amount": ""
+          },
+          "king-of-fires": true,
+          "eternal-champion": true
+        }
+      ]
+    }
+- name: Power Banner SPB
+  profession: SPELLBREAKER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "4",
+        "51",
+        "61"
+      ],
+      "selectedTraits": [
+        [
+          1444,
+          1449,
+          1437
+        ],
+        [
+          1413,
+          1484,
+          1369
+        ],
+        [
+          2107,
+          2095,
+          2060
         ]
-      }
-  - name: Power Banner SPB
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "4",
-          "51",
-          "61"
-        ],
-        "selectedTraits": [
-          [
-            1444,
-            1449,
-            1437
-          ],
-          [
-            1413,
-            1484,
-            1369
-          ],
-          [
-            2107,
-            2095,
-            2060
-          ]
-        ],
-        "items": [
-          {
-            "peak-performance": true,
-            "peak-performance-2": false,
-            "forceful-greatsword": true,
-            "forceful-greatsword-2": false,
-            "great-fortitude": true,
-            "pinnacle-of-strength": {
-              "amount": ""
-            },
-            "berserkers-power": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "peak-performance": true,
+          "peak-performance-2": false,
+          "forceful-greatsword": true,
+          "forceful-greatsword-2": false,
+          "great-fortitude": true,
+          "pinnacle-of-strength": {
+            "amount": ""
           },
-          {
-            "warriors-sprint": {
-              "amount": ""
-            },
-            "double-standards-str": true,
-            "double-standards-disc": true,
-            "axe-mastery-one": true,
-            "axe-mastery-axe": {
-              "amount": ""
-            }
-          },
-          {
-            "pure-strike-base": true,
-            "pure-strike-boonless": {
-              "amount": ""
-            },
-            "sun-and-moon-style": false,
-            "attackers-insight": {
-              "amount": "4"
-            },
-            "magebane-tether": {
-              "amount": ""
-            }
+          "berserkers-power": {
+            "amount": ""
           }
-        ]
-      }
-elementalist:
-  - name: Power Weaver
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "31",
-          "41",
-          "56"
-        ],
-        "selectedTraits": [
-          [
-            296,
-            334,
-            1510
-          ],
-          [
-            232,
-            1502,
-            226
-          ],
-          [
-            2115,
-            2061,
-            2131
-          ]
-        ],
-        "items": [
-          {
-            "empowering-flame": {
-              "amount": "51"
-            },
-            "burning-precision": true,
-            "burning-rage": true,
-            "power-overwhelming": true,
-            "power-overwhelming-2": {
-              "amount": "51"
-            },
-            "pyromancers-training": true,
-            "persisting-flames": {
-              "amount": ""
-            }
+        },
+        {
+          "warriors-sprint": {
+            "amount": ""
           },
-          {
-            "ferocious-winds": true,
-            "raging-storm": {
-              "amount": ""
-            },
-            "stormsoul": {
-              "amount": ""
-            },
-            "aeromancers-training": true,
-            "aeromancers-training-2": {
-              "amount": "49"
-            },
-            "bolt-to-the-heart": {
-              "amount": ""
-            },
-            "fresh-air": {
-              "amount": ""
-            }
-          },
-          {
-            "superior-elements": true,
-            "masters-fortitude": true,
-            "masters-fortitude-sword": true,
-            "weavers-prowess": true,
-            "swift-revenge": {
-              "amount": ""
-            },
-            "elemental-polyphony-fire": {
-              "amount": "76"
-            },
-            "elemental-polyphony-air": {
-              "amount": "74"
-            },
-            "elements-of-rage-base": true,
-            "elements-of-rage-buff": {
-              "amount": ""
-            }
+          "double-standards-str": true,
+          "double-standards-disc": true,
+          "axe-mastery-one": true,
+          "axe-mastery-axe": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Condi Weaver SW
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "31",
-          "26",
-          "56"
-        ],
-        "selectedTraits": [
-          [
-            296,
-            325,
-            1510
-          ],
-          [
-            1507,
-            275,
-            287
-          ],
-          [
-            2177,
-            2180,
-            2131
-          ]
-        ],
-        "items": [
-          {
-            "empowering-flame": {
-              "amount": ""
-            },
-            "burning-precision": true,
-            "burning-rage": true,
-            "power-overwhelming": true,
-            "power-overwhelming-2": {
-              "amount": ""
-            },
-            "pyromancers-training": true,
-            "persisting-flames": {
-              "amount": ""
-            }
+        },
+        {
+          "pure-strike-base": true,
+          "pure-strike-boonless": {
+            "amount": ""
           },
-          {
-            "stone-flesh": false,
-            "serrated-stones": true,
-            "strength-of-stone": true,
-            "geomancers-training": true
+          "sun-and-moon-style": false,
+          "attackers-insight": {
+            "amount": "4"
           },
-          {
-            "superior-elements": true,
-            "masters-fortitude": true,
-            "masters-fortitude-sword": true,
-            "weavers-prowess": true,
-            "swift-revenge": {
-              "amount": ""
-            },
-            "elemental-polyphony-fire": {
-              "amount": "83"
-            },
-            "elemental-polyphony-air": {
-              "amount": "29"
-            },
-            "elements-of-rage-base": true,
-            "elements-of-rage-buff": {
-              "amount": "80"
-            }
+          "magebane-tether": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Power Weaver
+  profession: WEAVER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "31",
+        "41",
+        "56"
+      ],
+      "selectedTraits": [
+        [
+          296,
+          334,
+          1510
+        ],
+        [
+          232,
+          1502,
+          226
+        ],
+        [
+          2115,
+          2061,
+          2131
         ]
-      }
-  - name: Hybrid Weaver
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "31",
-          "41",
-          "56"
-        ],
-        "selectedTraits": [
-          [
-            296,
-            325,
-            1510
-          ],
-          [
-            232,
-            214,
-            1503
-          ],
-          [
-            2177,
-            2180,
-            2131
-          ]
-        ],
-        "items": [
-          {
-            "empowering-flame": {
-              "amount": "57"
-            },
-            "burning-precision": true,
-            "burning-rage": true,
-            "power-overwhelming": true,
-            "power-overwhelming-2": {
-              "amount": ""
-            },
-            "pyromancers-training": true,
-            "persisting-flames": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "empowering-flame": {
+            "amount": "51"
           },
-          {
-            "ferocious-winds": true,
-            "raging-storm": {
-              "amount": ""
-            },
-            "stormsoul": {
-              "amount": ""
-            },
-            "aeromancers-training": true,
-            "aeromancers-training-2": {
-              "amount": "33"
-            },
-            "bolt-to-the-heart": {
-              "amount": ""
-            },
-            "fresh-air": {
-              "amount": "48"
-            }
+          "burning-precision": true,
+          "burning-rage": true,
+          "power-overwhelming": true,
+          "power-overwhelming-2": {
+            "amount": "51"
           },
-          {
-            "superior-elements": true,
-            "masters-fortitude": true,
-            "masters-fortitude-sword": true,
-            "weavers-prowess": true,
-            "swift-revenge": {
-              "amount": ""
-            },
-            "elemental-polyphony-fire": {
-              "amount": "67"
-            },
-            "elemental-polyphony-air": {
-              "amount": "60"
-            },
-            "elements-of-rage-base": true,
-            "elements-of-rage-buff": {
-              "amount": ""
-            }
+          "pyromancers-training": true,
+          "persisting-flames": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Condi Tempest
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "31",
-          "26",
-          "48"
-        ],
-        "selectedTraits": [
-          [
-            296,
-            325,
-            1510
-          ],
-          [
-            1507,
-            275,
-            287
-          ],
-          [
-            1886,
-            1891,
-            1839
-          ]
-        ],
-        "items": [
-          {
-            "empowering-flame": {
-              "amount": "69"
-            },
-            "burning-precision": true,
-            "burning-rage": true,
-            "power-overwhelming": true,
-            "power-overwhelming-2": {
-              "amount": ""
-            },
-            "pyromancers-training": true,
-            "persisting-flames": {
-              "amount": ""
-            }
+        },
+        {
+          "ferocious-winds": true,
+          "raging-storm": {
+            "amount": ""
           },
-          {
-            "stone-flesh": false,
-            "serrated-stones": true,
-            "strength-of-stone": true,
-            "geomancers-training": true
+          "stormsoul": {
+            "amount": ""
           },
-          {
-            "gathered-focus": true,
-            "hardy-conduit": true,
-            "transcendent-tempest": {
-              "amount": ""
-            }
+          "aeromancers-training": true,
+          "aeromancers-training-2": {
+            "amount": "49"
+          },
+          "bolt-to-the-heart": {
+            "amount": ""
+          },
+          "fresh-air": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Heal Tempest
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "",
-          "17",
-          "48"
-        ],
-        "selectedTraits": [
-          [
-            0,
-            0,
-            0
-          ],
-          [
-            363,
-            358,
-            361
-          ],
-          [
-            1886,
-            2015,
-            1986
-          ]
-        ],
-        "items": [
-          {},
-          {
-            "piercing-blades": true,
-            "piercing-blades-2": false,
-            "flow-like-water": {
-              "amount": ""
-            },
-            "aquamancers-training": true
+        },
+        {
+          "superior-elements": true,
+          "masters-fortitude": true,
+          "masters-fortitude-sword": true,
+          "weavers-prowess": true,
+          "swift-revenge": {
+            "amount": ""
           },
-          {
-            "gathered-focus": true,
-            "hardy-conduit": true,
-            "transcendent-tempest": {
-              "amount": ""
-            }
+          "elemental-polyphony-fire": {
+            "amount": "76"
+          },
+          "elemental-polyphony-air": {
+            "amount": "74"
+          },
+          "elements-of-rage-base": true,
+          "elements-of-rage-buff": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Condi Weaver SW
+  profession: WEAVER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "31",
+        "26",
+        "56"
+      ],
+      "selectedTraits": [
+        [
+          296,
+          325,
+          1510
+        ],
+        [
+          1507,
+          275,
+          287
+        ],
+        [
+          2177,
+          2180,
+          2131
         ]
-      }
-ranger:
-  - name: Power Slb
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "8",
-          "32",
-          "55"
-        ],
-        "selectedTraits": [
-          [
-            1014,
-            1000,
-            996
-          ],
-          [
-            1606,
-            970,
-            1066
-          ],
-          [
-            2071,
-            2085,
-            2128
-          ]
-        ],
-        "items": [
-          {
-            "farsighted": true,
-            "farsighted-2": false,
-            "predators-onslaught": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "empowering-flame": {
+            "amount": ""
           },
-          {
-            "honed-axes": true,
-            "honed-axes-axe": {
-              "amount": ""
-            }
+          "burning-precision": true,
+          "burning-rage": true,
+          "power-overwhelming": true,
+          "power-overwhelming-2": {
+            "amount": ""
           },
-          {
-            "furious-strength": {
-              "amount": ""
-            },
-            "twice-as-vicious": {
-              "amount": ""
-            },
-            "oppressive-superiority": true,
-            "archetype-stout": false,
-            "archetype-deadly": false,
-            "archetype-versatile": false,
-            "archetype-ferocious": true,
-            "archetype-supportive": false,
-            "pack-alpha-merged": true,
-            "loud-whistle-merged": true,
-            "pets-prowess-merged": true,
-            "honed-axes-merged": true
+          "pyromancers-training": true,
+          "persisting-flames": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Condi Slb SB
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "30",
-          "33",
-          "55"
-        ],
-        "selectedTraits": [
-          [
-            1069,
-            1846,
-            1912
-          ],
-          [
-            1099,
-            1101,
-            1701
-          ],
-          [
-            2071,
-            2161,
-            2128
-          ]
-        ],
-        "items": [
-          {
-            "hidden-barbs": true,
-            "hunters-tactics": true,
-            "light-on-your-feet": false,
-            "vicious-quarry": true
+        },
+        {
+          "stone-flesh": false,
+          "serrated-stones": true,
+          "strength-of-stone": true,
+          "geomancers-training": true
+        },
+        {
+          "superior-elements": true,
+          "masters-fortitude": true,
+          "masters-fortitude-sword": true,
+          "weavers-prowess": true,
+          "swift-revenge": {
+            "amount": ""
           },
-          {
-            "oakheart-salve": true,
-            "taste-for-danger": true,
-            "ambidexterity": true,
-            "ambidexterity-2": {
-              "amount": ""
-            },
-            "poison-master": true
+          "elemental-polyphony-fire": {
+            "amount": "83"
           },
-          {
-            "furious-strength": {
-              "amount": ""
-            },
-            "twice-as-vicious": {
-              "amount": "45"
-            },
-            "oppressive-superiority": true,
-            "archetype-stout": false,
-            "archetype-deadly": true,
-            "archetype-versatile": false,
-            "archetype-ferocious": false,
-            "archetype-supportive": false,
-            "pack-alpha-merged": false,
-            "loud-whistle-merged": false,
-            "pets-prowess-merged": false,
-            "honed-axes-merged": false
+          "elemental-polyphony-air": {
+            "amount": "29"
+          },
+          "elements-of-rage-base": true,
+          "elements-of-rage-buff": {
+            "amount": "80"
           }
+        }
+      ]
+    }
+- name: Hybrid Weaver
+  profession: WEAVER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "31",
+        "41",
+        "56"
+      ],
+      "selectedTraits": [
+        [
+          296,
+          325,
+          1510
+        ],
+        [
+          232,
+          214,
+          1503
+        ],
+        [
+          2177,
+          2180,
+          2131
         ]
-      }
-  - name: Condi Slb D/T A/D
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "30",
-          "33",
-          "55"
-        ],
-        "selectedTraits": [
-          [
-            1069,
-            1846,
-            1064
-          ],
-          [
-            1099,
-            1101,
-            1701
-          ],
-          [
-            2071,
-            2161,
-            2128
-          ]
-        ],
-        "items": [
-          {
-            "hidden-barbs": true,
-            "hunters-tactics": true,
-            "light-on-your-feet": false,
-            "vicious-quarry": true
+      ],
+      "items": [
+        {
+          "empowering-flame": {
+            "amount": "57"
           },
-          {
-            "oakheart-salve": true,
-            "taste-for-danger": true,
-            "ambidexterity": true,
-            "ambidexterity-2": {
-              "amount": ""
-            },
-            "poison-master": true
+          "burning-precision": true,
+          "burning-rage": true,
+          "power-overwhelming": true,
+          "power-overwhelming-2": {
+            "amount": ""
           },
-          {
-            "furious-strength": {
-              "amount": ""
-            },
-            "twice-as-vicious": {
-              "amount": "45"
-            },
-            "oppressive-superiority": true,
-            "archetype-stout": false,
-            "archetype-deadly": true,
-            "archetype-versatile": false,
-            "archetype-ferocious": false,
-            "archetype-supportive": false,
-            "pack-alpha-merged": false,
-            "loud-whistle-merged": false,
-            "pets-prowess-merged": false,
-            "honed-axes-merged": false
+          "pyromancers-training": true,
+          "persisting-flames": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Hybrid Slb
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "30",
-          "32",
-          "55"
-        ],
-        "selectedTraits": [
-          [
-            1069,
-            1846,
-            1888
-          ],
-          [
-            1606,
-            970,
-            1066
-          ],
-          [
-            2071,
-            2161,
-            2128
-          ]
-        ],
-        "items": [
-          {
-            "hidden-barbs": true,
-            "hunters-tactics": true,
-            "light-on-your-feet": false,
-            "vicious-quarry": true
+        },
+        {
+          "ferocious-winds": true,
+          "raging-storm": {
+            "amount": ""
           },
-          {
-            "honed-axes": true,
-            "honed-axes-axe": {
-              "amount": "100"
-            }
+          "stormsoul": {
+            "amount": ""
           },
-          {
-            "furious-strength": {
-              "amount": ""
-            },
-            "twice-as-vicious": {
-              "amount": "82"
-            },
-            "oppressive-superiority": true,
-            "archetype-stout": false,
-            "archetype-deadly": true,
-            "archetype-versatile": false,
-            "archetype-ferocious": false,
-            "archetype-supportive": false,
-            "pack-alpha-merged": true,
-            "loud-whistle-merged": true,
-            "pets-prowess-merged": true,
-            "honed-axes-merged": true
+          "aeromancers-training": true,
+          "aeromancers-training-2": {
+            "amount": "33"
+          },
+          "bolt-to-the-heart": {
+            "amount": ""
+          },
+          "fresh-air": {
+            "amount": "48"
           }
-        ]
-      }
-  - name: Condi Druid*
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "30",
-          "25",
-          "5"
-        ],
-        "selectedTraits": [
-          [
-            1069,
-            1016,
-            1912
-          ],
-          [
-            1062,
-            965,
-            1038
-          ],
-          [
-            0,
-            0,
-            2057
-          ]
-        ],
-        "items": [
-          {
-            "hidden-barbs": true,
-            "hunters-tactics": true,
-            "light-on-your-feet": true,
-            "vicious-quarry": true
+        },
+        {
+          "superior-elements": true,
+          "masters-fortitude": true,
+          "masters-fortitude-sword": true,
+          "weavers-prowess": true,
+          "swift-revenge": {
+            "amount": ""
           },
-          {
-            "bountiful-hunter": {
-              "amount": ""
-            },
-            "instinctive-reaction": true,
-            "lingering-magic": true
+          "elemental-polyphony-fire": {
+            "amount": "67"
           },
-          {
-            "natural-mender": {
-              "amount": ""
-            }
+          "elemental-polyphony-air": {
+            "amount": "60"
+          },
+          "elements-of-rage-base": true,
+          "elements-of-rage-buff": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Condi Tempest
+  profession: TEMPEST
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "31",
+        "26",
+        "48"
+      ],
+      "selectedTraits": [
+        [
+          296,
+          325,
+          1510
+        ],
+        [
+          1507,
+          275,
+          287
+        ],
+        [
+          1886,
+          1891,
+          1839
         ]
-      }
-  - name: Heal Druid
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "30",
-          "25",
-          "5"
-        ],
-        "selectedTraits": [
-          [
-            0,
-            1016,
-            0
-          ],
-          [
-            0,
-            0,
-            0
-          ],
-          [
-            0,
-            0,
-            2057
-          ]
-        ],
-        "items": [
-          {
-            "hidden-barbs": true,
-            "hunters-tactics": true,
-            "light-on-your-feet": false,
-            "vicious-quarry": true
+      ],
+      "items": [
+        {
+          "empowering-flame": {
+            "amount": "69"
           },
-          {
-            "bountiful-hunter": {
-              "amount": ""
-            },
-            "instinctive-reaction": true,
-            "lingering-magic": true
+          "burning-precision": true,
+          "burning-rage": true,
+          "power-overwhelming": true,
+          "power-overwhelming-2": {
+            "amount": ""
           },
-          {
-            "natural-mender": {
-              "amount": ""
-            }
+          "pyromancers-training": true,
+          "persisting-flames": {
+            "amount": ""
           }
-        ]
-      }
-revenant:
-  - name: Power Alac Ren
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "15",
-          "3",
-          "63"
-        ],
-        "selectedTraits": [
-          [
-            1767,
-            1786,
-            1800
-          ],
-          [
-            1761,
-            1774,
-            1791
-          ],
-          [
-            2166,
-            2108,
-            2182
-          ]
-        ],
-        "items": [
-          {
-            "unsuspecting-strikes": {
-              "amount": ""
-            },
-            "destructive-impulses-base": true,
-            "destructive-impulses-dual": {
-              "amount": "100"
-            },
-            "notoriety": {
-              "amount": ""
-            },
-            "targeted-destruction": {
-              "amount": ""
-            },
-            "swift-termination": {
-              "amount": ""
-            }
-          },
-          {
-            "rising-tide": {
-              "amount": ""
-            },
-            "ferocious-aggression": {
-              "amount": ""
-            },
-            "roiling-mists": true
-          },
-          {
-            "ambush-commander": {
-              "amount": ""
-            },
-            "blood-fury": true,
-            "heartpiercer": true,
-            "brutal-momentum": true,
-            "lasting-legacy": {
-              "amount": ""
-            }
+        },
+        {
+          "stone-flesh": false,
+          "serrated-stones": true,
+          "strength-of-stone": true,
+          "geomancers-training": true
+        },
+        {
+          "gathered-focus": true,
+          "hardy-conduit": true,
+          "transcendent-tempest": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Heal Tempest
+  profession: TEMPEST
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "",
+        "17",
+        "48"
+      ],
+      "selectedTraits": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          363,
+          358,
+          361
+        ],
+        [
+          1886,
+          2015,
+          1986
         ]
-      }
-  - name: Condi Alac Ren Invo
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "14",
-          "3",
-          "63"
-        ],
-        "selectedTraits": [
-          [
-            1793,
-            1714,
-            1795
-          ],
-          [
-            1761,
-            1781,
-            1791
-          ],
-          [
-            2079,
-            2092,
-            2182
-          ]
-        ],
-        "items": [
-          {
-            "acolyte-of-torment": true,
-            "seething-malice": true,
-            "demonic-resistance": true,
-            "pact-of-pain": true,
-            "yearning-empowerment": true
+      ],
+      "items": [
+        {},
+        {
+          "piercing-blades": true,
+          "piercing-blades-2": false,
+          "flow-like-water": {
+            "amount": ""
           },
-          {
-            "rising-tide": {
-              "amount": ""
-            },
-            "ferocious-aggression": {
-              "amount": ""
-            },
-            "roiling-mists": true
-          },
-          {
-            "ambush-commander": {
-              "amount": ""
-            },
-            "blood-fury": true,
-            "heartpiercer": true,
-            "brutal-momentum": true,
-            "lasting-legacy": {
-              "amount": ""
-            }
+          "aquamancers-training": true
+        },
+        {
+          "gathered-focus": true,
+          "hardy-conduit": true,
+          "transcendent-tempest": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Power Slb
+  profession: SOULBEAST
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "8",
+        "32",
+        "55"
+      ],
+      "selectedTraits": [
+        [
+          1014,
+          1000,
+          996
+        ],
+        [
+          1606,
+          970,
+          1066
+        ],
+        [
+          2071,
+          2085,
+          2128
         ]
-      }
-  - name: Condi RR Ren Invo
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "14",
-          "3",
-          "63"
-        ],
-        "selectedTraits": [
-          [
-            1793,
-            1714,
-            1795
-          ],
-          [
-            1761,
-            1781,
-            1791
-          ],
-          [
-            2079,
-            2092,
-            2182
-          ]
-        ],
-        "items": [
-          {
-            "acolyte-of-torment": true,
-            "seething-malice": true,
-            "demonic-resistance": true,
-            "pact-of-pain": true,
-            "yearning-empowerment": true
-          },
-          {
-            "rising-tide": {
-              "amount": ""
-            },
-            "ferocious-aggression": {
-              "amount": ""
-            },
-            "roiling-mists": true
-          },
-          {
-            "ambush-commander": {
-              "amount": ""
-            },
-            "blood-fury": true,
-            "heartpiercer": true,
-            "brutal-momentum": true,
-            "lasting-legacy": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "farsighted": true,
+          "farsighted-2": false,
+          "predators-onslaught": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Condi RR Ren Deva
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "14",
-          "15",
-          "63"
-        ],
-        "selectedTraits": [
-          [
-            1793,
-            1714,
-            1795
-          ],
-          [
-            1767,
-            1786,
-            1754
-          ],
-          [
-            2079,
-            2092,
-            2182
-          ]
-        ],
-        "items": [
-          {
-            "acolyte-of-torment": true,
-            "seething-malice": true,
-            "demonic-resistance": true,
-            "pact-of-pain": true,
-            "yearning-empowerment": true
-          },
-          {
-            "unsuspecting-strikes": {
-              "amount": ""
-            },
-            "destructive-impulses-base": true,
-            "destructive-impulses-dual": {
-              "amount": ""
-            },
-            "notoriety": {
-              "amount": ""
-            },
-            "targeted-destruction": {
-              "amount": ""
-            },
-            "swift-termination": {
-              "amount": ""
-            }
-          },
-          {
-            "ambush-commander": {
-              "amount": ""
-            },
-            "blood-fury": true,
-            "heartpiercer": true,
-            "brutal-momentum": true,
-            "lasting-legacy": {
-              "amount": ""
-            }
+        },
+        {
+          "honed-axes": true,
+          "honed-axes-axe": {
+            "amount": ""
           }
+        },
+        {
+          "furious-strength": {
+            "amount": ""
+          },
+          "twice-as-vicious": {
+            "amount": ""
+          },
+          "oppressive-superiority": true,
+          "archetype-stout": false,
+          "archetype-deadly": false,
+          "archetype-versatile": false,
+          "archetype-ferocious": true,
+          "archetype-supportive": false,
+          "pack-alpha-merged": true,
+          "loud-whistle-merged": true,
+          "pets-prowess-merged": true,
+          "honed-axes-merged": true
+        }
+      ]
+    }
+- name: Condi Slb SB
+  profession: SOULBEAST
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "30",
+        "33",
+        "55"
+      ],
+      "selectedTraits": [
+        [
+          1069,
+          1846,
+          1912
+        ],
+        [
+          1099,
+          1101,
+          1701
+        ],
+        [
+          2071,
+          2161,
+          2128
         ]
-      }
-  - name: Condi DPS Ren Deva
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "14",
-          "15",
-          "63"
-        ],
-        "selectedTraits": [
-          [
-            1793,
-            1714,
-            1795
-          ],
-          [
-            1767,
-            1786,
-            1754
-          ],
-          [
-            2079,
-            2092,
-            2100
-          ]
-        ],
-        "items": [
-          {
-            "acolyte-of-torment": true,
-            "seething-malice": true,
-            "demonic-resistance": true,
-            "pact-of-pain": true,
-            "yearning-empowerment": true
+      ],
+      "items": [
+        {
+          "hidden-barbs": true,
+          "hunters-tactics": true,
+          "light-on-your-feet": false,
+          "vicious-quarry": true
+        },
+        {
+          "oakheart-salve": true,
+          "taste-for-danger": true,
+          "ambidexterity": true,
+          "ambidexterity-2": {
+            "amount": ""
           },
-          {
-            "unsuspecting-strikes": {
-              "amount": ""
-            },
-            "destructive-impulses-base": true,
-            "destructive-impulses-dual": {
-              "amount": ""
-            },
-            "notoriety": {
-              "amount": ""
-            },
-            "targeted-destruction": {
-              "amount": ""
-            },
-            "swift-termination": {
-              "amount": ""
-            }
+          "poison-master": true
+        },
+        {
+          "furious-strength": {
+            "amount": ""
           },
-          {
-            "ambush-commander": {
-              "amount": ""
-            },
-            "blood-fury": true,
-            "heartpiercer": true,
-            "brutal-momentum": true,
-            "lasting-legacy": {
-              "amount": ""
-            }
+          "twice-as-vicious": {
+            "amount": "45"
+          },
+          "oppressive-superiority": true,
+          "archetype-stout": false,
+          "archetype-deadly": true,
+          "archetype-versatile": false,
+          "archetype-ferocious": false,
+          "archetype-supportive": false,
+          "pack-alpha-merged": false,
+          "loud-whistle-merged": false,
+          "pets-prowess-merged": false,
+          "honed-axes-merged": false
+        }
+      ]
+    }
+- name: Condi Slb D/T A/D
+  profession: SOULBEAST
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "30",
+        "33",
+        "55"
+      ],
+      "selectedTraits": [
+        [
+          1069,
+          1846,
+          1064
+        ],
+        [
+          1099,
+          1101,
+          1701
+        ],
+        [
+          2071,
+          2161,
+          2128
+        ]
+      ],
+      "items": [
+        {
+          "hidden-barbs": true,
+          "hunters-tactics": true,
+          "light-on-your-feet": false,
+          "vicious-quarry": true
+        },
+        {
+          "oakheart-salve": true,
+          "taste-for-danger": true,
+          "ambidexterity": true,
+          "ambidexterity-2": {
+            "amount": ""
+          },
+          "poison-master": true
+        },
+        {
+          "furious-strength": {
+            "amount": ""
+          },
+          "twice-as-vicious": {
+            "amount": "45"
+          },
+          "oppressive-superiority": true,
+          "archetype-stout": false,
+          "archetype-deadly": true,
+          "archetype-versatile": false,
+          "archetype-ferocious": false,
+          "archetype-supportive": false,
+          "pack-alpha-merged": false,
+          "loud-whistle-merged": false,
+          "pets-prowess-merged": false,
+          "honed-axes-merged": false
+        }
+      ]
+    }
+- name: Hybrid Slb
+  profession: SOULBEAST
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "30",
+        "32",
+        "55"
+      ],
+      "selectedTraits": [
+        [
+          1069,
+          1846,
+          1888
+        ],
+        [
+          1606,
+          970,
+          1066
+        ],
+        [
+          2071,
+          2161,
+          2128
+        ]
+      ],
+      "items": [
+        {
+          "hidden-barbs": true,
+          "hunters-tactics": true,
+          "light-on-your-feet": false,
+          "vicious-quarry": true
+        },
+        {
+          "honed-axes": true,
+          "honed-axes-axe": {
+            "amount": "100"
           }
+        },
+        {
+          "furious-strength": {
+            "amount": ""
+          },
+          "twice-as-vicious": {
+            "amount": "82"
+          },
+          "oppressive-superiority": true,
+          "archetype-stout": false,
+          "archetype-deadly": true,
+          "archetype-versatile": false,
+          "archetype-ferocious": false,
+          "archetype-supportive": false,
+          "pack-alpha-merged": true,
+          "loud-whistle-merged": true,
+          "pets-prowess-merged": true,
+          "honed-axes-merged": true
+        }
+      ]
+    }
+- name: Condi Druid*
+  profession: DRUID
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "30",
+        "25",
+        "5"
+      ],
+      "selectedTraits": [
+        [
+          1069,
+          1016,
+          1912
+        ],
+        [
+          1062,
+          965,
+          1038
+        ],
+        [
+          0,
+          0,
+          2057
         ]
-      }
-  - name: Power Herald DE
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "15",
-          "3",
-          "52"
-        ],
-        "selectedTraits": [
-          [
-            1767,
-            1786,
-            1800
-          ],
-          [
-            1761,
-            1774,
-            1719
-          ],
-          [
-            1813,
-            1738,
-            1772
-          ]
-        ],
-        "items": [
-          {
-            "unsuspecting-strikes": {
-              "amount": ""
-            },
-            "destructive-impulses-base": true,
-            "destructive-impulses-dual": {
-              "amount": "100"
-            },
-            "notoriety": {
-              "amount": ""
-            },
-            "targeted-destruction": {
-              "amount": ""
-            },
-            "swift-termination": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "hidden-barbs": true,
+          "hunters-tactics": true,
+          "light-on-your-feet": true,
+          "vicious-quarry": true
+        },
+        {
+          "bountiful-hunter": {
+            "amount": ""
           },
-          {
-            "rising-tide": {
-              "amount": ""
-            },
-            "ferocious-aggression": {
-              "amount": ""
-            },
-            "roiling-mists": true
-          },
-          {
-            "draconic-fortitude": true,
-            "hardening-persistence": false,
-            "reinforced-potency-base": true,
-            "reinforced-potency-boons": {
-              "amount": ""
-            },
-            "forceful-persistence-nonherald": {
-              "amount": ""
-            },
-            "forceful-persistence-herald": {
-              "amount": ""
-            }
+          "instinctive-reaction": true,
+          "lingering-magic": true
+        },
+        {
+          "natural-mender": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Heal Druid
+  profession: DRUID
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "30",
+        "25",
+        "5"
+      ],
+      "selectedTraits": [
+        [
+          0,
+          1016,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2057
         ]
-      }
-  - name: Condi Herald
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "14",
-          "15",
-          "52"
-        ],
-        "selectedTraits": [
-          [
-            1793,
-            1714,
-            1795
-          ],
-          [
-            1767,
-            1786,
-            1754
-          ],
-          [
-            1813,
-            1738,
-            1772
-          ]
-        ],
-        "items": [
-          {
-            "acolyte-of-torment": true,
-            "seething-malice": true,
-            "demonic-resistance": true,
-            "pact-of-pain": true,
-            "yearning-empowerment": true
+      ],
+      "items": [
+        {
+          "hidden-barbs": true,
+          "hunters-tactics": true,
+          "light-on-your-feet": false,
+          "vicious-quarry": true
+        },
+        {
+          "bountiful-hunter": {
+            "amount": ""
           },
-          {
-            "unsuspecting-strikes": {
-              "amount": ""
-            },
-            "destructive-impulses-base": true,
-            "destructive-impulses-dual": {
-              "amount": "100"
-            },
-            "notoriety": {
-              "amount": ""
-            },
-            "targeted-destruction": {
-              "amount": ""
-            },
-            "swift-termination": {
-              "amount": ""
-            }
-          },
-          {
-            "draconic-fortitude": true,
-            "hardening-persistence": false,
-            "reinforced-potency-base": true,
-            "reinforced-potency-boons": {
-              "amount": ""
-            },
-            "forceful-persistence-nonherald": {
-              "amount": ""
-            },
-            "forceful-persistence-herald": {
-              "amount": ""
-            }
+          "instinctive-reaction": true,
+          "lingering-magic": true
+        },
+        {
+          "natural-mender": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Power Alac Ren
+  profession: RENEGADE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "15",
+        "3",
+        "63"
+      ],
+      "selectedTraits": [
+        [
+          1767,
+          1786,
+          1800
+        ],
+        [
+          1761,
+          1774,
+          1791
+        ],
+        [
+          2166,
+          2108,
+          2182
         ]
-      }
-  - name: Heal Ren
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "12",
-          "15",
-          "63"
-        ],
-        "selectedTraits": [
-          [
-            1822,
-            1818,
-            1815
-          ],
-          [
-            1767,
-            1786,
-            1754
-          ],
-          [
-            2120,
-            2108,
-            2182
-          ]
-        ],
-        "items": [
-          {
-            "tranquil-balance": {
-              "amount": ""
-            },
-            "life-attunement": true,
-            "invoking-harmony": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "unsuspecting-strikes": {
+            "amount": ""
           },
-          {
-            "unsuspecting-strikes": {
-              "amount": ""
-            },
-            "destructive-impulses-base": true,
-            "destructive-impulses-dual": {
-              "amount": ""
-            },
-            "notoriety": {
-              "amount": ""
-            },
-            "targeted-destruction": {
-              "amount": ""
-            },
-            "swift-termination": {
-              "amount": ""
-            }
+          "destructive-impulses-base": true,
+          "destructive-impulses-dual": {
+            "amount": "100"
           },
-          {
-            "ambush-commander": {
-              "amount": ""
-            },
-            "blood-fury": true,
-            "heartpiercer": true,
-            "brutal-momentum": true,
-            "lasting-legacy": {
-              "amount": ""
-            }
+          "notoriety": {
+            "amount": ""
+          },
+          "targeted-destruction": {
+            "amount": ""
+          },
+          "swift-termination": {
+            "amount": ""
           }
-        ]
-      }
-engineer:
-  - name: Power Holo
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "38",
-          "6",
-          ""
-        ],
-        "selectedTraits": [
-          [
-            1914,
-            1923,
-            526
-          ],
-          [
-            1882,
-            1892,
-            1947
-          ],
-          [
-            0,
-            0,
-            0
-          ]
-        ],
-        "items": [
-          {
-            "chemical-rounds": true,
-            "high-caliber": true,
-            "hematic-focus": true,
-            "thermal-vision": true,
-            "no-scope": {
-              "amount": ""
-            },
-            "serrated-steel": true,
-            "modified-ammunition": {
-              "amount": ""
-            },
-            "incendiary-powder": true
+        },
+        {
+          "rising-tide": {
+            "amount": ""
           },
-          {
-            "glass-cannon": {
-              "amount": ""
-            },
-            "explosive-temper": {
-              "amount": ""
-            },
-            "blast-shield": true,
-            "shaped-charge": {
-              "amount": ""
-            },
-            "big-boomer": true
+          "ferocious-aggression": {
+            "amount": ""
           },
-          {}
-        ]
-      }
-  - name: Power Scrapper
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "38",
-          "6",
-          "43"
-        ],
-        "selectedTraits": [
-          [
-            1914,
-            1923,
-            526
-          ],
-          [
-            1882,
-            1892,
-            1947
-          ],
-          [
-            1917,
-            1860,
-            1849
-          ]
-        ],
-        "items": [
-          {
-            "chemical-rounds": true,
-            "high-caliber": true,
-            "hematic-focus": true,
-            "thermal-vision": true,
-            "no-scope": {
-              "amount": ""
-            },
-            "serrated-steel": true,
-            "modified-ammunition": {
-              "amount": ""
-            },
-            "incendiary-powder": true
+          "roiling-mists": true
+        },
+        {
+          "ambush-commander": {
+            "amount": ""
           },
-          {
-            "glass-cannon": {
-              "amount": ""
-            },
-            "explosive-temper": {
-              "amount": ""
-            },
-            "blast-shield": true,
-            "shaped-charge": {
-              "amount": ""
-            },
-            "big-boomer": true
-          },
-          {
-            "object-in-motion": {
-              "amount": ""
-            },
-            "impact-savant": true,
-            "kinetic-accelerators": true,
-            "applied-force": {
-              "amount": ""
-            }
+          "blood-fury": true,
+          "heartpiercer": true,
+          "brutal-momentum": true,
+          "lasting-legacy": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Condi Alac Ren Invo
+  profession: RENEGADE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "14",
+        "3",
+        "63"
+      ],
+      "selectedTraits": [
+        [
+          1793,
+          1714,
+          1795
+        ],
+        [
+          1761,
+          1781,
+          1791
+        ],
+        [
+          2079,
+          2092,
+          2182
         ]
-      }
-  - name: Quickness Scrapper
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "38",
-          "6",
-          "43"
-        ],
-        "selectedTraits": [
-          [
-            1914,
-            1923,
-            526
-          ],
-          [
-            1882,
-            1892,
-            1947
-          ],
-          [
-            1917,
-            1860,
-            2052
-          ]
-        ],
-        "items": [
-          {
-            "chemical-rounds": true,
-            "high-caliber": true,
-            "hematic-focus": true,
-            "thermal-vision": true,
-            "no-scope": {
-              "amount": ""
-            },
-            "serrated-steel": true,
-            "modified-ammunition": {
-              "amount": ""
-            },
-            "incendiary-powder": true
+      ],
+      "items": [
+        {
+          "acolyte-of-torment": true,
+          "seething-malice": true,
+          "demonic-resistance": true,
+          "pact-of-pain": true,
+          "yearning-empowerment": true
+        },
+        {
+          "rising-tide": {
+            "amount": ""
           },
-          {
-            "glass-cannon": {
-              "amount": ""
-            },
-            "explosive-temper": {
-              "amount": ""
-            },
-            "blast-shield": true,
-            "shaped-charge": {
-              "amount": ""
-            },
-            "big-boomer": true
+          "ferocious-aggression": {
+            "amount": ""
           },
-          {
-            "object-in-motion": {
-              "amount": ""
-            },
-            "impact-savant": true,
-            "kinetic-accelerators": true,
-            "applied-force": {
-              "amount": ""
-            }
+          "roiling-mists": true
+        },
+        {
+          "ambush-commander": {
+            "amount": ""
+          },
+          "blood-fury": true,
+          "heartpiercer": true,
+          "brutal-momentum": true,
+          "lasting-legacy": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Condi RR Ren Invo
+  profession: RENEGADE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "14",
+        "3",
+        "63"
+      ],
+      "selectedTraits": [
+        [
+          1793,
+          1714,
+          1795
+        ],
+        [
+          1761,
+          1781,
+          1791
+        ],
+        [
+          2079,
+          2092,
+          2182
         ]
-      }
-  - name: Heal Scrapper
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "47",
-          "29",
-          "43"
-        ],
-        "selectedTraits": [
-          [
-            394,
-            1834,
-            1916
-          ],
-          [
-            521,
-            520,
-            473
-          ],
-          [
-            1917,
-            1954,
-            2052
-          ]
-        ],
-        "items": [
-          {
-            "over-shield": true,
-            "energy-amplifier": true
+      ],
+      "items": [
+        {
+          "acolyte-of-torment": true,
+          "seething-malice": true,
+          "demonic-resistance": true,
+          "pact-of-pain": true,
+          "yearning-empowerment": true
+        },
+        {
+          "rising-tide": {
+            "amount": ""
           },
-          {
-            "health-insurance": false,
-            "compounding-chemicals": true
+          "ferocious-aggression": {
+            "amount": ""
           },
-          {
-            "object-in-motion": {
-              "amount": ""
-            },
-            "impact-savant": true,
-            "kinetic-accelerators": true,
-            "applied-force": {
-              "amount": ""
-            }
+          "roiling-mists": true
+        },
+        {
+          "ambush-commander": {
+            "amount": ""
+          },
+          "blood-fury": true,
+          "heartpiercer": true,
+          "brutal-momentum": true,
+          "lasting-legacy": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Condi RR Ren Deva
+  profession: RENEGADE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "14",
+        "15",
+        "63"
+      ],
+      "selectedTraits": [
+        [
+          1793,
+          1714,
+          1795
+        ],
+        [
+          1767,
+          1786,
+          1754
+        ],
+        [
+          2079,
+          2092,
+          2182
         ]
-      }
-necromancer:
-  - name: DPS Scourge
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "39",
-          "50",
-          "60"
-        ],
-        "selectedTraits": [
-          [
-            2013,
-            816,
-            801
-          ],
-          [
-            875,
-            894,
-            905
-          ],
-          [
-            2074,
-            2067,
-            2164
-          ]
-        ],
-        "items": [
-          {
-            "barbed-precision": true,
-            "furious-demise": true,
-            "target-the-weak-base": true,
-            "target-the-weak": {
-              "amount": ""
-            },
-            "lingering-curse": true
+      ],
+      "items": [
+        {
+          "acolyte-of-torment": true,
+          "seething-malice": true,
+          "demonic-resistance": true,
+          "pact-of-pain": true,
+          "yearning-empowerment": true
+        },
+        {
+          "unsuspecting-strikes": {
+            "amount": ""
           },
-          {
-            "soul-barbs": {
-              "amount": ""
-            },
-            "vital-persistence": true,
-            "death-perception": true
+          "destructive-impulses-base": true,
+          "destructive-impulses-dual": {
+            "amount": ""
           },
-          {
-            "fell-beacon": true,
-            "sand-sage-2x": false,
-            "sand-sage-3x": true,
-            "demonic-lore": true
+          "notoriety": {
+            "amount": ""
+          },
+          "targeted-destruction": {
+            "amount": ""
+          },
+          "swift-termination": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Condi Reaper
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "39",
-          "50",
-          "34"
-        ],
-        "selectedTraits": [
-          [
-            2013,
-            816,
-            801
-          ],
-          [
-            875,
-            894,
-            905
-          ],
-          [
-            2020,
-            1969,
-            1919
-          ]
-        ],
-        "items": [
-          {
-            "barbed-precision": true,
-            "furious-demise": true,
-            "target-the-weak-base": true,
-            "target-the-weak": {
-              "amount": ""
-            },
-            "lingering-curse": true
+        },
+        {
+          "ambush-commander": {
+            "amount": ""
           },
-          {
-            "soul-barbs": {
-              "amount": "85"
-            },
-            "vital-persistence": true,
-            "death-perception": true
-          },
-          {
-            "soul-eater": {
-              "amount": ""
-            },
-            "decimate-defenses-25x": true,
-            "cold-shoulder": {
-              "amount": ""
-            },
-            "reapers-onslaught": true
+          "blood-fury": true,
+          "heartpiercer": true,
+          "brutal-momentum": true,
+          "lasting-legacy": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Condi DPS Ren Deva
+  profession: RENEGADE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "14",
+        "15",
+        "63"
+      ],
+      "selectedTraits": [
+        [
+          1793,
+          1714,
+          1795
+        ],
+        [
+          1767,
+          1786,
+          1754
+        ],
+        [
+          2079,
+          2092,
+          2100
         ]
-      }
-thief:
-  - name: Condi Deadeye
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "28",
-          "44",
-          "58"
-        ],
-        "selectedTraits": [
-          [
-            1164,
-            1292,
-            1291
-          ],
-          [
-            1252,
-            1190,
-            1706
-          ],
-          [
-            2136,
-            2160,
-            2111
-          ]
-        ],
-        "items": [
-          {
-            "dagger-training-base": true,
-            "dagger-training-dagger": false,
-            "deadly-ambition": true,
-            "revealed-training-base": true,
-            "revealed-training-revealed": false,
-            "exposed-weakness": {
-              "amount": ""
-            },
-            "potent-poison": true,
-            "executioner": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "acolyte-of-torment": true,
+          "seething-malice": true,
+          "demonic-resistance": true,
+          "pact-of-pain": true,
+          "yearning-empowerment": true
+        },
+        {
+          "unsuspecting-strikes": {
+            "amount": ""
           },
-          {
-            "preparedness": true,
-            "lead-attacks": {
-              "amount": ""
-            },
-            "deadly-ambush": true
+          "destructive-impulses-base": true,
+          "destructive-impulses-dual": {
+            "amount": ""
           },
-          {
-            "silent-scope-base": true,
-            "silent-scope-rifle": true,
-            "premeditation-base": true,
-            "premeditation": {
-              "amount": ""
-            },
-            "iron-sight": true,
-            "be-quick-or-be-killed": true
+          "notoriety": {
+            "amount": ""
+          },
+          "targeted-destruction": {
+            "amount": ""
+          },
+          "swift-termination": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Staff Daredevil
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "28",
-          "35",
-          "7"
-        ],
-        "selectedTraits": [
-          [
-            1245,
-            1704,
-            1269
-          ],
-          [
-            1268,
-            1272,
-            1904
-          ],
-          [
-            1933,
-            1893,
-            2047
-          ]
-        ],
-        "items": [
-          {
-            "dagger-training-base": true,
-            "dagger-training-dagger": false,
-            "deadly-ambition": true,
-            "revealed-training-base": true,
-            "revealed-training-revealed": false,
-            "exposed-weakness": {
-              "amount": ""
-            },
-            "potent-poison": true,
-            "executioner": {
-              "amount": ""
-            }
+        },
+        {
+          "ambush-commander": {
+            "amount": ""
           },
-          {
-            "keen-observer": true,
-            "twin-fangs-scholar": true,
-            "twin-fangs-flank": true,
-            "practiced-tolerance": true,
-            "ferocious-strikes": {
-              "amount": ""
-            },
-            "no-quarter": {
-              "amount": ""
-            }
-          },
-          {
-            "marauders-resilience": true,
-            "weakening-strikes": true,
-            "staff-master-base": true,
-            "staff-master-staff": true,
-            "havoc-specialist": {
-              "amount": ""
-            },
-            "bounding-dodger": true,
-            "lotus-training": true
+          "blood-fury": true,
+          "heartpiercer": true,
+          "brutal-momentum": true,
+          "lasting-legacy": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Power Herald DE
+  profession: HERALD
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "15",
+        "3",
+        "52"
+      ],
+      "selectedTraits": [
+        [
+          1767,
+          1786,
+          1800
+        ],
+        [
+          1761,
+          1774,
+          1719
+        ],
+        [
+          1813,
+          1738,
+          1772
         ]
-      }
-  - name: Boon Daredevil*
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "28",
-          "44",
-          "7"
-        ],
-        "selectedTraits": [
-          [
-            1245,
-            1704,
-            1167
-          ],
-          [
-            1163,
-            1190,
-            1158
-          ],
-          [
-            1949,
-            1893,
-            2047
-          ]
-        ],
-        "items": [
-          {
-            "dagger-training-base": true,
-            "dagger-training-dagger": false,
-            "deadly-ambition": true,
-            "revealed-training-base": true,
-            "revealed-training-revealed": false,
-            "exposed-weakness": {
-              "amount": ""
-            },
-            "potent-poison": true,
-            "executioner": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "unsuspecting-strikes": {
+            "amount": ""
           },
-          {
-            "preparedness": true,
-            "lead-attacks": {
-              "amount": ""
-            },
-            "deadly-ambush": true
+          "destructive-impulses-base": true,
+          "destructive-impulses-dual": {
+            "amount": "100"
           },
-          {
-            "marauders-resilience": true,
-            "weakening-strikes": true,
-            "staff-master-base": true,
-            "staff-master-staff": true,
-            "havoc-specialist": {
-              "amount": ""
-            },
-            "bounding-dodger": true,
-            "lotus-training": true
+          "notoriety": {
+            "amount": ""
+          },
+          "targeted-destruction": {
+            "amount": ""
+          },
+          "swift-termination": {
+            "amount": ""
           }
-        ]
-      }
-  - name: Condi Daredevil
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "28",
-          "44",
-          "7"
-        ],
-        "selectedTraits": [
-          [
-            1164,
-            1292,
-            1291
-          ],
-          [
-            1159,
-            1277,
-            1706
-          ],
-          [
-            1933,
-            1893,
-            1833
-          ]
-        ],
-        "items": [
-          {
-            "dagger-training-base": true,
-            "dagger-training-dagger": false,
-            "deadly-ambition": true,
-            "revealed-training-base": true,
-            "revealed-training-revealed": false,
-            "exposed-weakness": {
-              "amount": ""
-            },
-            "potent-poison": true,
-            "executioner": {
-              "amount": ""
-            }
+        },
+        {
+          "rising-tide": {
+            "amount": ""
           },
-          {
-            "preparedness": true,
-            "lead-attacks": {
-              "amount": ""
-            },
-            "deadly-ambush": true
+          "ferocious-aggression": {
+            "amount": ""
           },
-          {
-            "marauders-resilience": true,
-            "weakening-strikes": true,
-            "staff-master-base": true,
-            "staff-master-staff": true,
-            "havoc-specialist": {
-              "amount": ""
-            },
-            "bounding-dodger": true,
-            "lotus-training": true
+          "roiling-mists": true
+        },
+        {
+          "draconic-fortitude": true,
+          "hardening-persistence": false,
+          "reinforced-potency-base": true,
+          "reinforced-potency-boons": {
+            "amount": ""
+          },
+          "forceful-persistence-nonherald": {
+            "amount": ""
+          },
+          "forceful-persistence-herald": {
+            "amount": ""
           }
+        }
+      ]
+    }
+- name: Condi Herald
+  profession: HERALD
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "14",
+        "15",
+        "52"
+      ],
+      "selectedTraits": [
+        [
+          1793,
+          1714,
+          1795
+        ],
+        [
+          1767,
+          1786,
+          1754
+        ],
+        [
+          1813,
+          1738,
+          1772
         ]
-      }
-  - name: Rifle Deadeye
-    value: |-
-      {
-        "showAll": false,
-        "selectedLines": [
-          "28",
-          "35",
-          "58"
-        ],
-        "selectedTraits": [
-          [
-            1245,
-            1704,
-            1269
-          ],
-          [
-            1268,
-            1272,
-            1904
-          ],
-          [
-            2145,
-            2160,
-            2111
-          ]
-        ],
-        "items": [
-          {
-            "dagger-training-base": true,
-            "dagger-training-dagger": false,
-            "deadly-ambition": true,
-            "revealed-training-base": true,
-            "revealed-training-revealed": {
-              "amount": "61"
-            },
-            "exposed-weakness": {
-              "amount": ""
-            },
-            "potent-poison": true,
-            "executioner": {
-              "amount": ""
-            }
+      ],
+      "items": [
+        {
+          "acolyte-of-torment": true,
+          "seething-malice": true,
+          "demonic-resistance": true,
+          "pact-of-pain": true,
+          "yearning-empowerment": true
+        },
+        {
+          "unsuspecting-strikes": {
+            "amount": ""
           },
-          {
-            "keen-observer": true,
-            "twin-fangs-scholar": true,
-            "twin-fangs-flank": true,
-            "practiced-tolerance": true,
-            "ferocious-strikes": {
-              "amount": ""
-            },
-            "no-quarter": {
-              "amount": ""
-            }
+          "destructive-impulses-base": true,
+          "destructive-impulses-dual": {
+            "amount": "100"
           },
-          {
-            "silent-scope-base": true,
-            "silent-scope-rifle": true,
-            "premeditation-base": true,
-            "premeditation": {
-              "amount": ""
-            },
-            "iron-sight": true,
-            "be-quick-or-be-killed": true
+          "notoriety": {
+            "amount": ""
+          },
+          "targeted-destruction": {
+            "amount": ""
+          },
+          "swift-termination": {
+            "amount": ""
           }
+        },
+        {
+          "draconic-fortitude": true,
+          "hardening-persistence": false,
+          "reinforced-potency-base": true,
+          "reinforced-potency-boons": {
+            "amount": ""
+          },
+          "forceful-persistence-nonherald": {
+            "amount": ""
+          },
+          "forceful-persistence-herald": {
+            "amount": ""
+          }
+        }
+      ]
+    }
+- name: Heal Ren
+  profession: RENEGADE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "12",
+        "15",
+        "63"
+      ],
+      "selectedTraits": [
+        [
+          1822,
+          1818,
+          1815
+        ],
+        [
+          1767,
+          1786,
+          1754
+        ],
+        [
+          2120,
+          2108,
+          2182
         ]
-      }
+      ],
+      "items": [
+        {
+          "tranquil-balance": {
+            "amount": ""
+          },
+          "life-attunement": true,
+          "invoking-harmony": {
+            "amount": ""
+          }
+        },
+        {
+          "unsuspecting-strikes": {
+            "amount": ""
+          },
+          "destructive-impulses-base": true,
+          "destructive-impulses-dual": {
+            "amount": ""
+          },
+          "notoriety": {
+            "amount": ""
+          },
+          "targeted-destruction": {
+            "amount": ""
+          },
+          "swift-termination": {
+            "amount": ""
+          }
+        },
+        {
+          "ambush-commander": {
+            "amount": ""
+          },
+          "blood-fury": true,
+          "heartpiercer": true,
+          "brutal-momentum": true,
+          "lasting-legacy": {
+            "amount": ""
+          }
+        }
+      ]
+    }
+- name: Power Holo
+  profession: HOLOSMITH
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "38",
+        "6",
+        ""
+      ],
+      "selectedTraits": [
+        [
+          1914,
+          1923,
+          526
+        ],
+        [
+          1882,
+          1892,
+          1947
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "items": [
+        {
+          "chemical-rounds": true,
+          "high-caliber": true,
+          "hematic-focus": true,
+          "thermal-vision": true,
+          "no-scope": {
+            "amount": ""
+          },
+          "serrated-steel": true,
+          "modified-ammunition": {
+            "amount": ""
+          },
+          "incendiary-powder": true
+        },
+        {
+          "glass-cannon": {
+            "amount": ""
+          },
+          "explosive-temper": {
+            "amount": ""
+          },
+          "blast-shield": true,
+          "shaped-charge": {
+            "amount": ""
+          },
+          "big-boomer": true
+        },
+        {}
+      ]
+    }
+- name: Power Scrapper
+  profession: SCRAPPER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "38",
+        "6",
+        "43"
+      ],
+      "selectedTraits": [
+        [
+          1914,
+          1923,
+          526
+        ],
+        [
+          1882,
+          1892,
+          1947
+        ],
+        [
+          1917,
+          1860,
+          1849
+        ]
+      ],
+      "items": [
+        {
+          "chemical-rounds": true,
+          "high-caliber": true,
+          "hematic-focus": true,
+          "thermal-vision": true,
+          "no-scope": {
+            "amount": ""
+          },
+          "serrated-steel": true,
+          "modified-ammunition": {
+            "amount": ""
+          },
+          "incendiary-powder": true
+        },
+        {
+          "glass-cannon": {
+            "amount": ""
+          },
+          "explosive-temper": {
+            "amount": ""
+          },
+          "blast-shield": true,
+          "shaped-charge": {
+            "amount": ""
+          },
+          "big-boomer": true
+        },
+        {
+          "object-in-motion": {
+            "amount": ""
+          },
+          "impact-savant": true,
+          "kinetic-accelerators": true,
+          "applied-force": {
+            "amount": ""
+          }
+        }
+      ]
+    }
+- name: Quickness Scrapper
+  profession: SCRAPPER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "38",
+        "6",
+        "43"
+      ],
+      "selectedTraits": [
+        [
+          1914,
+          1923,
+          526
+        ],
+        [
+          1882,
+          1892,
+          1947
+        ],
+        [
+          1917,
+          1860,
+          2052
+        ]
+      ],
+      "items": [
+        {
+          "chemical-rounds": true,
+          "high-caliber": true,
+          "hematic-focus": true,
+          "thermal-vision": true,
+          "no-scope": {
+            "amount": ""
+          },
+          "serrated-steel": true,
+          "modified-ammunition": {
+            "amount": ""
+          },
+          "incendiary-powder": true
+        },
+        {
+          "glass-cannon": {
+            "amount": ""
+          },
+          "explosive-temper": {
+            "amount": ""
+          },
+          "blast-shield": true,
+          "shaped-charge": {
+            "amount": ""
+          },
+          "big-boomer": true
+        },
+        {
+          "object-in-motion": {
+            "amount": ""
+          },
+          "impact-savant": true,
+          "kinetic-accelerators": true,
+          "applied-force": {
+            "amount": ""
+          }
+        }
+      ]
+    }
+- name: Heal Scrapper
+  profession: SCRAPPER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "47",
+        "29",
+        "43"
+      ],
+      "selectedTraits": [
+        [
+          394,
+          1834,
+          1916
+        ],
+        [
+          521,
+          520,
+          473
+        ],
+        [
+          1917,
+          1954,
+          2052
+        ]
+      ],
+      "items": [
+        {
+          "over-shield": true,
+          "energy-amplifier": true
+        },
+        {
+          "health-insurance": false,
+          "compounding-chemicals": true
+        },
+        {
+          "object-in-motion": {
+            "amount": ""
+          },
+          "impact-savant": true,
+          "kinetic-accelerators": true,
+          "applied-force": {
+            "amount": ""
+          }
+        }
+      ]
+    }
+- name: DPS Scourge
+  profession: SCOURGE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "39",
+        "50",
+        "60"
+      ],
+      "selectedTraits": [
+        [
+          2013,
+          816,
+          801
+        ],
+        [
+          875,
+          894,
+          905
+        ],
+        [
+          2074,
+          2067,
+          2164
+        ]
+      ],
+      "items": [
+        {
+          "barbed-precision": true,
+          "furious-demise": true,
+          "target-the-weak-base": true,
+          "target-the-weak": {
+            "amount": ""
+          },
+          "lingering-curse": true
+        },
+        {
+          "soul-barbs": {
+            "amount": ""
+          },
+          "vital-persistence": true,
+          "death-perception": true
+        },
+        {
+          "fell-beacon": true,
+          "sand-sage-2x": false,
+          "sand-sage-3x": true,
+          "demonic-lore": true
+        }
+      ]
+    }
+- name: Condi Reaper
+  profession: REAPER
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "39",
+        "50",
+        "34"
+      ],
+      "selectedTraits": [
+        [
+          2013,
+          816,
+          801
+        ],
+        [
+          875,
+          894,
+          905
+        ],
+        [
+          2020,
+          1969,
+          1919
+        ]
+      ],
+      "items": [
+        {
+          "barbed-precision": true,
+          "furious-demise": true,
+          "target-the-weak-base": true,
+          "target-the-weak": {
+            "amount": ""
+          },
+          "lingering-curse": true
+        },
+        {
+          "soul-barbs": {
+            "amount": "85"
+          },
+          "vital-persistence": true,
+          "death-perception": true
+        },
+        {
+          "soul-eater": {
+            "amount": ""
+          },
+          "decimate-defenses-25x": true,
+          "cold-shoulder": {
+            "amount": ""
+          },
+          "reapers-onslaught": true
+        }
+      ]
+    }
+- name: Condi Deadeye
+  profession: DEADEYE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "28",
+        "44",
+        "58"
+      ],
+      "selectedTraits": [
+        [
+          1164,
+          1292,
+          1291
+        ],
+        [
+          1252,
+          1190,
+          1706
+        ],
+        [
+          2136,
+          2160,
+          2111
+        ]
+      ],
+      "items": [
+        {
+          "dagger-training-base": true,
+          "dagger-training-dagger": false,
+          "deadly-ambition": true,
+          "revealed-training-base": true,
+          "revealed-training-revealed": false,
+          "exposed-weakness": {
+            "amount": ""
+          },
+          "potent-poison": true,
+          "executioner": {
+            "amount": ""
+          }
+        },
+        {
+          "preparedness": true,
+          "lead-attacks": {
+            "amount": ""
+          },
+          "deadly-ambush": true
+        },
+        {
+          "silent-scope-base": true,
+          "silent-scope-rifle": true,
+          "premeditation-base": true,
+          "premeditation": {
+            "amount": ""
+          },
+          "iron-sight": true,
+          "be-quick-or-be-killed": true
+        }
+      ]
+    }
+- name: Staff Daredevil
+  profession: DAREDEVIL
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "28",
+        "35",
+        "7"
+      ],
+      "selectedTraits": [
+        [
+          1245,
+          1704,
+          1269
+        ],
+        [
+          1268,
+          1272,
+          1904
+        ],
+        [
+          1933,
+          1893,
+          2047
+        ]
+      ],
+      "items": [
+        {
+          "dagger-training-base": true,
+          "dagger-training-dagger": false,
+          "deadly-ambition": true,
+          "revealed-training-base": true,
+          "revealed-training-revealed": false,
+          "exposed-weakness": {
+            "amount": ""
+          },
+          "potent-poison": true,
+          "executioner": {
+            "amount": ""
+          }
+        },
+        {
+          "keen-observer": true,
+          "twin-fangs-scholar": true,
+          "twin-fangs-flank": true,
+          "practiced-tolerance": true,
+          "ferocious-strikes": {
+            "amount": ""
+          },
+          "no-quarter": {
+            "amount": ""
+          }
+        },
+        {
+          "marauders-resilience": true,
+          "weakening-strikes": true,
+          "staff-master-base": true,
+          "staff-master-staff": true,
+          "havoc-specialist": {
+            "amount": ""
+          },
+          "bounding-dodger": true,
+          "lotus-training": true
+        }
+      ]
+    }
+- name: Boon Daredevil*
+  profession: DAREDEVIL
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "28",
+        "44",
+        "7"
+      ],
+      "selectedTraits": [
+        [
+          1245,
+          1704,
+          1167
+        ],
+        [
+          1163,
+          1190,
+          1158
+        ],
+        [
+          1949,
+          1893,
+          2047
+        ]
+      ],
+      "items": [
+        {
+          "dagger-training-base": true,
+          "dagger-training-dagger": false,
+          "deadly-ambition": true,
+          "revealed-training-base": true,
+          "revealed-training-revealed": false,
+          "exposed-weakness": {
+            "amount": ""
+          },
+          "potent-poison": true,
+          "executioner": {
+            "amount": ""
+          }
+        },
+        {
+          "preparedness": true,
+          "lead-attacks": {
+            "amount": ""
+          },
+          "deadly-ambush": true
+        },
+        {
+          "marauders-resilience": true,
+          "weakening-strikes": true,
+          "staff-master-base": true,
+          "staff-master-staff": true,
+          "havoc-specialist": {
+            "amount": ""
+          },
+          "bounding-dodger": true,
+          "lotus-training": true
+        }
+      ]
+    }
+- name: Condi Daredevil
+  profession: DAREDEVIL
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "28",
+        "44",
+        "7"
+      ],
+      "selectedTraits": [
+        [
+          1164,
+          1292,
+          1291
+        ],
+        [
+          1159,
+          1277,
+          1706
+        ],
+        [
+          1933,
+          1893,
+          1833
+        ]
+      ],
+      "items": [
+        {
+          "dagger-training-base": true,
+          "dagger-training-dagger": false,
+          "deadly-ambition": true,
+          "revealed-training-base": true,
+          "revealed-training-revealed": false,
+          "exposed-weakness": {
+            "amount": ""
+          },
+          "potent-poison": true,
+          "executioner": {
+            "amount": ""
+          }
+        },
+        {
+          "preparedness": true,
+          "lead-attacks": {
+            "amount": ""
+          },
+          "deadly-ambush": true
+        },
+        {
+          "marauders-resilience": true,
+          "weakening-strikes": true,
+          "staff-master-base": true,
+          "staff-master-staff": true,
+          "havoc-specialist": {
+            "amount": ""
+          },
+          "bounding-dodger": true,
+          "lotus-training": true
+        }
+      ]
+    }
+- name: Rifle Deadeye
+  profession: DEADEYE
+  value: |-
+    {
+      "showAll": false,
+      "selectedLines": [
+        "28",
+        "35",
+        "58"
+      ],
+      "selectedTraits": [
+        [
+          1245,
+          1704,
+          1269
+        ],
+        [
+          1268,
+          1272,
+          1904
+        ],
+        [
+          2145,
+          2160,
+          2111
+        ]
+      ],
+      "items": [
+        {
+          "dagger-training-base": true,
+          "dagger-training-dagger": false,
+          "deadly-ambition": true,
+          "revealed-training-base": true,
+          "revealed-training-revealed": {
+            "amount": "61"
+          },
+          "exposed-weakness": {
+            "amount": ""
+          },
+          "potent-poison": true,
+          "executioner": {
+            "amount": ""
+          }
+        },
+        {
+          "keen-observer": true,
+          "twin-fangs-scholar": true,
+          "twin-fangs-flank": true,
+          "practiced-tolerance": true,
+          "ferocious-strikes": {
+            "amount": ""
+          },
+          "no-quarter": {
+            "amount": ""
+          }
+        },
+        {
+          "silent-scope-base": true,
+          "silent-scope-rifle": true,
+          "premeditation-base": true,
+          "premeditation": {
+            "amount": ""
+          },
+          "iron-sight": true,
+          "be-quick-or-be-killed": true
+        }
+      ]
+    }

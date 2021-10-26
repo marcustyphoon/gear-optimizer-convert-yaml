@@ -18,77 +18,89 @@ const convert = async function () {
     const allData = yaml.load(fileData);
 
     const outputData = {
-      'traits': {},
-      'skills': {},
-      'extras': {},
+      'traits': [],
+      'skills': [],
+      'extras': [],
     };
 
-    // pass 1: split up
     const allExtras = {};
     for (const section of allData.list) {
       const className = section.class;
       allExtras[className] = [];
       for (const build of section.builds) {
-        const { name, traits } = build;
+        const { traits } = build;
         const data = JSON.parse(traits);
         const extrasData = JSON.stringify(data.extras, null, 2);
         allExtras[className].push(extrasData);
       }
     }
 
-    // pass 2: find duplicates
-    const duplicatesSet = new Set();
+    let count = 0;
+    const duplicatesMap = new Map();
     for (const key of Object.keys(allExtras)) {
       for (const extra of allExtras[key]) {
         const { [key]: discarded, ...rest } = allExtras;
 
-        for (const [otherkey, otherExtras] of Object.entries(rest)) {
+        for (const otherExtras of Object.values(rest)) {
           if (otherExtras.includes(extra)) {
-            duplicatesSet.add(extra);
+            count++;
+            duplicatesMap.set(extra, `generic${count}`);
           }
         }
       }
     }
-    // console.log(Array.from(duplicatesSet));
-    const generic = Array.from(duplicatesSet).map((extrasData, index) => ({
-      name: 'generic' + index,
-      value: extrasData,
-    }));
-    // console.log(generic);
 
-    outputData.extras.generic = generic;
+    [...duplicatesMap.keys()].forEach(extra => {
+      if (extra.includes('"Runes": "nightmare",')) {
+        duplicatesMap.delete(extra);
+      }
+    });
+
+    
+
+
+
+    const genericExtras = [...duplicatesMap.entries()].map(([extra, name]) => ({
+      name,
+      profession: 'generic',
+      value: extra,
+    }));
 
     for (const section of allData.list) {
-      const className = section.class;
-
-      outputData.traits[className] = [];
-      outputData.skills[className] = [];
-      outputData.extras[className] = [];
+      // const className = section.class;
 
       for (const build of section.builds) {
-        const { name, traits } = build;
+        const { name, traits, specialization } = build;
         const data = JSON.parse(traits);
 
-        for (const type of ['traits', 'skills']) {
+        for (const type of ['traits', 'skills', 'extras']) {
           if (data[type].skills && data[type].skills.length === 0) {
             build[type] = 'none';
           } else {
             const thisData = JSON.stringify(data[type], null, 2);
 
-            outputData[type][className].push({ name, value: thisData });
-            build[type] = name;
+            if (duplicatesMap.has(thisData)) {
+              build[type] = duplicatesMap.get(thisData);
+            } else {
+              outputData[type].push({
+                name,
+                profession: specialization.toUpperCase(),
+                value: thisData,
+              });
+              build[type] = name;
+            }
           }
         }
 
-        const extrasData = JSON.stringify(data.extras, null, 2);
+        // const extrasData = JSON.stringify(data.extras, null, 2);
 
-        if (duplicatesSet.has(extrasData)) {
-          const { name: foundName } = generic.find(({ value }) => value === extrasData);
-          build.extras = foundName;
-        } else {
-          build.extras = name;
-          outputData.extras[className].push({ name, value: extrasData });
-        }
+        // if (duplicatesSet.has(extrasData)) {
+        //   const { name: foundName } = generic.find(({ value }) => value === extrasData);
+        //   build.extras = foundName;
+        // } else {
+        //   build.extras = name;
+        //   outputData.extras[className].push({ name, value: extrasData });
+        // }
         //   const index = extrasMap.size;
         //   extrasMap.set(extrasData, index);
         //   build.extras = `extras${index}`;
@@ -97,6 +109,8 @@ const convert = async function () {
         // }
       }
     }
+
+    outputData.extras.unshift(...genericExtras);
 
     // const traitsOutput = {
     //   'GraphQL ID': 'presetTraits',
@@ -118,7 +132,7 @@ const convert = async function () {
     // );
 
     for (const type of ['traits', 'skills', 'extras']) {
-      let resultYaml = yaml.dump(outputData[type], {
+      const resultYaml = yaml.dump(outputData[type], {
         // forceQuotes: true,
         lineWidth: -1,
         flowLevel: 6, // fileName.includes('utility') ? 7 : 6
