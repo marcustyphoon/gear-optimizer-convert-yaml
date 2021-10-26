@@ -80,6 +80,7 @@ const convert = async function () {
           });
           build.extras = name;
         }
+        build.traits = name;
 
         const traitsData = JSON.stringify(data.traits, null, 2);
         const skillsData = JSON.stringify(data.skills, null, 2);
@@ -92,7 +93,7 @@ const convert = async function () {
         });
         build.extras = name;
 
-        build.skills = data.skills.skills;
+        // build.skills = data.skills.skills;
 
         // const extrasData = JSON.stringify(data.extras, null, 2);
 
