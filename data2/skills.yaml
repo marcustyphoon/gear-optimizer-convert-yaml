@@ -1,10 +1,24 @@
 mesmer: []
 guardian:
-  - name: DH
+  - name: DH Radiance w/ PI
     value: |-
       {
         "skills": [
           "bane-signet-2"
+        ]
+      }
+  - name: DH Radiance
+    value: |-
+      {
+        "skills": [
+          "bane-signet"
+        ]
+      }
+  - name: DH Virtues
+    value: |-
+      {
+        "skills": [
+          "bane-signet"
         ]
       }
   - name: pQFB
@@ -21,7 +35,21 @@ guardian:
           "signet-of-wrath"
         ]
       }
-  - name: CFB DPS
+  - name: CFB DPS 5 page
+    value: |-
+      {
+        "skills": [
+          "signet-of-wrath"
+        ]
+      }
+  - name: CFB DPS 8 page
+    value: |-
+      {
+        "skills": [
+          "signet-of-wrath"
+        ]
+      }
+  - name: CQB 40%
     value: |-
       {
         "skills": [
@@ -43,6 +71,13 @@ warrior:
           "signet-of-might"
         ]
       }
+  - name: Power Banner SPB
+    value: |-
+      {
+        "skills": [
+          "signet-of-might"
+        ]
+      }
 elementalist: []
 ranger: []
 revenant: []
@@ -50,6 +85,13 @@ engineer: []
 necromancer: []
 thief:
   - name: Staff Daredevil
+    value: |-
+      {
+        "skills": [
+          "signet-of-agility"
+        ]
+      }
+  - name: Boon Daredevil*
     value: |-
       {
         "skills": [

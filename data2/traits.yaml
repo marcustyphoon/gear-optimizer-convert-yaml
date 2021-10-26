@@ -52,7 +52,7 @@ mesmer:
         ]
       }
 guardian:
-  - name: DH
+  - name: DH Radiance w/ PI
     value: |-
       {
         "showAll": false,
@@ -91,6 +91,124 @@ guardian:
             "radiant-power": true,
             "amplified-wrath": true,
             "righteous-instincts": true
+          },
+          {
+            "fiery-wrath": true,
+            "symbolic-exposure": true,
+            "zealous-blade-base": true,
+            "zealous-blade-gs": {
+              "amount": ""
+            },
+            "kindled-zeal": true,
+            "symbolic-avenger": true
+          },
+          {
+            "zealots-aggression": true,
+            "pure-of-sight": true,
+            "pure-of-sight-ranged": false,
+            "hunters-fortification": true,
+            "big-game-hunter": true
+          }
+        ]
+      }
+  - name: DH Radiance
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "16",
+          "42",
+          "27"
+        ],
+        "selectedTraits": [
+          [
+            574,
+            565,
+            1683
+          ],
+          [
+            634,
+            653,
+            2017
+          ],
+          [
+            1898,
+            1835,
+            1955
+          ]
+        ],
+        "items": [
+          {
+            "right-hand-strength": true,
+            "right-hand-strength-1h": {
+              "amount": ""
+            },
+            "radiant-fire": true,
+            "retribution": {
+              "amount": ""
+            },
+            "radiant-power": true,
+            "amplified-wrath": true,
+            "righteous-instincts": true
+          },
+          {
+            "fiery-wrath": true,
+            "symbolic-exposure": true,
+            "zealous-blade-base": true,
+            "zealous-blade-gs": {
+              "amount": ""
+            },
+            "kindled-zeal": true,
+            "symbolic-avenger": true
+          },
+          {
+            "zealots-aggression": true,
+            "pure-of-sight": true,
+            "pure-of-sight-ranged": false,
+            "hunters-fortification": true,
+            "big-game-hunter": true
+          }
+        ]
+      }
+  - name: DH Virtues
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "46",
+          "42",
+          "27"
+        ],
+        "selectedTraits": [
+          [
+            624,
+            603,
+            622
+          ],
+          [
+            634,
+            653,
+            2017
+          ],
+          [
+            1898,
+            1835,
+            1955
+          ]
+        ],
+        "items": [
+          {
+            "inspired-virtue": {
+              "amount": ""
+            },
+            "unscathed-contender": {
+              "amount": ""
+            },
+            "virtue-of-retribution": true,
+            "inspiring-virtue": {
+              "amount": ""
+            },
+            "power-of-the-virtuous": true
           },
           {
             "fiery-wrath": true,
@@ -228,7 +346,7 @@ guardian:
           }
         ]
       }
-  - name: CFB DPS
+  - name: CFB DPS 5 page
     value: |-
       {
         "showAll": false,
@@ -251,6 +369,126 @@ guardian:
           [
             2075,
             2116,
+            2159
+          ]
+        ],
+        "items": [
+          {
+            "right-hand-strength": true,
+            "right-hand-strength-1h": {
+              "amount": "100"
+            },
+            "radiant-fire": true,
+            "retribution": {
+              "amount": ""
+            },
+            "radiant-power": true,
+            "amplified-wrath": true,
+            "righteous-instincts": true
+          },
+          {
+            "inspired-virtue": {
+              "amount": ""
+            },
+            "unscathed-contender": {
+              "amount": ""
+            },
+            "virtue-of-retribution": true,
+            "inspiring-virtue": {
+              "amount": ""
+            },
+            "power-of-the-virtuous": true
+          },
+          {
+            "imbued-haste": {
+              "amount": ""
+            }
+          }
+        ]
+      }
+  - name: CFB DPS 8 page
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "16",
+          "46",
+          "62"
+        ],
+        "selectedTraits": [
+          [
+            566,
+            567,
+            1686
+          ],
+          [
+            617,
+            587,
+            622
+          ],
+          [
+            2086,
+            2116,
+            2159
+          ]
+        ],
+        "items": [
+          {
+            "right-hand-strength": true,
+            "right-hand-strength-1h": {
+              "amount": "100"
+            },
+            "radiant-fire": true,
+            "retribution": {
+              "amount": ""
+            },
+            "radiant-power": true,
+            "amplified-wrath": true,
+            "righteous-instincts": true
+          },
+          {
+            "inspired-virtue": {
+              "amount": ""
+            },
+            "unscathed-contender": {
+              "amount": ""
+            },
+            "virtue-of-retribution": true,
+            "inspiring-virtue": {
+              "amount": ""
+            },
+            "power-of-the-virtuous": true
+          },
+          {
+            "imbued-haste": {
+              "amount": ""
+            }
+          }
+        ]
+      }
+  - name: CQB 40%
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "16",
+          "46",
+          "62"
+        ],
+        "selectedTraits": [
+          [
+            566,
+            567,
+            1686
+          ],
+          [
+            617,
+            587,
+            622
+          ],
+          [
+            2101,
+            2076,
             2159
           ]
         ],
@@ -604,6 +842,72 @@ warrior:
             },
             "king-of-fires": true,
             "eternal-champion": true
+          }
+        ]
+      }
+  - name: Power Banner SPB
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "4",
+          "51",
+          "61"
+        ],
+        "selectedTraits": [
+          [
+            1444,
+            1449,
+            1437
+          ],
+          [
+            1413,
+            1484,
+            1369
+          ],
+          [
+            2107,
+            2095,
+            2060
+          ]
+        ],
+        "items": [
+          {
+            "peak-performance": true,
+            "peak-performance-2": false,
+            "forceful-greatsword": true,
+            "forceful-greatsword-2": false,
+            "great-fortitude": true,
+            "pinnacle-of-strength": {
+              "amount": ""
+            },
+            "berserkers-power": {
+              "amount": ""
+            }
+          },
+          {
+            "warriors-sprint": {
+              "amount": ""
+            },
+            "double-standards-str": true,
+            "double-standards-disc": true,
+            "axe-mastery-one": true,
+            "axe-mastery-axe": {
+              "amount": ""
+            }
+          },
+          {
+            "pure-strike-base": true,
+            "pure-strike-boonless": {
+              "amount": ""
+            },
+            "sun-and-moon-style": false,
+            "attackers-insight": {
+              "amount": "4"
+            },
+            "magebane-tether": {
+              "amount": ""
+            }
           }
         ]
       }
@@ -1349,6 +1653,62 @@ revenant:
           }
         ]
       }
+  - name: Condi Alac Ren Invo
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "14",
+          "3",
+          "63"
+        ],
+        "selectedTraits": [
+          [
+            1793,
+            1714,
+            1795
+          ],
+          [
+            1761,
+            1781,
+            1791
+          ],
+          [
+            2079,
+            2092,
+            2182
+          ]
+        ],
+        "items": [
+          {
+            "acolyte-of-torment": true,
+            "seething-malice": true,
+            "demonic-resistance": true,
+            "pact-of-pain": true,
+            "yearning-empowerment": true
+          },
+          {
+            "rising-tide": {
+              "amount": ""
+            },
+            "ferocious-aggression": {
+              "amount": ""
+            },
+            "roiling-mists": true
+          },
+          {
+            "ambush-commander": {
+              "amount": ""
+            },
+            "blood-fury": true,
+            "heartpiercer": true,
+            "brutal-momentum": true,
+            "lasting-legacy": {
+              "amount": ""
+            }
+          }
+        ]
+      }
   - name: Condi RR Ren Invo
     value: |-
       {
@@ -1391,6 +1751,71 @@ revenant:
               "amount": ""
             },
             "roiling-mists": true
+          },
+          {
+            "ambush-commander": {
+              "amount": ""
+            },
+            "blood-fury": true,
+            "heartpiercer": true,
+            "brutal-momentum": true,
+            "lasting-legacy": {
+              "amount": ""
+            }
+          }
+        ]
+      }
+  - name: Condi RR Ren Deva
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "14",
+          "15",
+          "63"
+        ],
+        "selectedTraits": [
+          [
+            1793,
+            1714,
+            1795
+          ],
+          [
+            1767,
+            1786,
+            1754
+          ],
+          [
+            2079,
+            2092,
+            2182
+          ]
+        ],
+        "items": [
+          {
+            "acolyte-of-torment": true,
+            "seething-malice": true,
+            "demonic-resistance": true,
+            "pact-of-pain": true,
+            "yearning-empowerment": true
+          },
+          {
+            "unsuspecting-strikes": {
+              "amount": ""
+            },
+            "destructive-impulses-base": true,
+            "destructive-impulses-dual": {
+              "amount": ""
+            },
+            "notoriety": {
+              "amount": ""
+            },
+            "targeted-destruction": {
+              "amount": ""
+            },
+            "swift-termination": {
+              "amount": ""
+            }
           },
           {
             "ambush-commander": {
@@ -1523,6 +1948,74 @@ revenant:
               "amount": ""
             },
             "roiling-mists": true
+          },
+          {
+            "draconic-fortitude": true,
+            "hardening-persistence": false,
+            "reinforced-potency-base": true,
+            "reinforced-potency-boons": {
+              "amount": ""
+            },
+            "forceful-persistence-nonherald": {
+              "amount": ""
+            },
+            "forceful-persistence-herald": {
+              "amount": ""
+            }
+          }
+        ]
+      }
+  - name: Condi Herald
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "14",
+          "15",
+          "52"
+        ],
+        "selectedTraits": [
+          [
+            1793,
+            1714,
+            1795
+          ],
+          [
+            1767,
+            1786,
+            1754
+          ],
+          [
+            1813,
+            1738,
+            1772
+          ]
+        ],
+        "items": [
+          {
+            "acolyte-of-torment": true,
+            "seething-malice": true,
+            "demonic-resistance": true,
+            "pact-of-pain": true,
+            "yearning-empowerment": true
+          },
+          {
+            "unsuspecting-strikes": {
+              "amount": ""
+            },
+            "destructive-impulses-base": true,
+            "destructive-impulses-dual": {
+              "amount": "100"
+            },
+            "notoriety": {
+              "amount": ""
+            },
+            "targeted-destruction": {
+              "amount": ""
+            },
+            "swift-termination": {
+              "amount": ""
+            }
           },
           {
             "draconic-fortitude": true,
@@ -2064,6 +2557,67 @@ thief:
             "no-quarter": {
               "amount": ""
             }
+          },
+          {
+            "marauders-resilience": true,
+            "weakening-strikes": true,
+            "staff-master-base": true,
+            "staff-master-staff": true,
+            "havoc-specialist": {
+              "amount": ""
+            },
+            "bounding-dodger": true,
+            "lotus-training": true
+          }
+        ]
+      }
+  - name: Boon Daredevil*
+    value: |-
+      {
+        "showAll": false,
+        "selectedLines": [
+          "28",
+          "44",
+          "7"
+        ],
+        "selectedTraits": [
+          [
+            1245,
+            1704,
+            1167
+          ],
+          [
+            1163,
+            1190,
+            1158
+          ],
+          [
+            1949,
+            1893,
+            2047
+          ]
+        ],
+        "items": [
+          {
+            "dagger-training-base": true,
+            "dagger-training-dagger": false,
+            "deadly-ambition": true,
+            "revealed-training-base": true,
+            "revealed-training-revealed": false,
+            "exposed-weakness": {
+              "amount": ""
+            },
+            "potent-poison": true,
+            "executioner": {
+              "amount": ""
+            }
+          },
+          {
+            "preparedness": true,
+            "lead-attacks": {
+              "amount": ""
+            },
+            "deadly-ambush": true
           },
           {
             "marauders-resilience": true,

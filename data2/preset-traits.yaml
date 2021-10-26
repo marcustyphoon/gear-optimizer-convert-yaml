@@ -17,15 +17,35 @@ list:
   - class: guardian
     builds:
 
-      - name: DH
-        id: dh
+      - name: DH Radiance w/ PI
+        id: dh-radiance-pi
         specialization: Dragonhunter
         boons: Power (spotter)
         priority: Power DPS
         distribution: DH (Radiance)
-        traits: DH
-        skills: DH
+        traits: DH Radiance w/ PI
+        skills: DH Radiance w/ PI
         extras: generic0
+
+      - name: DH Radiance
+        id: dh-radiance
+        specialization: Dragonhunter
+        boons: Power (spotter)
+        priority: Power DPS
+        distribution: DH (Radiance)
+        traits: DH Radiance
+        skills: DH Radiance
+        extras: generic0
+
+      - name: DH Virtues
+        id: dh-virtues
+        specialization: Dragonhunter
+        boons: Power (spotter)
+        priority: Power DPS
+        distribution: DH (Virtues)
+        traits: DH Virtues
+        skills: DH Virtues
+        extras: DH Virtues
 
       - name: pQFB
         id: pqfb
@@ -47,15 +67,35 @@ list:
         skills: CFB w/ Quickness
         extras: CFB w/ Quickness
 
-      - name: CFB DPS
+      - name: CFB DPS 5 page
         id: cfb
         specialization: Firebrand
         boons: Condi
         priority: Condi DPS
         distribution: CFB (Virtues, 5 page, allies)
-        traits: CFB DPS
-        skills: CFB DPS
-        extras: CFB DPS
+        traits: CFB DPS 5 page
+        skills: CFB DPS 5 page
+        extras: CFB DPS 5 page
+
+      - name: CFB DPS 8 page
+        id: cfb-8
+        specialization: Firebrand
+        boons: Condi
+        priority: Condi DPS
+        distribution: CFB (Virtues, 8 page, allies)
+        traits: CFB DPS 8 page
+        skills: CFB DPS 8 page
+        extras: CFB DPS 8 page
+
+      - name: CQB 40%
+        id: cqfb-firebrand
+        specialization: Firebrand
+        boons: Condi
+        priority: Condi DPS
+        distribution: CQB 40% (Virtues, allies)
+        traits: CQB 40%
+        skills: CQB 40%
+        extras: CQB 40%
 
       - name: Hybrid FB (Virtues)
         id: hycfb-virtues-leadership
@@ -109,6 +149,16 @@ list:
         traits: Condi Banner Bers
         skills: none
         extras: Condi Banner Bers
+
+      - name: Power Banner SPB
+        id: spb-bs
+        specialization: Spellbreaker
+        boons: Power (spotter)
+        priority: Power DPS
+        distribution: Power Banner Spellbreaker
+        traits: Power Banner SPB
+        skills: Power Banner SPB
+        extras: generic0
 
   - class: elementalist
     builds:
@@ -239,6 +289,16 @@ list:
         skills: none
         extras: generic0
 
+      - name: Condi Alac Ren Invo
+        id: celeren-rr-invo
+        specialization: Renegade
+        boons: Condi
+        priority: Condi Boon
+        distribution: Condi RR (Invocation)
+        traits: Condi Alac Ren Invo
+        skills: none
+        extras: Condi Alac Ren Invo
+
       - name: Condi RR Ren Invo
         id: cren-rr-invo
         specialization: Renegade
@@ -248,6 +308,16 @@ list:
         traits: Condi RR Ren Invo
         skills: none
         extras: Condi RR Ren Invo
+
+      - name: Condi RR Ren Deva
+        id: cren-rr-deva
+        specialization: Renegade
+        boons: Condi
+        priority: Condi DPS
+        distribution: Condi RR (Devastation)
+        traits: Condi RR Ren Deva
+        skills: none
+        extras: Condi RR Ren Deva
 
       - name: Condi DPS Ren Deva
         id: cren-deva
@@ -268,6 +338,16 @@ list:
         traits: Power Herald DE
         skills: none
         extras: generic0
+
+      - name: Condi Herald
+        id: herald
+        specialization: Herald
+        boons: Condi
+        priority: Condi DPS
+        distribution: Condi Herald
+        traits: Condi Herald
+        skills: none
+        extras: Condi Herald
 
       - name: Heal Ren
         id: healren
@@ -367,6 +447,16 @@ list:
         traits: Staff Daredevil
         skills: Staff Daredevil
         extras: generic0
+
+      - name: Boon Daredevil*
+        id: boondd
+        specialization: Daredevil
+        boons: Power (spotter)
+        priority: Power Boon
+        distribution: Staff Daredevil
+        traits: Boon Daredevil*
+        skills: Boon Daredevil*
+        extras: Boon Daredevil*
 
       - name: Condi Daredevil
         id: cdd

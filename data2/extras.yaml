@@ -28,6 +28,15 @@ generic:
       }
 mesmer: []
 guardian:
+  - name: DH Virtues
+    value: |-
+      {
+        "Runes": "thief",
+        "Sigil1": "force",
+        "Sigil2": "impact/night/slaying-both",
+        "Enhancement": "slaying-potion",
+        "Nourishment": "sweet-and-spicy-butternut-squash-soup"
+      }
   - name: CFB w/ Quickness
     value: |-
       {
@@ -37,7 +46,7 @@ guardian:
         "Enhancement": "toxic-maintenance-oil",
         "Nourishment": "beef-rendang"
       }
-  - name: CFB DPS
+  - name: CFB DPS 5 page
     value: |-
       {
         "Runes": "balthazar",
@@ -45,6 +54,24 @@ guardian:
         "Sigil2": "",
         "Enhancement": "toxic-focusing-crystal",
         "Nourishment": "beef-rendang"
+      }
+  - name: CFB DPS 8 page
+    value: |-
+      {
+        "Runes": "balthazar",
+        "Sigil1": "bursting",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: CQB 40%
+    value: |-
+      {
+        "Runes": "firebrand",
+        "Sigil1": "bursting",
+        "Sigil2": "smoldering",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "fire-meat-chili"
       }
   - name: Hybrid FB (Virtues)
     value: |-
@@ -149,7 +176,25 @@ ranger:
         "Nourishment": ""
       }
 revenant:
+  - name: Condi Alac Ren Invo
+    value: |-
+      {
+        "Runes": "leadership",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "toxic-maintenance-oil",
+        "Nourishment": "beef-rendang"
+      }
   - name: Condi RR Ren Invo
+    value: |-
+      {
+        "Runes": "nightmare",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "toxic-focusing-crystal",
+        "Nourishment": "beef-rendang"
+      }
+  - name: Condi RR Ren Deva
     value: |-
       {
         "Runes": "nightmare",
@@ -167,6 +212,15 @@ revenant:
         "Enhancement": "toxic-focusing-crystal",
         "Nourishment": "beef-rendang"
       }
+  - name: Condi Herald
+    value: |-
+      {
+        "Runes": "nightmare",
+        "Sigil1": "",
+        "Sigil2": "",
+        "Enhancement": "master-tuning-crystal",
+        "Nourishment": "rare-veggie-pizza"
+      }
 engineer: []
 necromancer:
   - name: Condi Reaper
@@ -179,6 +233,15 @@ necromancer:
         "Nourishment": "rare-veggie-pizza"
       }
 thief:
+  - name: Boon Daredevil*
+    value: |-
+      {
+        "Runes": "thief",
+        "Sigil1": "force",
+        "Sigil2": "concentration",
+        "Enhancement": "potent-lucent-oil",
+        "Nourishment": "sweet-and-spicy-butternut-squash-soup"
+      }
   - name: Condi Daredevil
     value: |-
       {
