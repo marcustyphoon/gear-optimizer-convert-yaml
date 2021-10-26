@@ -135,16 +135,23 @@ const convert = async function () {
     // );
 
     for (const type of ['traits', 'extras']) {
-      let resultYaml = yaml.dump(outputData[type], {
+      const upper = type.charAt(0).toUpperCase() + type.substring(1);
+      const actualData = {
+        'GraphQL ID': `preset${upper}`,
+        list: outputData[type],
+      };
+      let resultYaml = yaml.dump(actualData, {
         // forceQuotes: true,
         lineWidth: -1,
-        flowLevel: 6, // fileName.includes('utility') ? 7 : 6
+        flowLevel: 7, // fileName.includes('utility') ? 7 : 6
       });
 
-      resultYaml = resultYaml.replace(/\n- /g, '\n\n- ')
+      resultYaml = resultYaml.replace(/\n  - /g, '\n\n  - ');
 
       fs.writeFile(`./data2/${type}.yaml`, resultYaml, { encoding: 'utf8', flag: 'w+' });
     }
+
+    allData['GraphQL ID'] = 'templates';
 
     let resultYaml = yaml.dump(allData, {
       // forceQuotes: true,
