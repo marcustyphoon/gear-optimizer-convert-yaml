@@ -8,6 +8,7 @@
       "Enhancement": "slaying-potion",
       "Nourishment": "sweet-and-spicy-butternut-squash-soup"
     }
+
 - name: generic92
   profession: generic
   value: |-
@@ -18,6 +19,7 @@
       "Enhancement": "bountiful-maintenance-oil",
       "Nourishment": "fruit-salad-mint-garnish"
     }
+
 - name: DH Virtues
   profession: DRAGONHUNTER
   value: |-
@@ -28,6 +30,7 @@
       "Enhancement": "slaying-potion",
       "Nourishment": "sweet-and-spicy-butternut-squash-soup"
     }
+
 - name: CFB w/ Quickness
   profession: FIREBRAND
   value: |-
@@ -38,6 +41,7 @@
       "Enhancement": "toxic-maintenance-oil",
       "Nourishment": "beef-rendang"
     }
+
 - name: CFB DPS 5 page
   profession: FIREBRAND
   value: |-
@@ -48,6 +52,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: CFB DPS 8 page
   profession: FIREBRAND
   value: |-
@@ -58,6 +63,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: CQB 40%
   profession: FIREBRAND
   value: |-
@@ -68,6 +74,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "fire-meat-chili"
     }
+
 - name: Hybrid FB (Virtues)
   profession: FIREBRAND
   value: |-
@@ -78,6 +85,7 @@
       "Enhancement": "master-tuning-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Hybrid FB (Honor)
   profession: FIREBRAND
   value: |-
@@ -88,6 +96,7 @@
       "Enhancement": "master-tuning-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi Banner Bers
   profession: BERSERKER
   value: |-
@@ -98,6 +107,7 @@
       "Enhancement": "master-tuning-crystal",
       "Nourishment": "rare-veggie-pizza"
     }
+
 - name: Condi Weaver SW
   profession: WEAVER
   value: |-
@@ -108,6 +118,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "rare-veggie-pizza"
     }
+
 - name: Hybrid Weaver
   profession: WEAVER
   value: |-
@@ -118,6 +129,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "dragon's-revelry-starcake"
     }
+
 - name: Condi Tempest
   profession: TEMPEST
   value: |-
@@ -128,6 +140,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "rare-veggie-pizza"
     }
+
 - name: Power Slb
   profession: SOULBEAST
   value: |-
@@ -138,6 +151,7 @@
       "Enhancement": "slaying-potion",
       "Nourishment": "truffle-steak"
     }
+
 - name: Condi Slb SB
   profession: SOULBEAST
   value: |-
@@ -148,6 +162,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi Slb D/T A/D
   profession: SOULBEAST
   value: |-
@@ -158,6 +173,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Hybrid Slb
   profession: SOULBEAST
   value: |-
@@ -168,6 +184,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi Druid*
   profession: DRUID
   value: |-
@@ -178,6 +195,7 @@
       "Enhancement": "",
       "Nourishment": ""
     }
+
 - name: Condi Alac Ren Invo
   profession: RENEGADE
   value: |-
@@ -188,6 +206,7 @@
       "Enhancement": "toxic-maintenance-oil",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi RR Ren Invo
   profession: RENEGADE
   value: |-
@@ -198,6 +217,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi RR Ren Deva
   profession: RENEGADE
   value: |-
@@ -208,6 +228,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi DPS Ren Deva
   profession: RENEGADE
   value: |-
@@ -218,6 +239,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi Herald
   profession: HERALD
   value: |-
@@ -228,6 +250,7 @@
       "Enhancement": "master-tuning-crystal",
       "Nourishment": "rare-veggie-pizza"
     }
+
 - name: DPS Scourge
   profession: SCOURGE
   value: |-
@@ -238,6 +261,7 @@
       "Enhancement": "master-tuning-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Condi Reaper
   profession: REAPER
   value: |-
@@ -248,6 +272,7 @@
       "Enhancement": "toxic-focusing-crystal",
       "Nourishment": "rare-veggie-pizza"
     }
+
 - name: Condi Deadeye
   profession: DEADEYE
   value: |-
@@ -258,6 +283,7 @@
       "Enhancement": "master-tuning-crystal",
       "Nourishment": "beef-rendang"
     }
+
 - name: Boon Daredevil*
   profession: DAREDEVIL
   value: |-
@@ -268,6 +294,7 @@
       "Enhancement": "potent-lucent-oil",
       "Nourishment": "sweet-and-spicy-butternut-squash-soup"
     }
+
 - name: Condi Daredevil
   profession: DAREDEVIL
   value: |-

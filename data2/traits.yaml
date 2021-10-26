@@ -1,6 +1,6 @@
 - name: Power Chrono
   profession: CHRONOMANCER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -51,9 +51,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: DH Radiance w/ PI
   profession: DRAGONHUNTER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -111,9 +116,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "bane-signet-2"
+      ]
+    }
+
 - name: DH Radiance
   profession: DRAGONHUNTER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -171,9 +183,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "bane-signet"
+      ]
+    }
+
 - name: DH Virtues
   profession: DRAGONHUNTER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -231,9 +250,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "bane-signet"
+      ]
+    }
+
 - name: pQFB
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -289,9 +315,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "bane-signet-2"
+      ]
+    }
+
 - name: CFB w/ Quickness
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -350,9 +383,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-wrath"
+      ]
+    }
+
 - name: CFB DPS 5 page
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -411,9 +451,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-wrath"
+      ]
+    }
+
 - name: CFB DPS 8 page
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -472,9 +519,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-wrath"
+      ]
+    }
+
 - name: CQB 40%
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -533,9 +587,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-wrath"
+      ]
+    }
+
 - name: Hybrid FB (Virtues)
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -594,9 +655,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Hybrid FB (Honor)
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -650,9 +716,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Healbrand
   profession: FIREBRAND
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -706,9 +777,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "bane-signet-2"
+      ]
+    }
+
 - name: Power Banner Bers
   profession: BERSERKER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -779,9 +857,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-might"
+      ]
+    }
+
 - name: Condi Banner Bers
   profession: BERSERKER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -856,9 +941,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Power Banner SPB
   profession: SPELLBREAKER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -923,9 +1013,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-might"
+      ]
+    }
+
 - name: Power Weaver
   profession: WEAVER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1006,9 +1103,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Weaver SW
   profession: WEAVER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1076,9 +1178,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Hybrid Weaver
   profession: WEAVER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1159,9 +1266,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Tempest
   profession: TEMPEST
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1217,9 +1329,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Heal Tempest
   profession: TEMPEST
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1263,9 +1380,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Power Slb
   profession: SOULBEAST
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1324,9 +1446,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Slb SB
   profession: SOULBEAST
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1387,9 +1514,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Slb D/T A/D
   profession: SOULBEAST
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1450,9 +1582,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Hybrid Slb
   profession: SOULBEAST
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1510,9 +1647,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Druid*
   profession: DRUID
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1558,9 +1700,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Heal Druid
   profession: DRUID
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1606,9 +1753,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Power Alac Ren
   profession: RENEGADE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1674,9 +1826,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Alac Ren Invo
   profession: RENEGADE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1731,9 +1888,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi RR Ren Invo
   profession: RENEGADE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1788,9 +1950,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi RR Ren Deva
   profession: RENEGADE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1854,9 +2021,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi DPS Ren Deva
   profession: RENEGADE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1920,9 +2092,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Power Herald DE
   profession: HERALD
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -1991,9 +2168,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Herald
   profession: HERALD
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2060,9 +2242,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Heal Ren
   profession: RENEGADE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2128,9 +2315,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Power Holo
   profession: HOLOSMITH
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2186,9 +2378,14 @@
         {}
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Power Scrapper
   profession: SCRAPPER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2253,9 +2450,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Quickness Scrapper
   profession: SCRAPPER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2320,9 +2522,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Heal Scrapper
   profession: SCRAPPER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2368,9 +2575,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: DPS Scourge
   profession: SCOURGE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2420,9 +2632,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Reaper
   profession: REAPER
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2476,9 +2693,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Condi Deadeye
   profession: DEADEYE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2537,9 +2759,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Staff Daredevil
   profession: DAREDEVIL
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2604,9 +2831,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-agility"
+      ]
+    }
+
 - name: Boon Daredevil*
   profession: DAREDEVIL
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2666,9 +2900,16 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": [
+        "signet-of-agility"
+      ]
+    }
+
 - name: Condi Daredevil
   profession: DAREDEVIL
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2728,9 +2969,14 @@
         }
       ]
     }
+  skills: |-
+    {
+      "skills": []
+    }
+
 - name: Rifle Deadeye
   profession: DEADEYE
-  value: |-
+  traits: |-
     {
       "showAll": false,
       "selectedLines": [
@@ -2795,4 +3041,8 @@
           "be-quick-or-be-killed": true
         }
       ]
+    }
+  skills: |-
+    {
+      "skills": []
     }

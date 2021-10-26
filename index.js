@@ -50,15 +50,11 @@ const convert = async function () {
       }
     }
 
-    [...duplicatesMap.keys()].forEach(extra => {
+    [...duplicatesMap.keys()].forEach((extra) => {
       if (extra.includes('"Runes": "nightmare",')) {
         duplicatesMap.delete(extra);
       }
     });
-
-    
-
-
 
     const genericExtras = [...duplicatesMap.entries()].map(([extra, name]) => ({
       name,
@@ -73,24 +69,30 @@ const convert = async function () {
         const { name, traits, specialization } = build;
         const data = JSON.parse(traits);
 
-        for (const type of ['traits', 'skills', 'extras']) {
-          if (data[type].skills && data[type].skills.length === 0) {
-            build[type] = 'none';
-          } else {
-            const thisData = JSON.stringify(data[type], null, 2);
-
-            if (duplicatesMap.has(thisData)) {
-              build[type] = duplicatesMap.get(thisData);
-            } else {
-              outputData[type].push({
-                name,
-                profession: specialization.toUpperCase(),
-                value: thisData,
-              });
-              build[type] = name;
-            }
-          }
+        const extrasData = JSON.stringify(data.extras, null, 2);
+        if (duplicatesMap.has(extrasData)) {
+          build.extras = duplicatesMap.get(extrasData);
+        } else {
+          outputData.extras.push({
+            name,
+            profession: specialization.toUpperCase(),
+            value: extrasData,
+          });
+          build.extras = name;
         }
+
+        const traitsData = JSON.stringify(data.traits, null, 2);
+        const skillsData = JSON.stringify(data.skills, null, 2);
+
+        outputData.traits.push({
+          name,
+          profession: specialization.toUpperCase(),
+          traits: traitsData,
+          skills: skillsData,
+        });
+        build.extras = name;
+
+        build.skills = data.skills.skills;
 
         // const extrasData = JSON.stringify(data.extras, null, 2);
 
@@ -131,12 +133,14 @@ const convert = async function () {
     //   Array.from(extrasMap.entries()).map(([a, b]) => [`extras${b}`, a]),
     // );
 
-    for (const type of ['traits', 'skills', 'extras']) {
-      const resultYaml = yaml.dump(outputData[type], {
+    for (const type of ['traits', 'extras']) {
+      let resultYaml = yaml.dump(outputData[type], {
         // forceQuotes: true,
         lineWidth: -1,
         flowLevel: 6, // fileName.includes('utility') ? 7 : 6
       });
+
+      resultYaml = resultYaml.replace(/\n- /g, '\n\n- ')
 
       fs.writeFile(`./data2/${type}.yaml`, resultYaml, { encoding: 'utf8', flag: 'w+' });
     }
