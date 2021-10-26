@@ -11,7 +11,7 @@ list:
         priority: Power DPS
         distribution: Power Chrono
         traits: Power Chrono
-        extras: Power Chrono
+        extras: generic106
 
   - class: guardian
     builds:
@@ -23,7 +23,7 @@ list:
         priority: Power DPS
         distribution: DH (Radiance)
         traits: DH Radiance w/ PI
-        extras: DH Radiance w/ PI
+        extras: generic106
 
       - name: DH Radiance
         id: dh-radiance
@@ -32,7 +32,7 @@ list:
         priority: Power DPS
         distribution: DH (Radiance)
         traits: DH Radiance
-        extras: DH Radiance
+        extras: generic106
 
       - name: DH Virtues
         id: dh-virtues
@@ -50,7 +50,7 @@ list:
         priority: Power DPS
         distribution: Power Firebrand (approx.)
         traits: pQFB
-        extras: pQFB
+        extras: generic106
 
       - name: CFB w/ Quickness
         id: cqfb
@@ -113,7 +113,7 @@ list:
         priority: Heal
         distribution: None
         traits: Healbrand
-        extras: Healbrand
+        extras: generic92
 
   - class: warrior
     builds:
@@ -125,7 +125,7 @@ list:
         priority: Power DPS
         distribution: Power Banner Warrior
         traits: Power Banner Bers
-        extras: Power Banner Bers
+        extras: generic106
 
       - name: Condi Banner Bers
         id: cbers
@@ -143,7 +143,7 @@ list:
         priority: Power DPS
         distribution: Power Banner Spellbreaker
         traits: Power Banner SPB
-        extras: Power Banner SPB
+        extras: generic106
 
   - class: elementalist
     builds:
@@ -155,7 +155,7 @@ list:
         priority: Power DPS
         distribution: Power Weaver (BTTH)
         traits: Power Weaver
-        extras: Power Weaver
+        extras: generic106
 
       - name: Condi Weaver SW
         id: cwea
@@ -191,7 +191,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Tempest
-        extras: Heal Tempest
+        extras: generic92
 
   - class: ranger
     builds:
@@ -248,7 +248,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Druid
-        extras: Heal Druid
+        extras: generic92
 
   - class: revenant
     builds:
@@ -260,7 +260,7 @@ list:
         priority: Power Boon
         distribution: Alacrity Renegade
         traits: Power Alac Ren
-        extras: Power Alac Ren
+        extras: generic106
 
       - name: Condi Alac Ren Invo
         id: celeren-rr-invo
@@ -305,7 +305,7 @@ list:
         priority: Power DPS
         distribution: Power Herald DE
         traits: Power Herald DE
-        extras: Power Herald DE
+        extras: generic106
 
       - name: Condi Herald
         id: herald
@@ -323,7 +323,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Ren
-        extras: Heal Ren
+        extras: generic92
 
   - class: engineer
     builds:
@@ -335,7 +335,7 @@ list:
         priority: Power DPS
         distribution: Power Holo
         traits: Power Holo
-        extras: Power Holo
+        extras: generic106
 
       - name: Power Scrapper
         id: pscrap
@@ -344,7 +344,7 @@ list:
         priority: Power DPS
         distribution: Power Scrapper
         traits: Power Scrapper
-        extras: Power Scrapper
+        extras: generic106
 
       - name: Quickness Scrapper
         id: qscrap
@@ -353,7 +353,7 @@ list:
         priority: Power DPS
         distribution: Quickness Scrapper
         traits: Quickness Scrapper
-        extras: Quickness Scrapper
+        extras: generic106
 
       - name: Heal Scrapper
         id: healscrapper
@@ -362,7 +362,7 @@ list:
         priority: Heal
         distribution: None
         traits: Heal Scrapper
-        extras: Heal Scrapper
+        extras: generic92
 
   - class: necromancer
     builds:
@@ -404,7 +404,7 @@ list:
         priority: Power DPS
         distribution: Staff Daredevil
         traits: Staff Daredevil
-        extras: Staff Daredevil
+        extras: generic106
 
       - name: Boon Daredevil*
         id: boondd
@@ -431,4 +431,4 @@ list:
         priority: Power DPS
         distribution: Rifle Deadeye
         traits: Rifle Deadeye
-        extras: Rifle Deadeye
+        extras: generic106

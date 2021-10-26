@@ -91,7 +91,7 @@ const convert = async function () {
           traits: traitsData,
           skills: skillsData,
         });
-        build.extras = name;
+        // build.extras = name;
 
         // build.skills = data.skills.skills;
 
