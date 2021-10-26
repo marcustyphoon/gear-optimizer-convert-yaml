@@ -148,7 +148,7 @@ const convert = async function () {
 
       resultYaml = resultYaml.replace(/\n  - /g, '\n\n  - ');
 
-      fs.writeFile(`./data2/${type}.yaml`, resultYaml, { encoding: 'utf8', flag: 'w+' });
+      fs.writeFile(`./data2/preset-${type}.yaml`, resultYaml, { encoding: 'utf8', flag: 'w+' });
     }
 
     allData['GraphQL ID'] = 'templates';
@@ -167,7 +167,7 @@ const convert = async function () {
     // resultYaml = resultYaml.replace(/    - id: (.*)/gm, '    $1:')
 
     // console.log(resultYaml /* .slice(0, 300) */, '\n');
-    fs.writeFile(`./data2/${fileName}`, resultYaml, { encoding: 'utf8', flag: 'w+' });
+    fs.writeFile(`./data2/templates.yaml`, resultYaml, { encoding: 'utf8', flag: 'w+' });
 
     // const fileData = await fs.readFile(`./data/${fileName}`);
   }
